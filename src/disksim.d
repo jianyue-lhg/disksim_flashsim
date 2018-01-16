@@ -23,9 +23,9 @@ disksim.o: disksim.c disksim_global.h disksim_rand48.h \
  /usr/include/bits/mathcalls.h disksim_assertlib.h \
  /usr/include/assert.h disksim_ioface.h disksim_pfface.h \
  disksim_iotrace.h config.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/libparam.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/bitvector.h \
- /root/flashsim/disksim-3.0/libddbg/include/libddbg/libddbg.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/libparam.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/bitvector.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
  modules/modules.h modules/disksim_bus_param.h \
  modules/disksim_bus_stats_param.h modules/disksim_cachedev_param.h \
  modules/disksim_cachemem_param.h modules/disksim_ctlr_param.h \

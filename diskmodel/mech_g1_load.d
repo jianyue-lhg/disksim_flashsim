@@ -1,6 +1,6 @@
 mech_g1_load.o: mech_g1_load.c modules/modules.h \
  modules/dm_disk_param.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/libparam.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/libparam.h \
  /usr/include/stdio.h /usr/include/features.h \
  /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
@@ -16,10 +16,10 @@ mech_g1_load.o: mech_g1_load.c modules/modules.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/bitvector.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/bitvector.h \
  mech_g1.h dm.h dm_config.h dm_types.h /usr/include/inttypes.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
- /root/flashsim/disksim-3.0/libddbg/include/libddbg/libddbg.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \

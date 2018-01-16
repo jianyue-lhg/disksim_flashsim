@@ -24,9 +24,9 @@ disksim_interface.o: disksim_interface.c disksim_global.h \
  /usr/include/assert.h disksim_ioface.h syssim_driver.h \
  disksim_iosim.h disksim_device.h disksim_disk.h disksim_stat.h \
  disksim_ioqueue.h config.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/libparam.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/bitvector.h \
- /root/flashsim/disksim-3.0/libddbg/include/libddbg/libddbg.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/libparam.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/bitvector.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
  modules/modules.h modules/disksim_bus_param.h \
  modules/disksim_bus_stats_param.h modules/disksim_cachedev_param.h \
  modules/disksim_cachemem_param.h modules/disksim_ctlr_param.h \
@@ -40,6 +40,6 @@ disksim_interface.o: disksim_interface.c disksim_global.h \
  modules/disksim_simpleflash_param.h modules/disksim_stats_param.h \
  modules/disksim_syncset_param.h modules/disksim_synthgen_param.h \
  modules/disksim_synthio_param.h ../diskmodel/dm.h \
- /root/flashsim/disksim-3.0/diskmodel/include/diskmodel/dm_types.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/diskmodel/include/diskmodel/dm_types.h \
  /usr/include/inttypes.h /usr/include/stdint.h \
  /usr/include/bits/wchar.h

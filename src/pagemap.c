@@ -18,6 +18,13 @@
 #include "pagemap.h"
 #include "type.h"
 
+#include "rbtree.h"
+
+extern RBRoot *rev_root;
+extern RBRoot *dedup_root;
+extern RBRoot *cache_root;
+
+
 _u32 pm_gc_cost_benefit();
 
 struct map_dir *mapdir;
@@ -62,7 +69,7 @@ size_t pm_read(sect_t lsn, sect_t size, int mapdir_flag)
   sect_t s_psn; 
 
   int sect_num;
-
+  printf("pm read lsn %d size %d mapdir_flag %d\n",lsn,size,mapdir_flag);
   ASSERT(lpn < pagemap_num);
   ASSERT(lpn + size_page <= pagemap_num);
 
@@ -155,8 +162,9 @@ size_t pm_write(sect_t lsn, sect_t size, int mapdir_flag)
   sect_t s_lsn;	
   sect_t s_psn; 
   sect_t s_psn1;
-  sect_t lsns[SECT_NUM_PER_PAGE];;
-
+  sect_t lsns[SECT_NUM_PER_PAGE];
+  Node *tree_node_tmp=NULL;
+  printf("pm write lsn %d size %d mapdir_flag %d\n",lsn,size,mapdir_flag);
   ASSERT(lpn < pagemap_num);
   ASSERT(lpn + size_page <= pagemap_num);
 
@@ -191,7 +199,7 @@ size_t pm_write(sect_t lsn, sect_t size, int mapdir_flag)
 
   ppn = s_psn / SECT_NUM_PER_PAGE;
 
-  if (pagemap[lpn].free == 0) {
+  if (pagemap[lpn].free == 0) { //-----覆盖之前的物理地址
     s_psn1 = pagemap[lpn].ppn * SECT_NUM_PER_PAGE;
     for(i = 0; i<SECT_NUM_PER_PAGE; i++){
       nand_invalidate(s_psn1 + i, s_lsn + i);
@@ -214,7 +222,15 @@ size_t pm_write(sect_t lsn, sect_t size, int mapdir_flag)
   else {
     pagemap[lpn].ppn = ppn;
   }
-
+  tree_node_tmp = iterative_rbtree_search_laddr(cache_root, lsn);
+  if(tree_node_tmp){
+  	printf("find it\n");
+	tree_node_tmp->key->paddr=ppn;
+	insert_rbtree_hash(dedup_root, tree_node_tmp->key);
+    insert_rbtree_paddr(rev_root, tree_node_tmp->key);
+    //delete_rbtree_laddr(cache_root, tree_node_tmp->key->laddr_l->laddr);
+    rbtree_delete(cache_root, tree_node_tmp);
+  }
   free_page_no[small] += SECT_NUM_PER_PAGE;
   nand_page_write(s_psn, lsns, 0, mapdir_flag);
 

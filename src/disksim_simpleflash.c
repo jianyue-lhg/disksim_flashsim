@@ -926,7 +926,6 @@ struct simpleflash *disksim_simpleflash_loadparams(struct lp_block *b)
   flash_numblocks = result->numblocks;
   flash_extrblocks = result->extrblocks;
   ftl_type = result->type;
-
   device_add((struct device_header *)result, num);
   return result;
 }

@@ -166,7 +166,10 @@
 #define IPEAK           7
 #define POSTGRES        8
 #define EMCSYMM         9
+#define DEDUP           10
+
 #define DEFAULT		ASCII
+
 
 /* Time conversions */
 

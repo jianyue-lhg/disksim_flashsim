@@ -4,7 +4,7 @@ marshall.o: marshall.c dm.h dm_config.h dm_types.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-32.h /usr/include/stdint.h \
  /usr/include/bits/wchar.h \
- /root/flashsim/disksim-3.0/libddbg/include/libddbg/libddbg.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
  /usr/include/stdio.h \
  /usr/lib/gcc-lib/i486-linux-gnu/2.95.4/include/stddef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \

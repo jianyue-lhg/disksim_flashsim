@@ -103,6 +103,14 @@
 #include "disksim_global.h"
 #include "disksim_hptrace.h"
 #include "disksim_iotrace.h"
+#include "rbtree.h"
+#include "ssd_interface.h"
+
+ RBRoot *rev_root=NULL;
+ RBRoot *dedup_root=NULL;
+ RBRoot *cache_root=NULL;
+ int max_laddr;
+
 
 
 static void iotrace_initialize_iotrace_info ()
@@ -158,6 +166,9 @@ void iotrace_set_format (char *formatname)
    } else if (strcmp(formatname, "emcsymm") == 0) {
 	/* format of Symmetrix traces provided by EMC for research purposes */
       disksim->traceformat = EMCSYMM;
+   }else if (strcmp(formatname, "dedup") == 0) {
+	/* format of Symmetrix traces provided by EMC for research purposes */
+      disksim->traceformat = DEDUP;
    } else {
       fprintf(stderr, "Unknown trace format - %s\n", formatname);
       exit(1);
@@ -548,6 +559,8 @@ static ioreq_event * iotrace_ascii_get_ioreq_event (FILE *tracefile, ioreq_event
    new->bcount = ((new->blkno+ new->bcount-1)/4 - (new->blkno)/4 + 1) * 4;
    new->blkno /= 4;
    new->blkno *= 4;
+   //new->blkno %= (max_laddr-100);
+   //new->blkno+=100;
 
    if (new->flags & ASYNCHRONOUS) {
       new->flags |= (new->flags & READ) ? TIME_LIMITED : 0;
@@ -561,7 +574,102 @@ static ioreq_event * iotrace_ascii_get_ioreq_event (FILE *tracefile, ioreq_event
    new->cause = 0;
    return(new);
 }
+//-----------------------------------lhg-----------------------------//
 
+static ioreq_event * iotrace_dedup_get_ioreq_event (FILE *tracefile, ioreq_event *new)
+{
+   char line[201];
+   //char rw;
+   char hash[33];
+   struct data_node *data_tmp=NULL;
+   Node *tree_node_tmp=NULL;
+   int i;
+   static int num=0;
+   int dele_paddr;
+  Node *dele_tree_node=NULL;
+  int start_sect;
+   
+   printf("----------------------------------------in iotrace_dedup_get_ioreq_event\n");
+   if (fgets(line, 200, tracefile) == NULL) {
+      addtoextraq((event *) new);
+      return(NULL);
+   }
+   if(strlen(line)<33)
+   	return NULL;
+
+   new->devno = 0;
+   
+   if (sscanf(line, "%lf %d %d %x %s\n", &new->time, &new->blkno, &new->bcount,&new->flags,hash) != 5) {
+      fprintf(stderr, "Wrong number of arguments for I/O trace event type\n");
+      fprintf(stderr, "line: %s", line);
+      ddbg_assert(0);
+   }
+   
+   //flashsim
+   //new->bcount = ((new->blkno+ new->bcount-1)/4 - (new->blkno)/4 + 1) * 4;
+   new->bcount = 4;
+   new->blkno /= 4;  //----修改逻辑地址范围
+   new->blkno *= 4;
+   new->blkno %= (max_laddr-100);
+   new->blkno+=100;
+   printf("iotrace_dedup_get_ioreq_event max_laddr now  new->blkno is %d\n",new->blkno);
+   //inorder_rbtree(dedup_root);
+   tree_node_tmp=iterative_rbtree_search_hash(dedup_root, hash);
+    if(tree_node_tmp==NULL){
+		printf("tree_node_tmp==NULL\n");
+    	data_tmp = create_data_node(-1,new->blkno, 1, hash);
+		insert_rbtree_laddr(cache_root, data_tmp);
+	}else{
+		printf("tree_node_tmp!=NULL\n");
+		if(!search_laddr_in_node(tree_node_tmp->key, new->blkno)){
+			printf("覆盖检测开始\n");
+ 			//------------------覆盖检测与处理-----------------------------
+			if(pagemap[100].free == 0)
+			{
+				printf("覆盖检测开始 1\n");
+                dele_paddr=pagemap[new->blkno].ppn;
+				printf("delete_paddr is %d\n");
+				dele_tree_node=iterative_rbtree_search_paddr(rev_root, dele_paddr);
+			    if(dele_tree_node){
+					dele_tree_node->key->ref--;
+					if(dele_tree_node->key->ref<=0){
+						delete_data_node(dele_tree_node->key, dedup_root,  rev_root);
+					}
+					start_sect = pagemap[new->blkno].ppn * SECT_NUM_PER_PAGE;
+   			    	for(i = 0; i<SECT_NUM_PER_PAGE; i++){
+      					nand_invalidate(start_sect + i, new->blkno*SECT_NUM_PER_PAGE + i);
+    				} 
+    				nand_stat(3);
+				}			
+			}
+			printf("覆盖检测结束\n");
+			//------------------覆盖检测与处理-----------xia---------------
+     	    tree_node_tmp->key->ref++;
+		    insert_laddr_in_node(tree_node_tmp->key,new->blkno);
+	    }
+		//return (NULL);
+	}
+  
+   /*if(new->flags == 0)
+   	new->flags = 1;
+   else
+   	new->flags = 0;*/
+   	num++;
+   printf("num is %d\n",num);
+   if (new->flags & ASYNCHRONOUS) {
+      new->flags |= (new->flags & READ) ? TIME_LIMITED : 0;
+   } else if (new->flags & SYNCHRONOUS) {
+      new->flags |= TIME_CRITICAL;
+   }
+  
+   new->buf = 0;
+   new->opid = 0;
+   new->busno = 0;
+   new->cause = 0;
+   //inorder_rbtree(dedup_root);
+   return(new);
+}
+//---------------lhg----xia-------------------------------//
 
 ioreq_event * iotrace_get_ioreq_event (FILE *tracefile, int traceformat, ioreq_event *temp)
 {
@@ -590,7 +698,10 @@ ioreq_event * iotrace_get_ioreq_event (FILE *tracefile, int traceformat, ioreq_e
    case EMCSYMM:
       temp = iotrace_emcsymm_get_ioreq_event(tracefile, temp);
       break;
-
+   case DEDUP:
+      temp = iotrace_dedup_get_ioreq_event(tracefile, temp);
+      break;
+   
    default:
       fprintf(stderr, "Unknown traceformat in iotrace_get_ioreq_event - %d\n", traceformat);
       exit(1);

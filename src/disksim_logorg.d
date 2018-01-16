@@ -27,9 +27,9 @@ disksim_logorg.o: disksim_logorg.c /usr/include/errno.h \
  disksim_assertlib.h /usr/include/assert.h disksim_stat.h \
  disksim_iosim.h disksim_ioface.h disksim_device.h disksim_orgface.h \
  disksim_logorg.h disksim_ioqueue.h config.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/libparam.h \
- /root/flashsim/disksim-3.0/libparam/include/libparam/bitvector.h \
- /root/flashsim/disksim-3.0/libddbg/include/libddbg/libddbg.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/libparam.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libparam/include/libparam/bitvector.h \
+ /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
  modules/modules.h modules/disksim_bus_param.h \
  modules/disksim_bus_stats_param.h modules/disksim_cachedev_param.h \
  modules/disksim_cachemem_param.h modules/disksim_ctlr_param.h \

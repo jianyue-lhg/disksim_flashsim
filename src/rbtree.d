@@ -1,10 +1,7 @@
-sqrt.o: sqrt.c dm_config.h dm_types.h /usr/include/inttypes.h \
- /usr/include/features.h /usr/include/bits/predefs.h \
- /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h \
- /mnt/hgfs/flashsim_share_2/disksim-3.0/libddbg/include/libddbg/libddbg.h \
- /usr/include/stdio.h \
+rbtree.o: rbtree.c /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
  /usr/lib/gcc-lib/i486-linux-gnu/2.95.4/include/stddef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
@@ -17,4 +14,5 @@ sqrt.o: sqrt.c dm_config.h dm_types.h /usr/include/inttypes.h \
  /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/sigset.h /usr/include/bits/time.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
- /usr/include/alloca.h
+ /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ rbtree.h

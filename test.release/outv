@@ -1,7 +1,7 @@
 
-*** Output file name: pagemap.outv
+*** Output file name: outv
 *** Input trace format: ascii
-*** I/O trace used: ../../new_qq_sort.txt
+*** I/O trace used: ./trace/test.file
 *** Synthgen to be used?: 0
 
 disksim_global Global {
@@ -269,7 +269,7 @@ Simulation complete
 SIMULATION STATISTICS
 ---------------------
 
-Total time of run:       266135.459996
+Total time of run:       43104324.218000
 
 Warm-up time:            0.000000
 
@@ -280,15 +280,15 @@ STORAGE SUBSYSTEM STATISTICS
 OVERALL I/O SYSTEM STATISTICS
 -----------------------------
 
-Overall I/O System Total Requests handled:	255139
-Overall I/O System Requests per second:   	958.680966
-Overall I/O System Completely idle time:  	224936.889971   	0.845197
-Overall I/O System Response time average: 	0.161475
-Overall I/O System Response time std.dev.:	0.000000
-Overall I/O System Response time maximum:	0.161475
+Overall I/O System Total Requests handled:	322874
+Overall I/O System Requests per second:   	7.490525
+Overall I/O System Completely idle time:  	42978548.479729   	0.997082
+Overall I/O System Response time average: 	0.429880
+Overall I/O System Response time std.dev.:	0.802131
+Overall I/O System Response time maximum:	13.925750
 Overall I/O System Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 310653    4459    2064    5446     252       0       0       0       0       0 
 Overall I/O System Overlaps combined:     	0	0.000000
 Overall I/O System Read overlaps combined:	0	0.000000	0.000000
 Overall I/O System Critical Reads:      	     0  	0.000000
@@ -298,13 +298,13 @@ Overall I/O System Critical Read Response time maximum:	0
 Overall I/O System Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-Overall I/O System Non-Critical Reads:  	     0  	0.000000
-Overall I/O System Non-Critical Read Response time average: 	0.000000
-Overall I/O System Non-Critical Read Response time std.dev.:	0.000000
-Overall I/O System Non-Critical Read Response time maximum:	0
+Overall I/O System Non-Critical Reads:  	 30648  	0.094922
+Overall I/O System Non-Critical Read Response time average: 	0.236192
+Overall I/O System Non-Critical Read Response time std.dev.:	0.127112
+Overall I/O System Non-Critical Read Response time maximum:	3.818275
 Overall I/O System Non-Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
-      0       0       0       0       0       0       0       0       0       0 
+  30476     166       6       0       0       0       0       0       0       0 
 Overall I/O System Critical Writes:     	     0  	0.000000
 Overall I/O System Critical Write Response time average: 	0.000000
 Overall I/O System Critical Write Response time std.dev.:	0.000000
@@ -312,47 +312,47 @@ Overall I/O System Critical Write Response time maximum:	0
 Overall I/O System Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-Overall I/O System Non-Critical Writes: 	255139  	0.999996
-Overall I/O System Non-Critical Write Response time average: 	0.161475
-Overall I/O System Non-Critical Write Response time std.dev.:	0.000000
-Overall I/O System Non-Critical Write Response time maximum:	0.161475
+Overall I/O System Non-Critical Writes: 	292226  	0.905075
+Overall I/O System Non-Critical Write Response time average: 	0.450193
+Overall I/O System Non-Critical Write Response time std.dev.:	0.839555
+Overall I/O System Non-Critical Write Response time maximum:	13.925750
 Overall I/O System Non-Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
-Overall I/O System Number of reads:         0  	0.000000
-Overall I/O System Number of writes:   255140  	1.000000
-Overall I/O System Sequential reads:        0  	0.000000  	0.000000
-Overall I/O System Sequential writes:  141394  	0.554182  	0.554182
+ 280177    4293    2058    5446     252       0       0       0       0       0 
+Overall I/O System Number of reads:     30648  	0.094922
+Overall I/O System Number of writes:   292227  	0.905078
+Overall I/O System Sequential reads:      121  	0.003948  	0.000375
+Overall I/O System Sequential writes:    8364  	0.028622  	0.025905
 Overall I/O System Base SPTF/SDF Different:      0 /      0 	0.000000
 Overall I/O System Timeout SPTF/SDF Different:      0 /      0 	0.000000
 Overall I/O System Priority SPTF/SDF Different:      0 /      0 	0.000000
-Overall I/O System runlistlen:              41198.570025
+Overall I/O System runlistlen:              138797.008905
 Overall I/O System runoutstanding:          0.000000
-Overall I/O System simtime:                 266135.459996
+Overall I/O System simtime:                 43104324.218000
 Overall I/O System warmuptime:              0.000000
 Overall I/O System setsize:                 1
-Overall I/O System Average # requests:      0.154803
-Overall I/O System Maximum # requests:      1
+Overall I/O System Average # requests:      0.003220
+Overall I/O System Maximum # requests:      8
 Overall I/O System End # requests:          1
-Overall I/O System Average queue length:    0.154803
-Overall I/O System Maximum queue length:    1
+Overall I/O System Average queue length:    0.003220
+Overall I/O System Maximum queue length:    8
 Overall I/O System End queued requests:     1
-Overall I/O System Queue time average: 	0.161475
-Overall I/O System Queue time std.dev.:	0.000000
-Overall I/O System Queue time maximum:	0.161475
+Overall I/O System Queue time average: 	0.429880
+Overall I/O System Queue time std.dev.:	0.802131
+Overall I/O System Queue time maximum:	13.925750
 Overall I/O System Queue time distribution
    <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
- 255139       0       0       0       0       0       0       0       0       0 
-Overall I/O System Avg # read requests:     0.000000
-Overall I/O System Max # read requests:     0
-Overall I/O System Avg # write requests:    0.154803
-Overall I/O System Max # write requests:    1
+ 317840    5007      27       0       0       0       0       0       0       0 
+Overall I/O System Avg # read requests:     0.000168
+Overall I/O System Max # read requests:     2
+Overall I/O System Avg # write requests:    0.003052
+Overall I/O System Max # write requests:    8
 Overall I/O System Physical access time average: 	0.000000
 Overall I/O System Physical access time std.dev.:	0.000000
 Overall I/O System Physical access time maximum:	0
 Overall I/O System Physical access time distribution
  0.000  	      0  	0.000000  	0.000000
- 0.001  	 255139  	1.000000  	1.000000
+ 0.001  	 322874  	1.000000  	1.000000
  0.002  	      0  	0.000000  	1.000000
  0.003  	      0  	0.000000  	1.000000
  0.004  	      0  	0.000000  	1.000000
@@ -2101,93 +2101,93 @@ Overall I/O System Physical access time distribution
 2008788.802  	      0  	0.000000  	1.000000
 2028876.691  	      0  	0.000000  	1.000000
 2049165.458  	      0  	0.000000  	1.000000
-Overall I/O System Inter-arrival time average: 	1.043096
-Overall I/O System Inter-arrival time std.dev.:	0.593892
-Overall I/O System Inter-arrival time maximum:	47.490000
+Overall I/O System Inter-arrival time average: 	133.501585
+Overall I/O System Inter-arrival time std.dev.:	432.083616
+Overall I/O System Inter-arrival time maximum:	27682.373000
 Overall I/O System Inter-arrival time distribution
    0  	      0  	0.000000  	0.000000
-   5  	 254365  	0.996962  	0.996962
-  10  	    583  	0.002285  	0.999247
-  15  	    104  	0.000408  	0.999655
-  20  	     29  	0.000114  	0.999769
-  25  	     31  	0.000122  	0.999890
-  30  	     13  	0.000051  	0.999941
-  35  	     11  	0.000043  	0.999984
-  40  	      0  	0.000000  	0.999984
-  45  	      3  	0.000012  	0.999996
-  50  	      1  	0.000004  	1.000000
-  55  	      0  	0.000000  	1.000000
-  60  	      0  	0.000000  	1.000000
-  65  	      0  	0.000000  	1.000000
-  70  	      0  	0.000000  	1.000000
-  75  	      0  	0.000000  	1.000000
-  80  	      0  	0.000000  	1.000000
-  85  	      0  	0.000000  	1.000000
-  90  	      0  	0.000000  	1.000000
-  95  	      0  	0.000000  	1.000000
- 100  	      0  	0.000000  	1.000000
- 105  	      0  	0.000000  	1.000000
- 110  	      0  	0.000000  	1.000000
- 115  	      0  	0.000000  	1.000000
- 120  	      0  	0.000000  	1.000000
- 125  	      0  	0.000000  	1.000000
- 130  	      0  	0.000000  	1.000000
- 135  	      0  	0.000000  	1.000000
- 140  	      0  	0.000000  	1.000000
- 145  	      0  	0.000000  	1.000000
- 150  	      0  	0.000000  	1.000000
- 155  	      0  	0.000000  	1.000000
- 160  	      0  	0.000000  	1.000000
- 165  	      0  	0.000000  	1.000000
- 170  	      0  	0.000000  	1.000000
- 175  	      0  	0.000000  	1.000000
- 180  	      0  	0.000000  	1.000000
- 185  	      0  	0.000000  	1.000000
- 190  	      0  	0.000000  	1.000000
- 195  	      0  	0.000000  	1.000000
-Overall I/O System Read inter-arrival average: 	0.000000
-Overall I/O System Read inter-arrival std.dev.:	0.000000
-Overall I/O System Read inter-arrival maximum:	0
+   5  	  33736  	0.104486  	0.104486
+  10  	  16384  	0.050744  	0.155230
+  15  	  12834  	0.039749  	0.194979
+  20  	  15408  	0.047721  	0.242701
+  25  	   2354  	0.007291  	0.249991
+  30  	  14938  	0.046266  	0.296257
+  35  	  12343  	0.038228  	0.334485
+  40  	  13794  	0.042722  	0.377208
+  45  	   6681  	0.020692  	0.397900
+  50  	  14560  	0.045095  	0.442995
+  55  	  20480  	0.063430  	0.506425
+  60  	  13542  	0.041942  	0.548367
+  65  	   4142  	0.012828  	0.561196
+  70  	   8598  	0.026630  	0.587825
+  75  	   8765  	0.027147  	0.614972
+  80  	   6658  	0.020621  	0.635593
+  85  	   3763  	0.011655  	0.647247
+  90  	   4283  	0.013265  	0.660513
+  95  	   5797  	0.017954  	0.678467
+ 100  	   5629  	0.017434  	0.695901
+ 105  	   3260  	0.010097  	0.705998
+ 110  	   2158  	0.006684  	0.712681
+ 115  	   4583  	0.014194  	0.726876
+ 120  	   4676  	0.014482  	0.741358
+ 125  	   2612  	0.008090  	0.749448
+ 130  	   2163  	0.006699  	0.756147
+ 135  	   4279  	0.013253  	0.769400
+ 140  	   4211  	0.013042  	0.782442
+ 145  	   4281  	0.013259  	0.795701
+ 150  	    114  	0.000353  	0.796054
+ 155  	   3510  	0.010871  	0.806925
+ 160  	   3390  	0.010499  	0.817425
+ 165  	   3297  	0.010211  	0.827636
+ 170  	   1302  	0.004033  	0.831669
+ 175  	   1529  	0.004736  	0.836404
+ 180  	   2974  	0.009211  	0.845615
+ 185  	   2441  	0.007560  	0.853175
+ 190  	   1378  	0.004268  	0.857443
+ 195  	  46028  	0.142557  	1.000000
+Overall I/O System Read inter-arrival average: 	1398.537552
+Overall I/O System Read inter-arrival std.dev.:	9466.698489
+Overall I/O System Read inter-arrival maximum:	1030042.969000
 Overall I/O System Read inter-arrival distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
-      0       0       0       0       0       0       0       0       0       0 
-Overall I/O System Write inter-arrival average: 	1.043096
-Overall I/O System Write inter-arrival std.dev.:	0.593892
-Overall I/O System Write inter-arrival maximum:	47.490000
+     50      69      64     110      11     103     237     135     249   29620 
+Overall I/O System Write inter-arrival average: 	147.502880
+Overall I/O System Write inter-arrival std.dev.:	457.306262
+Overall I/O System Write inter-arrival maximum:	29890.869000
 Overall I/O System Write inter-arrival distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
- 254365     583     104      29      31      13      11       4       0       0 
-Overall I/O System Number of idle periods:  255140
-Overall I/O System Idle period length average: 	0.881621
-Overall I/O System Idle period length std.dev.:	0.593894
-Overall I/O System Idle period length maximum:	47.328525
+  32118   13366    9993   12808    2011   12438   21424   17896   29744  140429 
+Overall I/O System Number of idle periods:  289433
+Overall I/O System Idle period length average: 	148.492219
+Overall I/O System Idle period length std.dev.:	453.854969
+Overall I/O System Idle period length maximum:	27682.211525
 Overall I/O System Idle period length distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
- 254415     535     102      29      32      13      10       4       0       0 
-Overall I/O System Request size average: 	4.000000
-Overall I/O System Request size std.dev.:	0.000000
-Overall I/O System Request size maximum:	4
+    681   16122   12808   16294    2356   14158   26864   20575   33858  145717 
+Overall I/O System Request size average: 	8.757841
+Overall I/O System Request size std.dev.:	14.956276
+Overall I/O System Request size maximum:	132
 Overall I/O System Request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-Overall I/O System Read request size average: 	0.000000
-Overall I/O System Read request size std.dev.:	0.000000
-Overall I/O System Read request size maximum:	0
+      0       0       0  130662       0  139616   47725      23      15    4834 
+Overall I/O System Read request size average: 	9.826938
+Overall I/O System Read request size std.dev.:	4.770955
+Overall I/O System Read request size maximum:	68
 Overall I/O System Read request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0       0       0       0       0       0       0       0 
-Overall I/O System Write request size average: 	4.000000
-Overall I/O System Write request size std.dev.:	0.000000
-Overall I/O System Write request size maximum:	4
+      0       0       0    2040       0   14755   13679      10       5     159 
+Overall I/O System Write request size average: 	8.645717
+Overall I/O System Write request size std.dev.:	15.640671
+Overall I/O System Write request size maximum:	132
 Overall I/O System Write request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-Overall I/O System Instantaneous queue length average: 	1.000000
-Overall I/O System Instantaneous queue length std.dev.:	0.000000
-Overall I/O System Instantaneous queue length maximum:	1
+      0       0       0  128622       0  124861   34046      13      10    4675 
+Overall I/O System Instantaneous queue length average: 	1.120487
+Overall I/O System Instantaneous queue length std.dev.:	0.402651
+Overall I/O System Instantaneous queue length maximum:	8
 Overall I/O System Instantaneous queue length distribution
    =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
- 255139       0       0       0       0       0       0       0       0       0 
+ 289432   30099    2187     887     269       0       0       0       0       0 
 Overall I/O System Sub-optimal mapping penalty average: 	0.000000
 Overall I/O System Sub-optimal mapping penalty std.dev.:	0.000000
 Overall I/O System Sub-optimal mapping penalty maximum:	0
@@ -2201,24 +2201,24 @@ SYSTEM-LEVEL LOGORG STATISTICS
 System Logical Organization #0
 System logorg #0 Number of requests:       0
 System logorg #0 Number of read requests:  0  	0.000000
-System logorg #0 Number of accesses:       255140
-System logorg #0 Number of read accesses:  0  	0.000000
-System logorg #0 Average outstanding:      0.154803
-System logorg #0 Maximum outstanding:      1
-System logorg #0 Avg nonzero outstanding:  1.000000
-System logorg #0 Completely idle time:     224936.889971
-System logorg #0 Response time average: 	0.161475
-System logorg #0 Response time std.dev.:	0.000000
-System logorg #0 Response time maximum:	0.161475
+System logorg #0 Number of accesses:       322875
+System logorg #0 Number of read accesses:  30648  	0.094922
+System logorg #0 Average outstanding:      0.003220
+System logorg #0 Maximum outstanding:      8
+System logorg #0 Avg nonzero outstanding:  1.103528
+System logorg #0 Completely idle time:     42978548.479729
+System logorg #0 Response time average: 	0.429880
+System logorg #0 Response time std.dev.:	0.802131
+System logorg #0 Response time maximum:	13.925750
 System logorg #0 Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 310653    4459    2064    5446     252       0       0       0       0       0 
 System logorg #0 Time-critical reads:  0
 System logorg #0 Time-critical writes: 0
 System logorg #0 Number of streaks:		1
-System logorg #0 Streak length average: 	255140.000000
+System logorg #0 Streak length average: 	322875.000000
 System logorg #0 Streak length std.dev.:	0.000000
-System logorg #0 Streak length maximum:	255140
+System logorg #0 Streak length maximum:	322875
 System logorg #0 Streak length distribution
    =  1    =  2    =  3    =  4    =  5    =  6    =  7    =  8    =  9     10+
       0       0       0       0       0       0       0       0       0       1 
@@ -2231,55 +2231,55 @@ System logorg #0 Timestamped avg # outstanding difference distribution
 System logorg #0 Timestamped max # outstanding difference distribution
    <.5      <1    <1.5      <2    <2.5      <3      <4      <5      <6      6+
      0       0       0       0       0       0       0       0       0       0
-System logorg #0 Request size average: 	4.000000
-System logorg #0 Request size std.dev.:	0.000000
-System logorg #0 Request size maximum:	4
+System logorg #0 Request size average: 	8.757841
+System logorg #0 Request size std.dev.:	14.956276
+System logorg #0 Request size maximum:	132
 System logorg #0 Request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-System logorg #0 Read request size average: 	0.000000
-System logorg #0 Read request size std.dev.:	0.000000
-System logorg #0 Read request size maximum:	0
+      0       0       0  130662       0  139616   47725      23      15    4834 
+System logorg #0 Read request size average: 	9.826938
+System logorg #0 Read request size std.dev.:	4.770955
+System logorg #0 Read request size maximum:	68
 System logorg #0 Read request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0       0       0       0       0       0       0       0 
-System logorg #0 Write request size average: 	4.000000
-System logorg #0 Write request size std.dev.:	0.000000
-System logorg #0 Write request size maximum:	4
+      0       0       0    2040       0   14755   13679      10       5     159 
+System logorg #0 Write request size average: 	8.645717
+System logorg #0 Write request size std.dev.:	15.640671
+System logorg #0 Write request size maximum:	132
 System logorg #0 Write request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-System logorg #0 Number of idle periods:	255140
-System logorg #0 Idle period length average: 	0.881621
-System logorg #0 Idle period length std.dev.:	0.593894
-System logorg #0 Idle period length maximum:	47.328525
+      0       0       0  128622       0  124861   34046      13      10    4675 
+System logorg #0 Number of idle periods:	289433
+System logorg #0 Idle period length average: 	148.492219
+System logorg #0 Idle period length std.dev.:	453.854969
+System logorg #0 Idle period length maximum:	27682.211525
 System logorg #0 Idle period length distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
- 254415     535     102      29      32      13      10       4       0       0 
-System logorg #0 simpleflash Total Requests handled:	255139
-System logorg #0 simpleflash Requests per second:   	958.680966
-System logorg #0 simpleflash Completely idle time:  	224936.889971   	0.845197
-System logorg #0 simpleflash Response time average: 	0.161475
-System logorg #0 simpleflash Response time std.dev.:	0.000000
-System logorg #0 simpleflash Response time maximum:	0.161475
+    681   16122   12808   16294    2356   14158   26864   20575   33858  145717 
+System logorg #0 simpleflash Total Requests handled:	322874
+System logorg #0 simpleflash Requests per second:   	7.490525
+System logorg #0 simpleflash Completely idle time:  	42978548.479729   	0.997082
+System logorg #0 simpleflash Response time average: 	0.389551
+System logorg #0 simpleflash Response time std.dev.:	0.780554
+System logorg #0 simpleflash Response time maximum:	10.610075
 System logorg #0 simpleflash Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 312351    3852    1264    5167     240       0       0       0       0       0 
 System logorg #0 simpleflash Overlaps combined:     	0	0.000000
 System logorg #0 simpleflash Read overlaps combined:	0	0.000000	0.000000
-System logorg #0 simpleflash Number of reads:         0  	0.000000
-System logorg #0 simpleflash Number of writes:   255139  	1.000000
-System logorg #0 simpleflash Sequential reads:        0  	0.000000  	0.000000
-System logorg #0 simpleflash Sequential writes:  141393  	0.554180  	0.554180
-System logorg #0 simpleflash Base SPTF/SDF Different:      0 / 255139 	0.000000
+System logorg #0 simpleflash Number of reads:     30648  	0.094922
+System logorg #0 simpleflash Number of writes:   292226  	0.905078
+System logorg #0 simpleflash Sequential reads:      121  	0.003948  	0.000375
+System logorg #0 simpleflash Sequential writes:    8464  	0.028964  	0.026215
+System logorg #0 simpleflash Base SPTF/SDF Different:      0 / 322874 	0.000000
 System logorg #0 simpleflash Timeout SPTF/SDF Different:      0 /      0 	0.000000
 System logorg #0 simpleflash Priority SPTF/SDF Different:      0 /      0 	0.000000
-System logorg #0 simpleflash runlistlen:              41198.570025
-System logorg #0 simpleflash runoutstanding:          41198.570025
-System logorg #0 simpleflash simtime:                 266135.459996
+System logorg #0 simpleflash runlistlen:              125775.738271
+System logorg #0 simpleflash runoutstanding:          125775.738271
+System logorg #0 simpleflash simtime:                 43104324.218000
 System logorg #0 simpleflash warmuptime:              0.000000
 System logorg #0 simpleflash setsize:                 1
-System logorg #0 simpleflash Average # requests:      0.154803
+System logorg #0 simpleflash Average # requests:      0.002918
 System logorg #0 simpleflash Maximum # requests:      1
 System logorg #0 simpleflash End # requests:          0
 System logorg #0 simpleflash Average queue length:    0.000000
@@ -2290,14 +2290,14 @@ System logorg #0 simpleflash Queue time std.dev.:	0.000000
 System logorg #0 simpleflash Queue time maximum:	0
 System logorg #0 simpleflash Queue time distribution
    <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
- 255139       0       0       0       0       0       0       0       0       0 
-System logorg #0 simpleflash Avg # read requests:     0.000000
-System logorg #0 simpleflash Max # read requests:     0
-System logorg #0 simpleflash Avg # write requests:    0.154803
+ 322874       0       0       0       0       0       0       0       0       0 
+System logorg #0 simpleflash Avg # read requests:     0.000162
+System logorg #0 simpleflash Max # read requests:     1
+System logorg #0 simpleflash Avg # write requests:    0.002756
 System logorg #0 simpleflash Max # write requests:    1
-System logorg #0 simpleflash Physical access time average: 	0.161475
-System logorg #0 simpleflash Physical access time std.dev.:	0.000000
-System logorg #0 simpleflash Physical access time maximum:	0.161475
+System logorg #0 simpleflash Physical access time average: 	0.389551
+System logorg #0 simpleflash Physical access time std.dev.:	0.780554
+System logorg #0 simpleflash Physical access time maximum:	10.610075
 System logorg #0 simpleflash Physical access time distribution
  0.000  	      0  	0.000000  	0.000000
  0.001  	      0  	0.000000  	0.000000
@@ -2392,441 +2392,441 @@ System logorg #0 simpleflash Physical access time distribution
  0.090  	      0  	0.000000  	0.000000
  0.091  	      0  	0.000000  	0.000000
  0.092  	      0  	0.000000  	0.000000
- 0.093  	      0  	0.000000  	0.000000
- 0.094  	      0  	0.000000  	0.000000
- 0.095  	      0  	0.000000  	0.000000
- 0.096  	      0  	0.000000  	0.000000
- 0.097  	      0  	0.000000  	0.000000
- 0.098  	      0  	0.000000  	0.000000
- 0.099  	      0  	0.000000  	0.000000
- 0.100  	      0  	0.000000  	0.000000
- 0.102  	      0  	0.000000  	0.000000
- 0.104  	      0  	0.000000  	0.000000
- 0.106  	      0  	0.000000  	0.000000
- 0.108  	      0  	0.000000  	0.000000
- 0.110  	      0  	0.000000  	0.000000
- 0.112  	      0  	0.000000  	0.000000
- 0.114  	      0  	0.000000  	0.000000
- 0.116  	      0  	0.000000  	0.000000
- 0.118  	      0  	0.000000  	0.000000
- 0.120  	      0  	0.000000  	0.000000
- 0.122  	      0  	0.000000  	0.000000
- 0.124  	      0  	0.000000  	0.000000
- 0.126  	      0  	0.000000  	0.000000
- 0.128  	      0  	0.000000  	0.000000
- 0.130  	      0  	0.000000  	0.000000
- 0.132  	      0  	0.000000  	0.000000
- 0.134  	      0  	0.000000  	0.000000
- 0.136  	      0  	0.000000  	0.000000
- 0.138  	      0  	0.000000  	0.000000
- 0.140  	      0  	0.000000  	0.000000
- 0.142  	      0  	0.000000  	0.000000
- 0.144  	      0  	0.000000  	0.000000
- 0.146  	      0  	0.000000  	0.000000
- 0.148  	      0  	0.000000  	0.000000
- 0.150  	      0  	0.000000  	0.000000
- 0.152  	      0  	0.000000  	0.000000
- 0.154  	      0  	0.000000  	0.000000
- 0.156  	      0  	0.000000  	0.000000
- 0.158  	      0  	0.000000  	0.000000
- 0.160  	      0  	0.000000  	0.000000
- 0.162  	 255139  	1.000000  	1.000000
- 0.164  	      0  	0.000000  	1.000000
- 0.166  	      0  	0.000000  	1.000000
- 0.168  	      0  	0.000000  	1.000000
- 0.170  	      0  	0.000000  	1.000000
- 0.172  	      0  	0.000000  	1.000000
- 0.174  	      0  	0.000000  	1.000000
- 0.176  	      0  	0.000000  	1.000000
- 0.178  	      0  	0.000000  	1.000000
- 0.180  	      0  	0.000000  	1.000000
- 0.182  	      0  	0.000000  	1.000000
- 0.184  	      0  	0.000000  	1.000000
- 0.186  	      0  	0.000000  	1.000000
- 0.188  	      0  	0.000000  	1.000000
- 0.190  	      0  	0.000000  	1.000000
- 0.192  	      0  	0.000000  	1.000000
- 0.194  	      0  	0.000000  	1.000000
- 0.196  	      0  	0.000000  	1.000000
- 0.198  	      0  	0.000000  	1.000000
- 0.200  	      0  	0.000000  	1.000000
- 0.203  	      0  	0.000000  	1.000000
- 0.206  	      0  	0.000000  	1.000000
- 0.209  	      0  	0.000000  	1.000000
- 0.212  	      0  	0.000000  	1.000000
- 0.215  	      0  	0.000000  	1.000000
- 0.218  	      0  	0.000000  	1.000000
- 0.221  	      0  	0.000000  	1.000000
- 0.224  	      0  	0.000000  	1.000000
- 0.227  	      0  	0.000000  	1.000000
- 0.230  	      0  	0.000000  	1.000000
- 0.233  	      0  	0.000000  	1.000000
- 0.236  	      0  	0.000000  	1.000000
- 0.239  	      0  	0.000000  	1.000000
- 0.242  	      0  	0.000000  	1.000000
- 0.245  	      0  	0.000000  	1.000000
- 0.248  	      0  	0.000000  	1.000000
- 0.251  	      0  	0.000000  	1.000000
- 0.254  	      0  	0.000000  	1.000000
- 0.257  	      0  	0.000000  	1.000000
- 0.260  	      0  	0.000000  	1.000000
- 0.263  	      0  	0.000000  	1.000000
- 0.266  	      0  	0.000000  	1.000000
- 0.269  	      0  	0.000000  	1.000000
- 0.272  	      0  	0.000000  	1.000000
- 0.275  	      0  	0.000000  	1.000000
- 0.278  	      0  	0.000000  	1.000000
- 0.281  	      0  	0.000000  	1.000000
- 0.284  	      0  	0.000000  	1.000000
- 0.287  	      0  	0.000000  	1.000000
- 0.290  	      0  	0.000000  	1.000000
- 0.293  	      0  	0.000000  	1.000000
- 0.296  	      0  	0.000000  	1.000000
- 0.299  	      0  	0.000000  	1.000000
- 0.302  	      0  	0.000000  	1.000000
- 0.306  	      0  	0.000000  	1.000000
- 0.310  	      0  	0.000000  	1.000000
- 0.314  	      0  	0.000000  	1.000000
- 0.318  	      0  	0.000000  	1.000000
- 0.322  	      0  	0.000000  	1.000000
- 0.326  	      0  	0.000000  	1.000000
- 0.330  	      0  	0.000000  	1.000000
- 0.334  	      0  	0.000000  	1.000000
- 0.338  	      0  	0.000000  	1.000000
- 0.342  	      0  	0.000000  	1.000000
- 0.346  	      0  	0.000000  	1.000000
- 0.350  	      0  	0.000000  	1.000000
- 0.354  	      0  	0.000000  	1.000000
- 0.358  	      0  	0.000000  	1.000000
- 0.362  	      0  	0.000000  	1.000000
- 0.366  	      0  	0.000000  	1.000000
- 0.370  	      0  	0.000000  	1.000000
- 0.374  	      0  	0.000000  	1.000000
- 0.378  	      0  	0.000000  	1.000000
- 0.382  	      0  	0.000000  	1.000000
- 0.386  	      0  	0.000000  	1.000000
- 0.390  	      0  	0.000000  	1.000000
- 0.394  	      0  	0.000000  	1.000000
- 0.398  	      0  	0.000000  	1.000000
- 0.402  	      0  	0.000000  	1.000000
- 0.407  	      0  	0.000000  	1.000000
- 0.412  	      0  	0.000000  	1.000000
- 0.417  	      0  	0.000000  	1.000000
- 0.422  	      0  	0.000000  	1.000000
- 0.427  	      0  	0.000000  	1.000000
- 0.432  	      0  	0.000000  	1.000000
- 0.437  	      0  	0.000000  	1.000000
- 0.442  	      0  	0.000000  	1.000000
- 0.447  	      0  	0.000000  	1.000000
- 0.452  	      0  	0.000000  	1.000000
- 0.457  	      0  	0.000000  	1.000000
- 0.462  	      0  	0.000000  	1.000000
- 0.467  	      0  	0.000000  	1.000000
- 0.472  	      0  	0.000000  	1.000000
- 0.477  	      0  	0.000000  	1.000000
- 0.482  	      0  	0.000000  	1.000000
- 0.487  	      0  	0.000000  	1.000000
- 0.492  	      0  	0.000000  	1.000000
- 0.497  	      0  	0.000000  	1.000000
- 0.502  	      0  	0.000000  	1.000000
- 0.508  	      0  	0.000000  	1.000000
- 0.514  	      0  	0.000000  	1.000000
- 0.520  	      0  	0.000000  	1.000000
- 0.526  	      0  	0.000000  	1.000000
- 0.532  	      0  	0.000000  	1.000000
- 0.538  	      0  	0.000000  	1.000000
- 0.544  	      0  	0.000000  	1.000000
- 0.550  	      0  	0.000000  	1.000000
- 0.556  	      0  	0.000000  	1.000000
- 0.562  	      0  	0.000000  	1.000000
- 0.568  	      0  	0.000000  	1.000000
- 0.574  	      0  	0.000000  	1.000000
- 0.580  	      0  	0.000000  	1.000000
- 0.586  	      0  	0.000000  	1.000000
- 0.592  	      0  	0.000000  	1.000000
- 0.598  	      0  	0.000000  	1.000000
- 0.604  	      0  	0.000000  	1.000000
- 0.611  	      0  	0.000000  	1.000000
- 0.618  	      0  	0.000000  	1.000000
- 0.625  	      0  	0.000000  	1.000000
- 0.632  	      0  	0.000000  	1.000000
- 0.639  	      0  	0.000000  	1.000000
- 0.646  	      0  	0.000000  	1.000000
- 0.653  	      0  	0.000000  	1.000000
- 0.660  	      0  	0.000000  	1.000000
- 0.667  	      0  	0.000000  	1.000000
- 0.674  	      0  	0.000000  	1.000000
- 0.681  	      0  	0.000000  	1.000000
- 0.688  	      0  	0.000000  	1.000000
- 0.695  	      0  	0.000000  	1.000000
- 0.702  	      0  	0.000000  	1.000000
- 0.710  	      0  	0.000000  	1.000000
- 0.718  	      0  	0.000000  	1.000000
- 0.726  	      0  	0.000000  	1.000000
- 0.734  	      0  	0.000000  	1.000000
- 0.742  	      0  	0.000000  	1.000000
- 0.750  	      0  	0.000000  	1.000000
- 0.758  	      0  	0.000000  	1.000000
- 0.766  	      0  	0.000000  	1.000000
- 0.774  	      0  	0.000000  	1.000000
- 0.782  	      0  	0.000000  	1.000000
- 0.790  	      0  	0.000000  	1.000000
- 0.798  	      0  	0.000000  	1.000000
- 0.806  	      0  	0.000000  	1.000000
- 0.815  	      0  	0.000000  	1.000000
- 0.824  	      0  	0.000000  	1.000000
- 0.833  	      0  	0.000000  	1.000000
- 0.842  	      0  	0.000000  	1.000000
- 0.851  	      0  	0.000000  	1.000000
- 0.860  	      0  	0.000000  	1.000000
- 0.869  	      0  	0.000000  	1.000000
- 0.878  	      0  	0.000000  	1.000000
- 0.887  	      0  	0.000000  	1.000000
- 0.896  	      0  	0.000000  	1.000000
- 0.905  	      0  	0.000000  	1.000000
- 0.915  	      0  	0.000000  	1.000000
- 0.925  	      0  	0.000000  	1.000000
- 0.935  	      0  	0.000000  	1.000000
- 0.945  	      0  	0.000000  	1.000000
- 0.955  	      0  	0.000000  	1.000000
- 0.965  	      0  	0.000000  	1.000000
- 0.975  	      0  	0.000000  	1.000000
- 0.985  	      0  	0.000000  	1.000000
- 0.995  	      0  	0.000000  	1.000000
- 1.005  	      0  	0.000000  	1.000000
- 1.016  	      0  	0.000000  	1.000000
- 1.027  	      0  	0.000000  	1.000000
- 1.038  	      0  	0.000000  	1.000000
- 1.049  	      0  	0.000000  	1.000000
- 1.060  	      0  	0.000000  	1.000000
- 1.071  	      0  	0.000000  	1.000000
- 1.082  	      0  	0.000000  	1.000000
- 1.093  	      0  	0.000000  	1.000000
- 1.104  	      0  	0.000000  	1.000000
- 1.116  	      0  	0.000000  	1.000000
- 1.128  	      0  	0.000000  	1.000000
- 1.140  	      0  	0.000000  	1.000000
- 1.152  	      0  	0.000000  	1.000000
- 1.164  	      0  	0.000000  	1.000000
- 1.176  	      0  	0.000000  	1.000000
- 1.188  	      0  	0.000000  	1.000000
- 1.200  	      0  	0.000000  	1.000000
- 1.213  	      0  	0.000000  	1.000000
- 1.226  	      0  	0.000000  	1.000000
- 1.239  	      0  	0.000000  	1.000000
- 1.252  	      0  	0.000000  	1.000000
- 1.265  	      0  	0.000000  	1.000000
- 1.278  	      0  	0.000000  	1.000000
- 1.291  	      0  	0.000000  	1.000000
- 1.304  	      0  	0.000000  	1.000000
- 1.318  	      0  	0.000000  	1.000000
- 1.332  	      0  	0.000000  	1.000000
- 1.346  	      0  	0.000000  	1.000000
- 1.360  	      0  	0.000000  	1.000000
- 1.374  	      0  	0.000000  	1.000000
- 1.388  	      0  	0.000000  	1.000000
- 1.402  	      0  	0.000000  	1.000000
- 1.417  	      0  	0.000000  	1.000000
- 1.432  	      0  	0.000000  	1.000000
- 1.447  	      0  	0.000000  	1.000000
- 1.462  	      0  	0.000000  	1.000000
- 1.477  	      0  	0.000000  	1.000000
- 1.492  	      0  	0.000000  	1.000000
- 1.507  	      0  	0.000000  	1.000000
- 1.523  	      0  	0.000000  	1.000000
- 1.539  	      0  	0.000000  	1.000000
- 1.555  	      0  	0.000000  	1.000000
- 1.571  	      0  	0.000000  	1.000000
- 1.587  	      0  	0.000000  	1.000000
- 1.603  	      0  	0.000000  	1.000000
- 1.620  	      0  	0.000000  	1.000000
- 1.637  	      0  	0.000000  	1.000000
- 1.654  	      0  	0.000000  	1.000000
- 1.671  	      0  	0.000000  	1.000000
- 1.688  	      0  	0.000000  	1.000000
- 1.705  	      0  	0.000000  	1.000000
- 1.723  	      0  	0.000000  	1.000000
- 1.741  	      0  	0.000000  	1.000000
- 1.759  	      0  	0.000000  	1.000000
- 1.777  	      0  	0.000000  	1.000000
- 1.795  	      0  	0.000000  	1.000000
- 1.813  	      0  	0.000000  	1.000000
- 1.832  	      0  	0.000000  	1.000000
- 1.851  	      0  	0.000000  	1.000000
- 1.870  	      0  	0.000000  	1.000000
- 1.889  	      0  	0.000000  	1.000000
- 1.908  	      0  	0.000000  	1.000000
- 1.928  	      0  	0.000000  	1.000000
- 1.948  	      0  	0.000000  	1.000000
- 1.968  	      0  	0.000000  	1.000000
- 1.988  	      0  	0.000000  	1.000000
- 2.008  	      0  	0.000000  	1.000000
- 2.029  	      0  	0.000000  	1.000000
- 2.050  	      0  	0.000000  	1.000000
- 2.071  	      0  	0.000000  	1.000000
- 2.092  	      0  	0.000000  	1.000000
- 2.113  	      0  	0.000000  	1.000000
- 2.135  	      0  	0.000000  	1.000000
- 2.157  	      0  	0.000000  	1.000000
- 2.179  	      0  	0.000000  	1.000000
- 2.201  	      0  	0.000000  	1.000000
- 2.224  	      0  	0.000000  	1.000000
- 2.247  	      0  	0.000000  	1.000000
- 2.270  	      0  	0.000000  	1.000000
- 2.293  	      0  	0.000000  	1.000000
- 2.316  	      0  	0.000000  	1.000000
- 2.340  	      0  	0.000000  	1.000000
- 2.364  	      0  	0.000000  	1.000000
- 2.388  	      0  	0.000000  	1.000000
- 2.412  	      0  	0.000000  	1.000000
- 2.437  	      0  	0.000000  	1.000000
- 2.462  	      0  	0.000000  	1.000000
- 2.487  	      0  	0.000000  	1.000000
- 2.512  	      0  	0.000000  	1.000000
- 2.538  	      0  	0.000000  	1.000000
- 2.564  	      0  	0.000000  	1.000000
- 2.590  	      0  	0.000000  	1.000000
- 2.616  	      0  	0.000000  	1.000000
- 2.643  	      0  	0.000000  	1.000000
- 2.670  	      0  	0.000000  	1.000000
- 2.697  	      0  	0.000000  	1.000000
- 2.724  	      0  	0.000000  	1.000000
- 2.752  	      0  	0.000000  	1.000000
- 2.780  	      0  	0.000000  	1.000000
- 2.808  	      0  	0.000000  	1.000000
- 2.837  	      0  	0.000000  	1.000000
- 2.866  	      0  	0.000000  	1.000000
- 2.895  	      0  	0.000000  	1.000000
- 2.924  	      0  	0.000000  	1.000000
- 2.954  	      0  	0.000000  	1.000000
- 2.984  	      0  	0.000000  	1.000000
- 3.014  	      0  	0.000000  	1.000000
- 3.045  	      0  	0.000000  	1.000000
- 3.076  	      0  	0.000000  	1.000000
- 3.107  	      0  	0.000000  	1.000000
- 3.139  	      0  	0.000000  	1.000000
- 3.171  	      0  	0.000000  	1.000000
- 3.203  	      0  	0.000000  	1.000000
- 3.236  	      0  	0.000000  	1.000000
- 3.269  	      0  	0.000000  	1.000000
- 3.302  	      0  	0.000000  	1.000000
- 3.336  	      0  	0.000000  	1.000000
- 3.370  	      0  	0.000000  	1.000000
- 3.404  	      0  	0.000000  	1.000000
- 3.439  	      0  	0.000000  	1.000000
- 3.474  	      0  	0.000000  	1.000000
- 3.509  	      0  	0.000000  	1.000000
- 3.545  	      0  	0.000000  	1.000000
- 3.581  	      0  	0.000000  	1.000000
- 3.617  	      0  	0.000000  	1.000000
- 3.654  	      0  	0.000000  	1.000000
- 3.691  	      0  	0.000000  	1.000000
- 3.728  	      0  	0.000000  	1.000000
- 3.766  	      0  	0.000000  	1.000000
- 3.804  	      0  	0.000000  	1.000000
- 3.843  	      0  	0.000000  	1.000000
- 3.882  	      0  	0.000000  	1.000000
- 3.921  	      0  	0.000000  	1.000000
- 3.961  	      0  	0.000000  	1.000000
- 4.001  	      0  	0.000000  	1.000000
- 4.042  	      0  	0.000000  	1.000000
- 4.083  	      0  	0.000000  	1.000000
- 4.124  	      0  	0.000000  	1.000000
- 4.166  	      0  	0.000000  	1.000000
- 4.208  	      0  	0.000000  	1.000000
- 4.251  	      0  	0.000000  	1.000000
- 4.294  	      0  	0.000000  	1.000000
- 4.337  	      0  	0.000000  	1.000000
- 4.381  	      0  	0.000000  	1.000000
- 4.425  	      0  	0.000000  	1.000000
- 4.470  	      0  	0.000000  	1.000000
- 4.515  	      0  	0.000000  	1.000000
- 4.561  	      0  	0.000000  	1.000000
- 4.607  	      0  	0.000000  	1.000000
- 4.654  	      0  	0.000000  	1.000000
- 4.701  	      0  	0.000000  	1.000000
- 4.749  	      0  	0.000000  	1.000000
- 4.797  	      0  	0.000000  	1.000000
- 4.845  	      0  	0.000000  	1.000000
- 4.894  	      0  	0.000000  	1.000000
- 4.943  	      0  	0.000000  	1.000000
- 4.993  	      0  	0.000000  	1.000000
- 5.043  	      0  	0.000000  	1.000000
- 5.094  	      0  	0.000000  	1.000000
- 5.145  	      0  	0.000000  	1.000000
- 5.197  	      0  	0.000000  	1.000000
- 5.249  	      0  	0.000000  	1.000000
- 5.302  	      0  	0.000000  	1.000000
- 5.356  	      0  	0.000000  	1.000000
- 5.410  	      0  	0.000000  	1.000000
- 5.465  	      0  	0.000000  	1.000000
- 5.520  	      0  	0.000000  	1.000000
- 5.576  	      0  	0.000000  	1.000000
- 5.632  	      0  	0.000000  	1.000000
- 5.689  	      0  	0.000000  	1.000000
- 5.746  	      0  	0.000000  	1.000000
- 5.804  	      0  	0.000000  	1.000000
- 5.863  	      0  	0.000000  	1.000000
- 5.922  	      0  	0.000000  	1.000000
- 5.982  	      0  	0.000000  	1.000000
- 6.042  	      0  	0.000000  	1.000000
- 6.103  	      0  	0.000000  	1.000000
- 6.165  	      0  	0.000000  	1.000000
- 6.227  	      0  	0.000000  	1.000000
- 6.290  	      0  	0.000000  	1.000000
- 6.353  	      0  	0.000000  	1.000000
- 6.417  	      0  	0.000000  	1.000000
- 6.482  	      0  	0.000000  	1.000000
- 6.547  	      0  	0.000000  	1.000000
- 6.613  	      0  	0.000000  	1.000000
- 6.680  	      0  	0.000000  	1.000000
- 6.747  	      0  	0.000000  	1.000000
- 6.815  	      0  	0.000000  	1.000000
- 6.884  	      0  	0.000000  	1.000000
- 6.953  	      0  	0.000000  	1.000000
- 7.023  	      0  	0.000000  	1.000000
- 7.094  	      0  	0.000000  	1.000000
- 7.165  	      0  	0.000000  	1.000000
- 7.237  	      0  	0.000000  	1.000000
- 7.310  	      0  	0.000000  	1.000000
- 7.384  	      0  	0.000000  	1.000000
- 7.458  	      0  	0.000000  	1.000000
- 7.533  	      0  	0.000000  	1.000000
- 7.609  	      0  	0.000000  	1.000000
- 7.686  	      0  	0.000000  	1.000000
- 7.763  	      0  	0.000000  	1.000000
- 7.841  	      0  	0.000000  	1.000000
- 7.920  	      0  	0.000000  	1.000000
- 8.000  	      0  	0.000000  	1.000000
- 8.081  	      0  	0.000000  	1.000000
- 8.162  	      0  	0.000000  	1.000000
- 8.244  	      0  	0.000000  	1.000000
- 8.327  	      0  	0.000000  	1.000000
- 8.411  	      0  	0.000000  	1.000000
- 8.496  	      0  	0.000000  	1.000000
- 8.581  	      0  	0.000000  	1.000000
- 8.667  	      0  	0.000000  	1.000000
- 8.754  	      0  	0.000000  	1.000000
- 8.842  	      0  	0.000000  	1.000000
- 8.931  	      0  	0.000000  	1.000000
- 9.021  	      0  	0.000000  	1.000000
- 9.112  	      0  	0.000000  	1.000000
- 9.204  	      0  	0.000000  	1.000000
- 9.297  	      0  	0.000000  	1.000000
- 9.390  	      0  	0.000000  	1.000000
- 9.484  	      0  	0.000000  	1.000000
- 9.579  	      0  	0.000000  	1.000000
- 9.675  	      0  	0.000000  	1.000000
- 9.772  	      0  	0.000000  	1.000000
- 9.870  	      0  	0.000000  	1.000000
- 9.969  	      0  	0.000000  	1.000000
-10.069  	      0  	0.000000  	1.000000
-10.170  	      0  	0.000000  	1.000000
-10.272  	      0  	0.000000  	1.000000
-10.375  	      0  	0.000000  	1.000000
-10.479  	      0  	0.000000  	1.000000
-10.584  	      0  	0.000000  	1.000000
-10.690  	      0  	0.000000  	1.000000
+ 0.093  	   2040  	0.006318  	0.006318
+ 0.094  	      0  	0.000000  	0.006318
+ 0.095  	      0  	0.000000  	0.006318
+ 0.096  	      0  	0.000000  	0.006318
+ 0.097  	      0  	0.000000  	0.006318
+ 0.098  	      0  	0.000000  	0.006318
+ 0.099  	      0  	0.000000  	0.006318
+ 0.100  	      0  	0.000000  	0.006318
+ 0.102  	      0  	0.000000  	0.006318
+ 0.104  	      0  	0.000000  	0.006318
+ 0.106  	      0  	0.000000  	0.006318
+ 0.108  	      0  	0.000000  	0.006318
+ 0.110  	      0  	0.000000  	0.006318
+ 0.112  	      0  	0.000000  	0.006318
+ 0.114  	      0  	0.000000  	0.006318
+ 0.116  	      0  	0.000000  	0.006318
+ 0.118  	      0  	0.000000  	0.006318
+ 0.120  	      0  	0.000000  	0.006318
+ 0.122  	      0  	0.000000  	0.006318
+ 0.124  	      0  	0.000000  	0.006318
+ 0.126  	      0  	0.000000  	0.006318
+ 0.128  	      0  	0.000000  	0.006318
+ 0.130  	      0  	0.000000  	0.006318
+ 0.132  	      0  	0.000000  	0.006318
+ 0.134  	      0  	0.000000  	0.006318
+ 0.136  	      0  	0.000000  	0.006318
+ 0.138  	      0  	0.000000  	0.006318
+ 0.140  	      0  	0.000000  	0.006318
+ 0.142  	      0  	0.000000  	0.006318
+ 0.144  	      0  	0.000000  	0.006318
+ 0.146  	      0  	0.000000  	0.006318
+ 0.148  	      0  	0.000000  	0.006318
+ 0.150  	      0  	0.000000  	0.006318
+ 0.152  	      0  	0.000000  	0.006318
+ 0.154  	      0  	0.000000  	0.006318
+ 0.156  	      0  	0.000000  	0.006318
+ 0.158  	      0  	0.000000  	0.006318
+ 0.160  	      0  	0.000000  	0.006318
+ 0.162  	 127137  	0.393767  	0.400085
+ 0.164  	      0  	0.000000  	0.400085
+ 0.166  	      0  	0.000000  	0.400085
+ 0.168  	      0  	0.000000  	0.400085
+ 0.170  	      0  	0.000000  	0.400085
+ 0.172  	      0  	0.000000  	0.400085
+ 0.174  	      0  	0.000000  	0.400085
+ 0.176  	      0  	0.000000  	0.400085
+ 0.178  	      0  	0.000000  	0.400085
+ 0.180  	      0  	0.000000  	0.400085
+ 0.182  	      0  	0.000000  	0.400085
+ 0.184  	      0  	0.000000  	0.400085
+ 0.186  	  14755  	0.045699  	0.445784
+ 0.188  	      0  	0.000000  	0.445784
+ 0.190  	      0  	0.000000  	0.445784
+ 0.192  	      0  	0.000000  	0.445784
+ 0.194  	      0  	0.000000  	0.445784
+ 0.196  	      0  	0.000000  	0.445784
+ 0.198  	      0  	0.000000  	0.445784
+ 0.200  	      0  	0.000000  	0.445784
+ 0.203  	      0  	0.000000  	0.445784
+ 0.206  	      0  	0.000000  	0.445784
+ 0.209  	      0  	0.000000  	0.445784
+ 0.212  	      0  	0.000000  	0.445784
+ 0.215  	      0  	0.000000  	0.445784
+ 0.218  	      0  	0.000000  	0.445784
+ 0.221  	      0  	0.000000  	0.445784
+ 0.224  	      0  	0.000000  	0.445784
+ 0.227  	      0  	0.000000  	0.445784
+ 0.230  	      0  	0.000000  	0.445784
+ 0.233  	      0  	0.000000  	0.445784
+ 0.236  	      0  	0.000000  	0.445784
+ 0.239  	      0  	0.000000  	0.445784
+ 0.242  	      0  	0.000000  	0.445784
+ 0.245  	      0  	0.000000  	0.445784
+ 0.248  	      0  	0.000000  	0.445784
+ 0.251  	      0  	0.000000  	0.445784
+ 0.254  	      0  	0.000000  	0.445784
+ 0.257  	      0  	0.000000  	0.445784
+ 0.260  	      0  	0.000000  	0.445784
+ 0.263  	      0  	0.000000  	0.445784
+ 0.266  	      0  	0.000000  	0.445784
+ 0.269  	      0  	0.000000  	0.445784
+ 0.272  	      0  	0.000000  	0.445784
+ 0.275  	      0  	0.000000  	0.445784
+ 0.278  	      0  	0.000000  	0.445784
+ 0.281  	  13679  	0.042366  	0.488150
+ 0.284  	      0  	0.000000  	0.488150
+ 0.287  	      0  	0.000000  	0.488150
+ 0.290  	      0  	0.000000  	0.488150
+ 0.293  	      0  	0.000000  	0.488150
+ 0.296  	      0  	0.000000  	0.488150
+ 0.299  	      0  	0.000000  	0.488150
+ 0.302  	      0  	0.000000  	0.488150
+ 0.306  	      0  	0.000000  	0.488150
+ 0.310  	      0  	0.000000  	0.488150
+ 0.314  	      0  	0.000000  	0.488150
+ 0.318  	      0  	0.000000  	0.488150
+ 0.322  	      0  	0.000000  	0.488150
+ 0.326  	 121882  	0.377491  	0.865641
+ 0.330  	      0  	0.000000  	0.865641
+ 0.334  	      0  	0.000000  	0.865641
+ 0.338  	      0  	0.000000  	0.865641
+ 0.342  	      0  	0.000000  	0.865641
+ 0.346  	      0  	0.000000  	0.865641
+ 0.350  	      0  	0.000000  	0.865641
+ 0.354  	      0  	0.000000  	0.865641
+ 0.358  	      0  	0.000000  	0.865641
+ 0.362  	      0  	0.000000  	0.865641
+ 0.366  	      0  	0.000000  	0.865641
+ 0.370  	      0  	0.000000  	0.865641
+ 0.374  	     10  	0.000031  	0.865672
+ 0.378  	      0  	0.000000  	0.865672
+ 0.382  	      0  	0.000000  	0.865672
+ 0.386  	      0  	0.000000  	0.865672
+ 0.390  	      0  	0.000000  	0.865672
+ 0.394  	      0  	0.000000  	0.865672
+ 0.398  	      0  	0.000000  	0.865672
+ 0.402  	      0  	0.000000  	0.865672
+ 0.407  	      0  	0.000000  	0.865672
+ 0.412  	      0  	0.000000  	0.865672
+ 0.417  	      0  	0.000000  	0.865672
+ 0.422  	      0  	0.000000  	0.865672
+ 0.427  	      0  	0.000000  	0.865672
+ 0.432  	      0  	0.000000  	0.865672
+ 0.437  	      0  	0.000000  	0.865672
+ 0.442  	      0  	0.000000  	0.865672
+ 0.447  	      0  	0.000000  	0.865672
+ 0.452  	      0  	0.000000  	0.865672
+ 0.457  	      0  	0.000000  	0.865672
+ 0.462  	      0  	0.000000  	0.865672
+ 0.467  	      5  	0.000015  	0.865688
+ 0.472  	      0  	0.000000  	0.865688
+ 0.477  	      0  	0.000000  	0.865688
+ 0.482  	      0  	0.000000  	0.865688
+ 0.487  	  32819  	0.101646  	0.967334
+ 0.492  	      0  	0.000000  	0.967334
+ 0.497  	      0  	0.000000  	0.967334
+ 0.502  	      0  	0.000000  	0.967334
+ 0.508  	      0  	0.000000  	0.967334
+ 0.514  	      0  	0.000000  	0.967334
+ 0.520  	      0  	0.000000  	0.967334
+ 0.526  	      0  	0.000000  	0.967334
+ 0.532  	      0  	0.000000  	0.967334
+ 0.538  	      0  	0.000000  	0.967334
+ 0.544  	      0  	0.000000  	0.967334
+ 0.550  	      0  	0.000000  	0.967334
+ 0.556  	      0  	0.000000  	0.967334
+ 0.562  	      0  	0.000000  	0.967334
+ 0.568  	      0  	0.000000  	0.967334
+ 0.574  	      0  	0.000000  	0.967334
+ 0.580  	      0  	0.000000  	0.967334
+ 0.586  	      0  	0.000000  	0.967334
+ 0.592  	      0  	0.000000  	0.967334
+ 0.598  	      0  	0.000000  	0.967334
+ 0.604  	      0  	0.000000  	0.967334
+ 0.611  	      0  	0.000000  	0.967334
+ 0.618  	      0  	0.000000  	0.967334
+ 0.625  	      0  	0.000000  	0.967334
+ 0.632  	      0  	0.000000  	0.967334
+ 0.639  	      0  	0.000000  	0.967334
+ 0.646  	     13  	0.000040  	0.967374
+ 0.653  	      1  	0.000003  	0.967377
+ 0.660  	      0  	0.000000  	0.967377
+ 0.667  	      0  	0.000000  	0.967377
+ 0.674  	      0  	0.000000  	0.967377
+ 0.681  	      0  	0.000000  	0.967377
+ 0.688  	      0  	0.000000  	0.967377
+ 0.695  	      0  	0.000000  	0.967377
+ 0.702  	      0  	0.000000  	0.967377
+ 0.710  	      0  	0.000000  	0.967377
+ 0.718  	      0  	0.000000  	0.967377
+ 0.726  	      0  	0.000000  	0.967377
+ 0.734  	      0  	0.000000  	0.967377
+ 0.742  	      1  	0.000003  	0.967380
+ 0.750  	      0  	0.000000  	0.967380
+ 0.758  	      0  	0.000000  	0.967380
+ 0.766  	      0  	0.000000  	0.967380
+ 0.774  	      0  	0.000000  	0.967380
+ 0.782  	      0  	0.000000  	0.967380
+ 0.790  	      0  	0.000000  	0.967380
+ 0.798  	      0  	0.000000  	0.967380
+ 0.806  	      0  	0.000000  	0.967380
+ 0.815  	      8  	0.000025  	0.967405
+ 0.824  	      0  	0.000000  	0.967405
+ 0.833  	      0  	0.000000  	0.967405
+ 0.842  	      0  	0.000000  	0.967405
+ 0.851  	      0  	0.000000  	0.967405
+ 0.860  	      0  	0.000000  	0.967405
+ 0.869  	      0  	0.000000  	0.967405
+ 0.878  	      0  	0.000000  	0.967405
+ 0.887  	      0  	0.000000  	0.967405
+ 0.896  	      0  	0.000000  	0.967405
+ 0.905  	      0  	0.000000  	0.967405
+ 0.915  	      0  	0.000000  	0.967405
+ 0.925  	      0  	0.000000  	0.967405
+ 0.935  	      0  	0.000000  	0.967405
+ 0.945  	      0  	0.000000  	0.967405
+ 0.955  	      0  	0.000000  	0.967405
+ 0.965  	      0  	0.000000  	0.967405
+ 0.975  	      1  	0.000003  	0.967408
+ 0.985  	      0  	0.000000  	0.967408
+ 0.995  	      0  	0.000000  	0.967408
+ 1.005  	      0  	0.000000  	0.967408
+ 1.016  	      0  	0.000000  	0.967408
+ 1.027  	      0  	0.000000  	0.967408
+ 1.038  	      0  	0.000000  	0.967408
+ 1.049  	      0  	0.000000  	0.967408
+ 1.060  	      0  	0.000000  	0.967408
+ 1.071  	      0  	0.000000  	0.967408
+ 1.082  	      0  	0.000000  	0.967408
+ 1.093  	      0  	0.000000  	0.967408
+ 1.104  	      0  	0.000000  	0.967408
+ 1.116  	      1  	0.000003  	0.967411
+ 1.128  	      0  	0.000000  	0.967411
+ 1.140  	      3  	0.000009  	0.967421
+ 1.152  	      0  	0.000000  	0.967421
+ 1.164  	      0  	0.000000  	0.967421
+ 1.176  	      0  	0.000000  	0.967421
+ 1.188  	      0  	0.000000  	0.967421
+ 1.200  	      0  	0.000000  	0.967421
+ 1.213  	      0  	0.000000  	0.967421
+ 1.226  	      0  	0.000000  	0.967421
+ 1.239  	      0  	0.000000  	0.967421
+ 1.252  	      0  	0.000000  	0.967421
+ 1.265  	      0  	0.000000  	0.967421
+ 1.278  	      0  	0.000000  	0.967421
+ 1.291  	      0  	0.000000  	0.967421
+ 1.304  	      2  	0.000006  	0.967427
+ 1.318  	      0  	0.000000  	0.967427
+ 1.332  	      0  	0.000000  	0.967427
+ 1.346  	      0  	0.000000  	0.967427
+ 1.360  	      0  	0.000000  	0.967427
+ 1.374  	      0  	0.000000  	0.967427
+ 1.388  	      0  	0.000000  	0.967427
+ 1.402  	      1  	0.000003  	0.967430
+ 1.417  	      0  	0.000000  	0.967430
+ 1.432  	      0  	0.000000  	0.967430
+ 1.447  	      0  	0.000000  	0.967430
+ 1.462  	      8  	0.000025  	0.967455
+ 1.477  	      0  	0.000000  	0.967455
+ 1.492  	     35  	0.000108  	0.967563
+ 1.507  	      0  	0.000000  	0.967563
+ 1.523  	      0  	0.000000  	0.967563
+ 1.539  	      0  	0.000000  	0.967563
+ 1.555  	      0  	0.000000  	0.967563
+ 1.571  	      0  	0.000000  	0.967563
+ 1.587  	    120  	0.000372  	0.967935
+ 1.603  	      0  	0.000000  	0.967935
+ 1.620  	      0  	0.000000  	0.967935
+ 1.637  	      0  	0.000000  	0.967935
+ 1.654  	      0  	0.000000  	0.967935
+ 1.671  	    953  	0.002952  	0.970886
+ 1.688  	      0  	0.000000  	0.970886
+ 1.705  	      0  	0.000000  	0.970886
+ 1.723  	      0  	0.000000  	0.970886
+ 1.741  	      0  	0.000000  	0.970886
+ 1.759  	      0  	0.000000  	0.970886
+ 1.777  	      0  	0.000000  	0.970886
+ 1.795  	      0  	0.000000  	0.970886
+ 1.813  	      0  	0.000000  	0.970886
+ 1.832  	   1913  	0.005925  	0.976811
+ 1.851  	      0  	0.000000  	0.976811
+ 1.870  	      0  	0.000000  	0.976811
+ 1.889  	      0  	0.000000  	0.976811
+ 1.908  	      0  	0.000000  	0.976811
+ 1.928  	      0  	0.000000  	0.976811
+ 1.948  	      1  	0.000003  	0.976814
+ 1.968  	      0  	0.000000  	0.976814
+ 1.988  	    815  	0.002524  	0.979339
+ 2.008  	      0  	0.000000  	0.979339
+ 2.029  	      0  	0.000000  	0.979339
+ 2.050  	      0  	0.000000  	0.979339
+ 2.071  	      0  	0.000000  	0.979339
+ 2.092  	      0  	0.000000  	0.979339
+ 2.113  	      2  	0.000006  	0.979345
+ 2.135  	      0  	0.000000  	0.979345
+ 2.157  	      0  	0.000000  	0.979345
+ 2.179  	      0  	0.000000  	0.979345
+ 2.201  	      0  	0.000000  	0.979345
+ 2.224  	      0  	0.000000  	0.979345
+ 2.247  	      0  	0.000000  	0.979345
+ 2.270  	      1  	0.000003  	0.979348
+ 2.293  	      0  	0.000000  	0.979348
+ 2.316  	      1  	0.000003  	0.979351
+ 2.340  	      0  	0.000000  	0.979351
+ 2.364  	      0  	0.000000  	0.979351
+ 2.388  	      0  	0.000000  	0.979351
+ 2.412  	      0  	0.000000  	0.979351
+ 2.437  	      2  	0.000006  	0.979357
+ 2.462  	      0  	0.000000  	0.979357
+ 2.487  	      1  	0.000003  	0.979360
+ 2.512  	      0  	0.000000  	0.979360
+ 2.538  	      0  	0.000000  	0.979360
+ 2.564  	      0  	0.000000  	0.979360
+ 2.590  	      2  	0.000006  	0.979367
+ 2.616  	      0  	0.000000  	0.979367
+ 2.643  	      1  	0.000003  	0.979370
+ 2.670  	      0  	0.000000  	0.979370
+ 2.697  	      0  	0.000000  	0.979370
+ 2.724  	      0  	0.000000  	0.979370
+ 2.752  	      0  	0.000000  	0.979370
+ 2.780  	      0  	0.000000  	0.979370
+ 2.808  	      0  	0.000000  	0.979370
+ 2.837  	      0  	0.000000  	0.979370
+ 2.866  	      0  	0.000000  	0.979370
+ 2.895  	      0  	0.000000  	0.979370
+ 2.924  	      3  	0.000009  	0.979379
+ 2.954  	      1  	0.000003  	0.979382
+ 2.984  	      0  	0.000000  	0.979382
+ 3.014  	      0  	0.000000  	0.979382
+ 3.045  	      0  	0.000000  	0.979382
+ 3.076  	      1  	0.000003  	0.979385
+ 3.107  	      0  	0.000000  	0.979385
+ 3.139  	      0  	0.000000  	0.979385
+ 3.171  	      0  	0.000000  	0.979385
+ 3.203  	      0  	0.000000  	0.979385
+ 3.236  	      1  	0.000003  	0.979388
+ 3.269  	      0  	0.000000  	0.979388
+ 3.302  	      1  	0.000003  	0.979391
+ 3.336  	      0  	0.000000  	0.979391
+ 3.370  	      0  	0.000000  	0.979391
+ 3.404  	      2  	0.000006  	0.979398
+ 3.439  	    167  	0.000517  	0.979915
+ 3.474  	      0  	0.000000  	0.979915
+ 3.509  	      0  	0.000000  	0.979915
+ 3.545  	      0  	0.000000  	0.979915
+ 3.581  	     32  	0.000099  	0.980014
+ 3.617  	    421  	0.001304  	0.981318
+ 3.654  	      0  	0.000000  	0.981318
+ 3.691  	      0  	0.000000  	0.981318
+ 3.728  	    148  	0.000458  	0.981776
+ 3.766  	    189  	0.000585  	0.982362
+ 3.804  	      0  	0.000000  	0.982362
+ 3.843  	     18  	0.000056  	0.982417
+ 3.882  	    157  	0.000486  	0.982904
+ 3.921  	     30  	0.000093  	0.982996
+ 3.961  	      1  	0.000003  	0.983000
+ 4.001  	     82  	0.000254  	0.983254
+ 4.042  	     65  	0.000201  	0.983455
+ 4.083  	      1  	0.000003  	0.983458
+ 4.124  	      6  	0.000019  	0.983477
+ 4.166  	    107  	0.000331  	0.983808
+ 4.208  	      3  	0.000009  	0.983817
+ 4.251  	     20  	0.000062  	0.983879
+ 4.294  	     41  	0.000127  	0.984006
+ 4.337  	      0  	0.000000  	0.984006
+ 4.381  	      7  	0.000022  	0.984028
+ 4.425  	     37  	0.000115  	0.984142
+ 4.470  	      0  	0.000000  	0.984142
+ 4.515  	     12  	0.000037  	0.984180
+ 4.561  	     21  	0.000065  	0.984245
+ 4.607  	      1  	0.000003  	0.984248
+ 4.654  	      3  	0.000009  	0.984257
+ 4.701  	     28  	0.000087  	0.984344
+ 4.749  	      1  	0.000003  	0.984347
+ 4.797  	     19  	0.000059  	0.984406
+ 4.845  	     17  	0.000053  	0.984458
+ 4.894  	      1  	0.000003  	0.984461
+ 4.943  	     36  	0.000111  	0.984573
+ 4.993  	      3  	0.000009  	0.984582
+ 5.043  	     36  	0.000111  	0.984694
+ 5.094  	     23  	0.000071  	0.984765
+ 5.145  	      9  	0.000028  	0.984793
+ 5.197  	   1302  	0.004033  	0.988825
+ 5.249  	     72  	0.000223  	0.989048
+ 5.302  	      0  	0.000000  	0.989048
+ 5.356  	   1268  	0.003927  	0.992976
+ 5.410  	     20  	0.000062  	0.993038
+ 5.465  	      9  	0.000028  	0.993065
+ 5.520  	     60  	0.000186  	0.993251
+ 5.576  	      1  	0.000003  	0.993254
+ 5.632  	     40  	0.000124  	0.993378
+ 5.689  	      0  	0.000000  	0.993378
+ 5.746  	     18  	0.000056  	0.993434
+ 5.804  	      2  	0.000006  	0.993440
+ 5.863  	      2  	0.000006  	0.993446
+ 5.922  	      3  	0.000009  	0.993456
+ 5.982  	      0  	0.000000  	0.993456
+ 6.042  	      3  	0.000009  	0.993465
+ 6.103  	      0  	0.000000  	0.993465
+ 6.165  	      0  	0.000000  	0.993465
+ 6.227  	      0  	0.000000  	0.993465
+ 6.290  	      0  	0.000000  	0.993465
+ 6.353  	      2  	0.000006  	0.993471
+ 6.417  	      0  	0.000000  	0.993471
+ 6.482  	      0  	0.000000  	0.993471
+ 6.547  	      1  	0.000003  	0.993474
+ 6.613  	      0  	0.000000  	0.993474
+ 6.680  	    903  	0.002797  	0.996271
+ 6.747  	      0  	0.000000  	0.996271
+ 6.815  	      0  	0.000000  	0.996271
+ 6.884  	    964  	0.002986  	0.999257
+ 6.953  	      0  	0.000000  	0.999257
+ 7.023  	      0  	0.000000  	0.999257
+ 7.094  	      0  	0.000000  	0.999257
+ 7.165  	      0  	0.000000  	0.999257
+ 7.237  	      0  	0.000000  	0.999257
+ 7.310  	      0  	0.000000  	0.999257
+ 7.384  	      0  	0.000000  	0.999257
+ 7.458  	      0  	0.000000  	0.999257
+ 7.533  	      0  	0.000000  	0.999257
+ 7.609  	      0  	0.000000  	0.999257
+ 7.686  	      0  	0.000000  	0.999257
+ 7.763  	      0  	0.000000  	0.999257
+ 7.841  	      0  	0.000000  	0.999257
+ 7.920  	      0  	0.000000  	0.999257
+ 8.000  	      0  	0.000000  	0.999257
+ 8.081  	      0  	0.000000  	0.999257
+ 8.162  	      0  	0.000000  	0.999257
+ 8.244  	      0  	0.000000  	0.999257
+ 8.327  	      0  	0.000000  	0.999257
+ 8.411  	      0  	0.000000  	0.999257
+ 8.496  	    106  	0.000328  	0.999585
+ 8.581  	      0  	0.000000  	0.999585
+ 8.667  	    113  	0.000350  	0.999935
+ 8.754  	      0  	0.000000  	0.999935
+ 8.842  	      0  	0.000000  	0.999935
+ 8.931  	      0  	0.000000  	0.999935
+ 9.021  	      0  	0.000000  	0.999935
+ 9.112  	      0  	0.000000  	0.999935
+ 9.204  	      0  	0.000000  	0.999935
+ 9.297  	      0  	0.000000  	0.999935
+ 9.390  	      0  	0.000000  	0.999935
+ 9.484  	      0  	0.000000  	0.999935
+ 9.579  	      2  	0.000006  	0.999941
+ 9.675  	      0  	0.000000  	0.999941
+ 9.772  	      0  	0.000000  	0.999941
+ 9.870  	      2  	0.000006  	0.999947
+ 9.969  	      1  	0.000003  	0.999950
+10.069  	      3  	0.000009  	0.999960
+10.170  	      2  	0.000006  	0.999966
+10.272  	      6  	0.000019  	0.999985
+10.375  	      4  	0.000012  	0.999997
+10.479  	      0  	0.000000  	0.999997
+10.584  	      0  	0.000000  	0.999997
+10.690  	      1  	0.000003  	1.000000
 10.797  	      0  	0.000000  	1.000000
 10.905  	      0  	0.000000  	1.000000
 11.015  	      0  	0.000000  	1.000000
@@ -4054,34 +4054,34 @@ System logorg #0 simpleflash Instantaneous queue length std.dev.:	0.000000
 System logorg #0 simpleflash Instantaneous queue length maximum:	1
 System logorg #0 simpleflash Instantaneous queue length distribution
    =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
- 255139       0       0       0       0       0       0       0       0       0 
+ 322874       0       0       0       0       0       0       0       0       0 
 System logorg #0 simpleflash Sub-optimal mapping penalty average: 	0.000000
 System logorg #0 simpleflash Sub-optimal mapping penalty std.dev.:	0.000000
 System logorg #0 simpleflash Sub-optimal mapping penalty maximum:	0
 System logorg #0 simpleflash Sub-optimal mapping penalty distribution
    = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    <  4      4+
       0       0       0       0       0       0       0       0       0       0 
-System logorg #0 simpleflash Access time average: 	0.101475
-System logorg #0 simpleflash Access time std.dev.:	0.000000
-System logorg #0 simpleflash Access time maximum:	0.101475
+System logorg #0 simpleflash Access time average: 	0.258183
+System logorg #0 simpleflash Access time std.dev.:	0.592115
+System logorg #0 simpleflash Access time maximum:	8.630075
 System logorg #0 simpleflash Access time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 40    < 50    < 60     60+
- 255139       0       0       0       0       0       0       0       0       0 
+ 312521    3693    3858    2786      16       0       0       0       0       0 
 System logorg #0 simpleflash Total bus wait time: 0.000000
-System logorg #0 simpleflash Number of bus waits: 255139
+System logorg #0 simpleflash Number of bus waits: 322874
 
 IODRIVER STATISTICS
 -------------------
 
-IOdriver Total Requests handled:	255139
-IOdriver Requests per second:   	958.680966
-IOdriver Completely idle time:  	224936.889971   	0.845197
-IOdriver Response time average: 	0.161475
-IOdriver Response time std.dev.:	0.000000
-IOdriver Response time maximum:	0.161475
+IOdriver Total Requests handled:	322874
+IOdriver Requests per second:   	7.490525
+IOdriver Completely idle time:  	42978548.479729   	0.997082
+IOdriver Response time average: 	0.429880
+IOdriver Response time std.dev.:	0.802131
+IOdriver Response time maximum:	13.925750
 IOdriver Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 310653    4459    2064    5446     252       0       0       0       0       0 
 IOdriver Overlaps combined:     	0	0.000000
 IOdriver Read overlaps combined:	0	0.000000	0.000000
 IOdriver Critical Reads:      	     0  	0.000000
@@ -4091,13 +4091,13 @@ IOdriver Critical Read Response time maximum:	0
 IOdriver Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-IOdriver Non-Critical Reads:  	     0  	0.000000
-IOdriver Non-Critical Read Response time average: 	0.000000
-IOdriver Non-Critical Read Response time std.dev.:	0.000000
-IOdriver Non-Critical Read Response time maximum:	0
+IOdriver Non-Critical Reads:  	 30648  	0.094922
+IOdriver Non-Critical Read Response time average: 	0.236192
+IOdriver Non-Critical Read Response time std.dev.:	0.127112
+IOdriver Non-Critical Read Response time maximum:	3.818275
 IOdriver Non-Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
-      0       0       0       0       0       0       0       0       0       0 
+  30476     166       6       0       0       0       0       0       0       0 
 IOdriver Critical Writes:     	     0  	0.000000
 IOdriver Critical Write Response time average: 	0.000000
 IOdriver Critical Write Response time std.dev.:	0.000000
@@ -4105,44 +4105,44 @@ IOdriver Critical Write Response time maximum:	0
 IOdriver Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-IOdriver Non-Critical Writes: 	255139  	0.999996
-IOdriver Non-Critical Write Response time average: 	0.161475
-IOdriver Non-Critical Write Response time std.dev.:	0.000000
-IOdriver Non-Critical Write Response time maximum:	0.161475
+IOdriver Non-Critical Writes: 	292226  	0.905075
+IOdriver Non-Critical Write Response time average: 	0.450193
+IOdriver Non-Critical Write Response time std.dev.:	0.839555
+IOdriver Non-Critical Write Response time maximum:	13.925750
 IOdriver Non-Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
-IOdriver Number of reads:         0  	0.000000
-IOdriver Number of writes:   255140  	1.000000
-IOdriver Sequential reads:        0  	0.000000  	0.000000
-IOdriver Sequential writes:  141394  	0.554182  	0.554182
-IOdriver Base SPTF/SDF Different:      0 / 255140 	0.000000
+ 280177    4293    2058    5446     252       0       0       0       0       0 
+IOdriver Number of reads:     30648  	0.094922
+IOdriver Number of writes:   292227  	0.905078
+IOdriver Sequential reads:      121  	0.003948  	0.000375
+IOdriver Sequential writes:    8364  	0.028622  	0.025905
+IOdriver Base SPTF/SDF Different:      0 / 322875 	0.000000
 IOdriver Timeout SPTF/SDF Different:      0 /      0 	0.000000
 IOdriver Priority SPTF/SDF Different:      0 /      0 	0.000000
-IOdriver runlistlen:              41198.570025
-IOdriver runoutstanding:          41198.570025
-IOdriver simtime:                 266135.459996
+IOdriver runlistlen:              138797.008905
+IOdriver runoutstanding:          125775.738271
+IOdriver simtime:                 43104324.218000
 IOdriver warmuptime:              0.000000
 IOdriver setsize:                 1
-IOdriver Average # requests:      0.154803
-IOdriver Maximum # requests:      1
+IOdriver Average # requests:      0.003220
+IOdriver Maximum # requests:      8
 IOdriver End # requests:          1
-IOdriver Average queue length:    0.000000
-IOdriver Maximum queue length:    1
+IOdriver Average queue length:    0.000302
+IOdriver Maximum queue length:    7
 IOdriver End queued requests:     0
-IOdriver Queue time average: 	0.000000
-IOdriver Queue time std.dev.:	0.000000
-IOdriver Queue time maximum:	0
+IOdriver Queue time average: 	0.040329
+IOdriver Queue time std.dev.:	0.190173
+IOdriver Queue time maximum:	8.597075
 IOdriver Queue time distribution
    <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
- 255140       0       0       0       0       0       0       0       0       0 
-IOdriver Avg # read requests:     0.000000
-IOdriver Max # read requests:     0
-IOdriver Avg # write requests:    0.154803
-IOdriver Max # write requests:    1
-IOdriver Physical access time average: 	0.161475
-IOdriver Physical access time std.dev.:	0.000000
-IOdriver Physical access time maximum:	0.161475
+ 322824      51       0       0       0       0       0       0       0       0 
+IOdriver Avg # read requests:     0.000168
+IOdriver Max # read requests:     2
+IOdriver Avg # write requests:    0.003052
+IOdriver Max # write requests:    8
+IOdriver Physical access time average: 	0.389551
+IOdriver Physical access time std.dev.:	0.780554
+IOdriver Physical access time maximum:	10.610075
 IOdriver Physical access time distribution
  0.000  	      0  	0.000000  	0.000000
  0.001  	      0  	0.000000  	0.000000
@@ -4237,441 +4237,441 @@ IOdriver Physical access time distribution
  0.090  	      0  	0.000000  	0.000000
  0.091  	      0  	0.000000  	0.000000
  0.092  	      0  	0.000000  	0.000000
- 0.093  	      0  	0.000000  	0.000000
- 0.094  	      0  	0.000000  	0.000000
- 0.095  	      0  	0.000000  	0.000000
- 0.096  	      0  	0.000000  	0.000000
- 0.097  	      0  	0.000000  	0.000000
- 0.098  	      0  	0.000000  	0.000000
- 0.099  	      0  	0.000000  	0.000000
- 0.100  	      0  	0.000000  	0.000000
- 0.102  	      0  	0.000000  	0.000000
- 0.104  	      0  	0.000000  	0.000000
- 0.106  	      0  	0.000000  	0.000000
- 0.108  	      0  	0.000000  	0.000000
- 0.110  	      0  	0.000000  	0.000000
- 0.112  	      0  	0.000000  	0.000000
- 0.114  	      0  	0.000000  	0.000000
- 0.116  	      0  	0.000000  	0.000000
- 0.118  	      0  	0.000000  	0.000000
- 0.120  	      0  	0.000000  	0.000000
- 0.122  	      0  	0.000000  	0.000000
- 0.124  	      0  	0.000000  	0.000000
- 0.126  	      0  	0.000000  	0.000000
- 0.128  	      0  	0.000000  	0.000000
- 0.130  	      0  	0.000000  	0.000000
- 0.132  	      0  	0.000000  	0.000000
- 0.134  	      0  	0.000000  	0.000000
- 0.136  	      0  	0.000000  	0.000000
- 0.138  	      0  	0.000000  	0.000000
- 0.140  	      0  	0.000000  	0.000000
- 0.142  	      0  	0.000000  	0.000000
- 0.144  	      0  	0.000000  	0.000000
- 0.146  	      0  	0.000000  	0.000000
- 0.148  	      0  	0.000000  	0.000000
- 0.150  	      0  	0.000000  	0.000000
- 0.152  	      0  	0.000000  	0.000000
- 0.154  	      0  	0.000000  	0.000000
- 0.156  	      0  	0.000000  	0.000000
- 0.158  	      0  	0.000000  	0.000000
- 0.160  	      0  	0.000000  	0.000000
- 0.162  	 255139  	1.000000  	1.000000
- 0.164  	      0  	0.000000  	1.000000
- 0.166  	      0  	0.000000  	1.000000
- 0.168  	      0  	0.000000  	1.000000
- 0.170  	      0  	0.000000  	1.000000
- 0.172  	      0  	0.000000  	1.000000
- 0.174  	      0  	0.000000  	1.000000
- 0.176  	      0  	0.000000  	1.000000
- 0.178  	      0  	0.000000  	1.000000
- 0.180  	      0  	0.000000  	1.000000
- 0.182  	      0  	0.000000  	1.000000
- 0.184  	      0  	0.000000  	1.000000
- 0.186  	      0  	0.000000  	1.000000
- 0.188  	      0  	0.000000  	1.000000
- 0.190  	      0  	0.000000  	1.000000
- 0.192  	      0  	0.000000  	1.000000
- 0.194  	      0  	0.000000  	1.000000
- 0.196  	      0  	0.000000  	1.000000
- 0.198  	      0  	0.000000  	1.000000
- 0.200  	      0  	0.000000  	1.000000
- 0.203  	      0  	0.000000  	1.000000
- 0.206  	      0  	0.000000  	1.000000
- 0.209  	      0  	0.000000  	1.000000
- 0.212  	      0  	0.000000  	1.000000
- 0.215  	      0  	0.000000  	1.000000
- 0.218  	      0  	0.000000  	1.000000
- 0.221  	      0  	0.000000  	1.000000
- 0.224  	      0  	0.000000  	1.000000
- 0.227  	      0  	0.000000  	1.000000
- 0.230  	      0  	0.000000  	1.000000
- 0.233  	      0  	0.000000  	1.000000
- 0.236  	      0  	0.000000  	1.000000
- 0.239  	      0  	0.000000  	1.000000
- 0.242  	      0  	0.000000  	1.000000
- 0.245  	      0  	0.000000  	1.000000
- 0.248  	      0  	0.000000  	1.000000
- 0.251  	      0  	0.000000  	1.000000
- 0.254  	      0  	0.000000  	1.000000
- 0.257  	      0  	0.000000  	1.000000
- 0.260  	      0  	0.000000  	1.000000
- 0.263  	      0  	0.000000  	1.000000
- 0.266  	      0  	0.000000  	1.000000
- 0.269  	      0  	0.000000  	1.000000
- 0.272  	      0  	0.000000  	1.000000
- 0.275  	      0  	0.000000  	1.000000
- 0.278  	      0  	0.000000  	1.000000
- 0.281  	      0  	0.000000  	1.000000
- 0.284  	      0  	0.000000  	1.000000
- 0.287  	      0  	0.000000  	1.000000
- 0.290  	      0  	0.000000  	1.000000
- 0.293  	      0  	0.000000  	1.000000
- 0.296  	      0  	0.000000  	1.000000
- 0.299  	      0  	0.000000  	1.000000
- 0.302  	      0  	0.000000  	1.000000
- 0.306  	      0  	0.000000  	1.000000
- 0.310  	      0  	0.000000  	1.000000
- 0.314  	      0  	0.000000  	1.000000
- 0.318  	      0  	0.000000  	1.000000
- 0.322  	      0  	0.000000  	1.000000
- 0.326  	      0  	0.000000  	1.000000
- 0.330  	      0  	0.000000  	1.000000
- 0.334  	      0  	0.000000  	1.000000
- 0.338  	      0  	0.000000  	1.000000
- 0.342  	      0  	0.000000  	1.000000
- 0.346  	      0  	0.000000  	1.000000
- 0.350  	      0  	0.000000  	1.000000
- 0.354  	      0  	0.000000  	1.000000
- 0.358  	      0  	0.000000  	1.000000
- 0.362  	      0  	0.000000  	1.000000
- 0.366  	      0  	0.000000  	1.000000
- 0.370  	      0  	0.000000  	1.000000
- 0.374  	      0  	0.000000  	1.000000
- 0.378  	      0  	0.000000  	1.000000
- 0.382  	      0  	0.000000  	1.000000
- 0.386  	      0  	0.000000  	1.000000
- 0.390  	      0  	0.000000  	1.000000
- 0.394  	      0  	0.000000  	1.000000
- 0.398  	      0  	0.000000  	1.000000
- 0.402  	      0  	0.000000  	1.000000
- 0.407  	      0  	0.000000  	1.000000
- 0.412  	      0  	0.000000  	1.000000
- 0.417  	      0  	0.000000  	1.000000
- 0.422  	      0  	0.000000  	1.000000
- 0.427  	      0  	0.000000  	1.000000
- 0.432  	      0  	0.000000  	1.000000
- 0.437  	      0  	0.000000  	1.000000
- 0.442  	      0  	0.000000  	1.000000
- 0.447  	      0  	0.000000  	1.000000
- 0.452  	      0  	0.000000  	1.000000
- 0.457  	      0  	0.000000  	1.000000
- 0.462  	      0  	0.000000  	1.000000
- 0.467  	      0  	0.000000  	1.000000
- 0.472  	      0  	0.000000  	1.000000
- 0.477  	      0  	0.000000  	1.000000
- 0.482  	      0  	0.000000  	1.000000
- 0.487  	      0  	0.000000  	1.000000
- 0.492  	      0  	0.000000  	1.000000
- 0.497  	      0  	0.000000  	1.000000
- 0.502  	      0  	0.000000  	1.000000
- 0.508  	      0  	0.000000  	1.000000
- 0.514  	      0  	0.000000  	1.000000
- 0.520  	      0  	0.000000  	1.000000
- 0.526  	      0  	0.000000  	1.000000
- 0.532  	      0  	0.000000  	1.000000
- 0.538  	      0  	0.000000  	1.000000
- 0.544  	      0  	0.000000  	1.000000
- 0.550  	      0  	0.000000  	1.000000
- 0.556  	      0  	0.000000  	1.000000
- 0.562  	      0  	0.000000  	1.000000
- 0.568  	      0  	0.000000  	1.000000
- 0.574  	      0  	0.000000  	1.000000
- 0.580  	      0  	0.000000  	1.000000
- 0.586  	      0  	0.000000  	1.000000
- 0.592  	      0  	0.000000  	1.000000
- 0.598  	      0  	0.000000  	1.000000
- 0.604  	      0  	0.000000  	1.000000
- 0.611  	      0  	0.000000  	1.000000
- 0.618  	      0  	0.000000  	1.000000
- 0.625  	      0  	0.000000  	1.000000
- 0.632  	      0  	0.000000  	1.000000
- 0.639  	      0  	0.000000  	1.000000
- 0.646  	      0  	0.000000  	1.000000
- 0.653  	      0  	0.000000  	1.000000
- 0.660  	      0  	0.000000  	1.000000
- 0.667  	      0  	0.000000  	1.000000
- 0.674  	      0  	0.000000  	1.000000
- 0.681  	      0  	0.000000  	1.000000
- 0.688  	      0  	0.000000  	1.000000
- 0.695  	      0  	0.000000  	1.000000
- 0.702  	      0  	0.000000  	1.000000
- 0.710  	      0  	0.000000  	1.000000
- 0.718  	      0  	0.000000  	1.000000
- 0.726  	      0  	0.000000  	1.000000
- 0.734  	      0  	0.000000  	1.000000
- 0.742  	      0  	0.000000  	1.000000
- 0.750  	      0  	0.000000  	1.000000
- 0.758  	      0  	0.000000  	1.000000
- 0.766  	      0  	0.000000  	1.000000
- 0.774  	      0  	0.000000  	1.000000
- 0.782  	      0  	0.000000  	1.000000
- 0.790  	      0  	0.000000  	1.000000
- 0.798  	      0  	0.000000  	1.000000
- 0.806  	      0  	0.000000  	1.000000
- 0.815  	      0  	0.000000  	1.000000
- 0.824  	      0  	0.000000  	1.000000
- 0.833  	      0  	0.000000  	1.000000
- 0.842  	      0  	0.000000  	1.000000
- 0.851  	      0  	0.000000  	1.000000
- 0.860  	      0  	0.000000  	1.000000
- 0.869  	      0  	0.000000  	1.000000
- 0.878  	      0  	0.000000  	1.000000
- 0.887  	      0  	0.000000  	1.000000
- 0.896  	      0  	0.000000  	1.000000
- 0.905  	      0  	0.000000  	1.000000
- 0.915  	      0  	0.000000  	1.000000
- 0.925  	      0  	0.000000  	1.000000
- 0.935  	      0  	0.000000  	1.000000
- 0.945  	      0  	0.000000  	1.000000
- 0.955  	      0  	0.000000  	1.000000
- 0.965  	      0  	0.000000  	1.000000
- 0.975  	      0  	0.000000  	1.000000
- 0.985  	      0  	0.000000  	1.000000
- 0.995  	      0  	0.000000  	1.000000
- 1.005  	      0  	0.000000  	1.000000
- 1.016  	      0  	0.000000  	1.000000
- 1.027  	      0  	0.000000  	1.000000
- 1.038  	      0  	0.000000  	1.000000
- 1.049  	      0  	0.000000  	1.000000
- 1.060  	      0  	0.000000  	1.000000
- 1.071  	      0  	0.000000  	1.000000
- 1.082  	      0  	0.000000  	1.000000
- 1.093  	      0  	0.000000  	1.000000
- 1.104  	      0  	0.000000  	1.000000
- 1.116  	      0  	0.000000  	1.000000
- 1.128  	      0  	0.000000  	1.000000
- 1.140  	      0  	0.000000  	1.000000
- 1.152  	      0  	0.000000  	1.000000
- 1.164  	      0  	0.000000  	1.000000
- 1.176  	      0  	0.000000  	1.000000
- 1.188  	      0  	0.000000  	1.000000
- 1.200  	      0  	0.000000  	1.000000
- 1.213  	      0  	0.000000  	1.000000
- 1.226  	      0  	0.000000  	1.000000
- 1.239  	      0  	0.000000  	1.000000
- 1.252  	      0  	0.000000  	1.000000
- 1.265  	      0  	0.000000  	1.000000
- 1.278  	      0  	0.000000  	1.000000
- 1.291  	      0  	0.000000  	1.000000
- 1.304  	      0  	0.000000  	1.000000
- 1.318  	      0  	0.000000  	1.000000
- 1.332  	      0  	0.000000  	1.000000
- 1.346  	      0  	0.000000  	1.000000
- 1.360  	      0  	0.000000  	1.000000
- 1.374  	      0  	0.000000  	1.000000
- 1.388  	      0  	0.000000  	1.000000
- 1.402  	      0  	0.000000  	1.000000
- 1.417  	      0  	0.000000  	1.000000
- 1.432  	      0  	0.000000  	1.000000
- 1.447  	      0  	0.000000  	1.000000
- 1.462  	      0  	0.000000  	1.000000
- 1.477  	      0  	0.000000  	1.000000
- 1.492  	      0  	0.000000  	1.000000
- 1.507  	      0  	0.000000  	1.000000
- 1.523  	      0  	0.000000  	1.000000
- 1.539  	      0  	0.000000  	1.000000
- 1.555  	      0  	0.000000  	1.000000
- 1.571  	      0  	0.000000  	1.000000
- 1.587  	      0  	0.000000  	1.000000
- 1.603  	      0  	0.000000  	1.000000
- 1.620  	      0  	0.000000  	1.000000
- 1.637  	      0  	0.000000  	1.000000
- 1.654  	      0  	0.000000  	1.000000
- 1.671  	      0  	0.000000  	1.000000
- 1.688  	      0  	0.000000  	1.000000
- 1.705  	      0  	0.000000  	1.000000
- 1.723  	      0  	0.000000  	1.000000
- 1.741  	      0  	0.000000  	1.000000
- 1.759  	      0  	0.000000  	1.000000
- 1.777  	      0  	0.000000  	1.000000
- 1.795  	      0  	0.000000  	1.000000
- 1.813  	      0  	0.000000  	1.000000
- 1.832  	      0  	0.000000  	1.000000
- 1.851  	      0  	0.000000  	1.000000
- 1.870  	      0  	0.000000  	1.000000
- 1.889  	      0  	0.000000  	1.000000
- 1.908  	      0  	0.000000  	1.000000
- 1.928  	      0  	0.000000  	1.000000
- 1.948  	      0  	0.000000  	1.000000
- 1.968  	      0  	0.000000  	1.000000
- 1.988  	      0  	0.000000  	1.000000
- 2.008  	      0  	0.000000  	1.000000
- 2.029  	      0  	0.000000  	1.000000
- 2.050  	      0  	0.000000  	1.000000
- 2.071  	      0  	0.000000  	1.000000
- 2.092  	      0  	0.000000  	1.000000
- 2.113  	      0  	0.000000  	1.000000
- 2.135  	      0  	0.000000  	1.000000
- 2.157  	      0  	0.000000  	1.000000
- 2.179  	      0  	0.000000  	1.000000
- 2.201  	      0  	0.000000  	1.000000
- 2.224  	      0  	0.000000  	1.000000
- 2.247  	      0  	0.000000  	1.000000
- 2.270  	      0  	0.000000  	1.000000
- 2.293  	      0  	0.000000  	1.000000
- 2.316  	      0  	0.000000  	1.000000
- 2.340  	      0  	0.000000  	1.000000
- 2.364  	      0  	0.000000  	1.000000
- 2.388  	      0  	0.000000  	1.000000
- 2.412  	      0  	0.000000  	1.000000
- 2.437  	      0  	0.000000  	1.000000
- 2.462  	      0  	0.000000  	1.000000
- 2.487  	      0  	0.000000  	1.000000
- 2.512  	      0  	0.000000  	1.000000
- 2.538  	      0  	0.000000  	1.000000
- 2.564  	      0  	0.000000  	1.000000
- 2.590  	      0  	0.000000  	1.000000
- 2.616  	      0  	0.000000  	1.000000
- 2.643  	      0  	0.000000  	1.000000
- 2.670  	      0  	0.000000  	1.000000
- 2.697  	      0  	0.000000  	1.000000
- 2.724  	      0  	0.000000  	1.000000
- 2.752  	      0  	0.000000  	1.000000
- 2.780  	      0  	0.000000  	1.000000
- 2.808  	      0  	0.000000  	1.000000
- 2.837  	      0  	0.000000  	1.000000
- 2.866  	      0  	0.000000  	1.000000
- 2.895  	      0  	0.000000  	1.000000
- 2.924  	      0  	0.000000  	1.000000
- 2.954  	      0  	0.000000  	1.000000
- 2.984  	      0  	0.000000  	1.000000
- 3.014  	      0  	0.000000  	1.000000
- 3.045  	      0  	0.000000  	1.000000
- 3.076  	      0  	0.000000  	1.000000
- 3.107  	      0  	0.000000  	1.000000
- 3.139  	      0  	0.000000  	1.000000
- 3.171  	      0  	0.000000  	1.000000
- 3.203  	      0  	0.000000  	1.000000
- 3.236  	      0  	0.000000  	1.000000
- 3.269  	      0  	0.000000  	1.000000
- 3.302  	      0  	0.000000  	1.000000
- 3.336  	      0  	0.000000  	1.000000
- 3.370  	      0  	0.000000  	1.000000
- 3.404  	      0  	0.000000  	1.000000
- 3.439  	      0  	0.000000  	1.000000
- 3.474  	      0  	0.000000  	1.000000
- 3.509  	      0  	0.000000  	1.000000
- 3.545  	      0  	0.000000  	1.000000
- 3.581  	      0  	0.000000  	1.000000
- 3.617  	      0  	0.000000  	1.000000
- 3.654  	      0  	0.000000  	1.000000
- 3.691  	      0  	0.000000  	1.000000
- 3.728  	      0  	0.000000  	1.000000
- 3.766  	      0  	0.000000  	1.000000
- 3.804  	      0  	0.000000  	1.000000
- 3.843  	      0  	0.000000  	1.000000
- 3.882  	      0  	0.000000  	1.000000
- 3.921  	      0  	0.000000  	1.000000
- 3.961  	      0  	0.000000  	1.000000
- 4.001  	      0  	0.000000  	1.000000
- 4.042  	      0  	0.000000  	1.000000
- 4.083  	      0  	0.000000  	1.000000
- 4.124  	      0  	0.000000  	1.000000
- 4.166  	      0  	0.000000  	1.000000
- 4.208  	      0  	0.000000  	1.000000
- 4.251  	      0  	0.000000  	1.000000
- 4.294  	      0  	0.000000  	1.000000
- 4.337  	      0  	0.000000  	1.000000
- 4.381  	      0  	0.000000  	1.000000
- 4.425  	      0  	0.000000  	1.000000
- 4.470  	      0  	0.000000  	1.000000
- 4.515  	      0  	0.000000  	1.000000
- 4.561  	      0  	0.000000  	1.000000
- 4.607  	      0  	0.000000  	1.000000
- 4.654  	      0  	0.000000  	1.000000
- 4.701  	      0  	0.000000  	1.000000
- 4.749  	      0  	0.000000  	1.000000
- 4.797  	      0  	0.000000  	1.000000
- 4.845  	      0  	0.000000  	1.000000
- 4.894  	      0  	0.000000  	1.000000
- 4.943  	      0  	0.000000  	1.000000
- 4.993  	      0  	0.000000  	1.000000
- 5.043  	      0  	0.000000  	1.000000
- 5.094  	      0  	0.000000  	1.000000
- 5.145  	      0  	0.000000  	1.000000
- 5.197  	      0  	0.000000  	1.000000
- 5.249  	      0  	0.000000  	1.000000
- 5.302  	      0  	0.000000  	1.000000
- 5.356  	      0  	0.000000  	1.000000
- 5.410  	      0  	0.000000  	1.000000
- 5.465  	      0  	0.000000  	1.000000
- 5.520  	      0  	0.000000  	1.000000
- 5.576  	      0  	0.000000  	1.000000
- 5.632  	      0  	0.000000  	1.000000
- 5.689  	      0  	0.000000  	1.000000
- 5.746  	      0  	0.000000  	1.000000
- 5.804  	      0  	0.000000  	1.000000
- 5.863  	      0  	0.000000  	1.000000
- 5.922  	      0  	0.000000  	1.000000
- 5.982  	      0  	0.000000  	1.000000
- 6.042  	      0  	0.000000  	1.000000
- 6.103  	      0  	0.000000  	1.000000
- 6.165  	      0  	0.000000  	1.000000
- 6.227  	      0  	0.000000  	1.000000
- 6.290  	      0  	0.000000  	1.000000
- 6.353  	      0  	0.000000  	1.000000
- 6.417  	      0  	0.000000  	1.000000
- 6.482  	      0  	0.000000  	1.000000
- 6.547  	      0  	0.000000  	1.000000
- 6.613  	      0  	0.000000  	1.000000
- 6.680  	      0  	0.000000  	1.000000
- 6.747  	      0  	0.000000  	1.000000
- 6.815  	      0  	0.000000  	1.000000
- 6.884  	      0  	0.000000  	1.000000
- 6.953  	      0  	0.000000  	1.000000
- 7.023  	      0  	0.000000  	1.000000
- 7.094  	      0  	0.000000  	1.000000
- 7.165  	      0  	0.000000  	1.000000
- 7.237  	      0  	0.000000  	1.000000
- 7.310  	      0  	0.000000  	1.000000
- 7.384  	      0  	0.000000  	1.000000
- 7.458  	      0  	0.000000  	1.000000
- 7.533  	      0  	0.000000  	1.000000
- 7.609  	      0  	0.000000  	1.000000
- 7.686  	      0  	0.000000  	1.000000
- 7.763  	      0  	0.000000  	1.000000
- 7.841  	      0  	0.000000  	1.000000
- 7.920  	      0  	0.000000  	1.000000
- 8.000  	      0  	0.000000  	1.000000
- 8.081  	      0  	0.000000  	1.000000
- 8.162  	      0  	0.000000  	1.000000
- 8.244  	      0  	0.000000  	1.000000
- 8.327  	      0  	0.000000  	1.000000
- 8.411  	      0  	0.000000  	1.000000
- 8.496  	      0  	0.000000  	1.000000
- 8.581  	      0  	0.000000  	1.000000
- 8.667  	      0  	0.000000  	1.000000
- 8.754  	      0  	0.000000  	1.000000
- 8.842  	      0  	0.000000  	1.000000
- 8.931  	      0  	0.000000  	1.000000
- 9.021  	      0  	0.000000  	1.000000
- 9.112  	      0  	0.000000  	1.000000
- 9.204  	      0  	0.000000  	1.000000
- 9.297  	      0  	0.000000  	1.000000
- 9.390  	      0  	0.000000  	1.000000
- 9.484  	      0  	0.000000  	1.000000
- 9.579  	      0  	0.000000  	1.000000
- 9.675  	      0  	0.000000  	1.000000
- 9.772  	      0  	0.000000  	1.000000
- 9.870  	      0  	0.000000  	1.000000
- 9.969  	      0  	0.000000  	1.000000
-10.069  	      0  	0.000000  	1.000000
-10.170  	      0  	0.000000  	1.000000
-10.272  	      0  	0.000000  	1.000000
-10.375  	      0  	0.000000  	1.000000
-10.479  	      0  	0.000000  	1.000000
-10.584  	      0  	0.000000  	1.000000
-10.690  	      0  	0.000000  	1.000000
+ 0.093  	   2040  	0.006318  	0.006318
+ 0.094  	      0  	0.000000  	0.006318
+ 0.095  	      0  	0.000000  	0.006318
+ 0.096  	      0  	0.000000  	0.006318
+ 0.097  	      0  	0.000000  	0.006318
+ 0.098  	      0  	0.000000  	0.006318
+ 0.099  	      0  	0.000000  	0.006318
+ 0.100  	      0  	0.000000  	0.006318
+ 0.102  	      0  	0.000000  	0.006318
+ 0.104  	      0  	0.000000  	0.006318
+ 0.106  	      0  	0.000000  	0.006318
+ 0.108  	      0  	0.000000  	0.006318
+ 0.110  	      0  	0.000000  	0.006318
+ 0.112  	      0  	0.000000  	0.006318
+ 0.114  	      0  	0.000000  	0.006318
+ 0.116  	      0  	0.000000  	0.006318
+ 0.118  	      0  	0.000000  	0.006318
+ 0.120  	      0  	0.000000  	0.006318
+ 0.122  	      0  	0.000000  	0.006318
+ 0.124  	      0  	0.000000  	0.006318
+ 0.126  	      0  	0.000000  	0.006318
+ 0.128  	      0  	0.000000  	0.006318
+ 0.130  	      0  	0.000000  	0.006318
+ 0.132  	      0  	0.000000  	0.006318
+ 0.134  	      0  	0.000000  	0.006318
+ 0.136  	      0  	0.000000  	0.006318
+ 0.138  	      0  	0.000000  	0.006318
+ 0.140  	      0  	0.000000  	0.006318
+ 0.142  	      0  	0.000000  	0.006318
+ 0.144  	      0  	0.000000  	0.006318
+ 0.146  	      0  	0.000000  	0.006318
+ 0.148  	      0  	0.000000  	0.006318
+ 0.150  	      0  	0.000000  	0.006318
+ 0.152  	      0  	0.000000  	0.006318
+ 0.154  	      0  	0.000000  	0.006318
+ 0.156  	      0  	0.000000  	0.006318
+ 0.158  	      0  	0.000000  	0.006318
+ 0.160  	      0  	0.000000  	0.006318
+ 0.162  	 127137  	0.393767  	0.400085
+ 0.164  	      0  	0.000000  	0.400085
+ 0.166  	      0  	0.000000  	0.400085
+ 0.168  	      0  	0.000000  	0.400085
+ 0.170  	      0  	0.000000  	0.400085
+ 0.172  	      0  	0.000000  	0.400085
+ 0.174  	      0  	0.000000  	0.400085
+ 0.176  	      0  	0.000000  	0.400085
+ 0.178  	      0  	0.000000  	0.400085
+ 0.180  	      0  	0.000000  	0.400085
+ 0.182  	      0  	0.000000  	0.400085
+ 0.184  	      0  	0.000000  	0.400085
+ 0.186  	  14755  	0.045699  	0.445784
+ 0.188  	      0  	0.000000  	0.445784
+ 0.190  	      0  	0.000000  	0.445784
+ 0.192  	      0  	0.000000  	0.445784
+ 0.194  	      0  	0.000000  	0.445784
+ 0.196  	      0  	0.000000  	0.445784
+ 0.198  	      0  	0.000000  	0.445784
+ 0.200  	      0  	0.000000  	0.445784
+ 0.203  	      0  	0.000000  	0.445784
+ 0.206  	      0  	0.000000  	0.445784
+ 0.209  	      0  	0.000000  	0.445784
+ 0.212  	      0  	0.000000  	0.445784
+ 0.215  	      0  	0.000000  	0.445784
+ 0.218  	      0  	0.000000  	0.445784
+ 0.221  	      0  	0.000000  	0.445784
+ 0.224  	      0  	0.000000  	0.445784
+ 0.227  	      0  	0.000000  	0.445784
+ 0.230  	      0  	0.000000  	0.445784
+ 0.233  	      0  	0.000000  	0.445784
+ 0.236  	      0  	0.000000  	0.445784
+ 0.239  	      0  	0.000000  	0.445784
+ 0.242  	      0  	0.000000  	0.445784
+ 0.245  	      0  	0.000000  	0.445784
+ 0.248  	      0  	0.000000  	0.445784
+ 0.251  	      0  	0.000000  	0.445784
+ 0.254  	      0  	0.000000  	0.445784
+ 0.257  	      0  	0.000000  	0.445784
+ 0.260  	      0  	0.000000  	0.445784
+ 0.263  	      0  	0.000000  	0.445784
+ 0.266  	      0  	0.000000  	0.445784
+ 0.269  	      0  	0.000000  	0.445784
+ 0.272  	      0  	0.000000  	0.445784
+ 0.275  	      0  	0.000000  	0.445784
+ 0.278  	      0  	0.000000  	0.445784
+ 0.281  	  13679  	0.042366  	0.488150
+ 0.284  	      0  	0.000000  	0.488150
+ 0.287  	      0  	0.000000  	0.488150
+ 0.290  	      0  	0.000000  	0.488150
+ 0.293  	      0  	0.000000  	0.488150
+ 0.296  	      0  	0.000000  	0.488150
+ 0.299  	      0  	0.000000  	0.488150
+ 0.302  	      0  	0.000000  	0.488150
+ 0.306  	      0  	0.000000  	0.488150
+ 0.310  	      0  	0.000000  	0.488150
+ 0.314  	      0  	0.000000  	0.488150
+ 0.318  	      0  	0.000000  	0.488150
+ 0.322  	      0  	0.000000  	0.488150
+ 0.326  	 121882  	0.377491  	0.865641
+ 0.330  	      0  	0.000000  	0.865641
+ 0.334  	      0  	0.000000  	0.865641
+ 0.338  	      0  	0.000000  	0.865641
+ 0.342  	      0  	0.000000  	0.865641
+ 0.346  	      0  	0.000000  	0.865641
+ 0.350  	      0  	0.000000  	0.865641
+ 0.354  	      0  	0.000000  	0.865641
+ 0.358  	      0  	0.000000  	0.865641
+ 0.362  	      0  	0.000000  	0.865641
+ 0.366  	      0  	0.000000  	0.865641
+ 0.370  	      0  	0.000000  	0.865641
+ 0.374  	     10  	0.000031  	0.865672
+ 0.378  	      0  	0.000000  	0.865672
+ 0.382  	      0  	0.000000  	0.865672
+ 0.386  	      0  	0.000000  	0.865672
+ 0.390  	      0  	0.000000  	0.865672
+ 0.394  	      0  	0.000000  	0.865672
+ 0.398  	      0  	0.000000  	0.865672
+ 0.402  	      0  	0.000000  	0.865672
+ 0.407  	      0  	0.000000  	0.865672
+ 0.412  	      0  	0.000000  	0.865672
+ 0.417  	      0  	0.000000  	0.865672
+ 0.422  	      0  	0.000000  	0.865672
+ 0.427  	      0  	0.000000  	0.865672
+ 0.432  	      0  	0.000000  	0.865672
+ 0.437  	      0  	0.000000  	0.865672
+ 0.442  	      0  	0.000000  	0.865672
+ 0.447  	      0  	0.000000  	0.865672
+ 0.452  	      0  	0.000000  	0.865672
+ 0.457  	      0  	0.000000  	0.865672
+ 0.462  	      0  	0.000000  	0.865672
+ 0.467  	      5  	0.000015  	0.865688
+ 0.472  	      0  	0.000000  	0.865688
+ 0.477  	      0  	0.000000  	0.865688
+ 0.482  	      0  	0.000000  	0.865688
+ 0.487  	  32819  	0.101646  	0.967334
+ 0.492  	      0  	0.000000  	0.967334
+ 0.497  	      0  	0.000000  	0.967334
+ 0.502  	      0  	0.000000  	0.967334
+ 0.508  	      0  	0.000000  	0.967334
+ 0.514  	      0  	0.000000  	0.967334
+ 0.520  	      0  	0.000000  	0.967334
+ 0.526  	      0  	0.000000  	0.967334
+ 0.532  	      0  	0.000000  	0.967334
+ 0.538  	      0  	0.000000  	0.967334
+ 0.544  	      0  	0.000000  	0.967334
+ 0.550  	      0  	0.000000  	0.967334
+ 0.556  	      0  	0.000000  	0.967334
+ 0.562  	      0  	0.000000  	0.967334
+ 0.568  	      0  	0.000000  	0.967334
+ 0.574  	      0  	0.000000  	0.967334
+ 0.580  	      0  	0.000000  	0.967334
+ 0.586  	      0  	0.000000  	0.967334
+ 0.592  	      0  	0.000000  	0.967334
+ 0.598  	      0  	0.000000  	0.967334
+ 0.604  	      0  	0.000000  	0.967334
+ 0.611  	      0  	0.000000  	0.967334
+ 0.618  	      0  	0.000000  	0.967334
+ 0.625  	      0  	0.000000  	0.967334
+ 0.632  	      0  	0.000000  	0.967334
+ 0.639  	      0  	0.000000  	0.967334
+ 0.646  	     13  	0.000040  	0.967374
+ 0.653  	      1  	0.000003  	0.967377
+ 0.660  	      0  	0.000000  	0.967377
+ 0.667  	      0  	0.000000  	0.967377
+ 0.674  	      0  	0.000000  	0.967377
+ 0.681  	      0  	0.000000  	0.967377
+ 0.688  	      0  	0.000000  	0.967377
+ 0.695  	      0  	0.000000  	0.967377
+ 0.702  	      0  	0.000000  	0.967377
+ 0.710  	      0  	0.000000  	0.967377
+ 0.718  	      0  	0.000000  	0.967377
+ 0.726  	      0  	0.000000  	0.967377
+ 0.734  	      0  	0.000000  	0.967377
+ 0.742  	      1  	0.000003  	0.967380
+ 0.750  	      0  	0.000000  	0.967380
+ 0.758  	      0  	0.000000  	0.967380
+ 0.766  	      0  	0.000000  	0.967380
+ 0.774  	      0  	0.000000  	0.967380
+ 0.782  	      0  	0.000000  	0.967380
+ 0.790  	      0  	0.000000  	0.967380
+ 0.798  	      0  	0.000000  	0.967380
+ 0.806  	      0  	0.000000  	0.967380
+ 0.815  	      8  	0.000025  	0.967405
+ 0.824  	      0  	0.000000  	0.967405
+ 0.833  	      0  	0.000000  	0.967405
+ 0.842  	      0  	0.000000  	0.967405
+ 0.851  	      0  	0.000000  	0.967405
+ 0.860  	      0  	0.000000  	0.967405
+ 0.869  	      0  	0.000000  	0.967405
+ 0.878  	      0  	0.000000  	0.967405
+ 0.887  	      0  	0.000000  	0.967405
+ 0.896  	      0  	0.000000  	0.967405
+ 0.905  	      0  	0.000000  	0.967405
+ 0.915  	      0  	0.000000  	0.967405
+ 0.925  	      0  	0.000000  	0.967405
+ 0.935  	      0  	0.000000  	0.967405
+ 0.945  	      0  	0.000000  	0.967405
+ 0.955  	      0  	0.000000  	0.967405
+ 0.965  	      0  	0.000000  	0.967405
+ 0.975  	      1  	0.000003  	0.967408
+ 0.985  	      0  	0.000000  	0.967408
+ 0.995  	      0  	0.000000  	0.967408
+ 1.005  	      0  	0.000000  	0.967408
+ 1.016  	      0  	0.000000  	0.967408
+ 1.027  	      0  	0.000000  	0.967408
+ 1.038  	      0  	0.000000  	0.967408
+ 1.049  	      0  	0.000000  	0.967408
+ 1.060  	      0  	0.000000  	0.967408
+ 1.071  	      0  	0.000000  	0.967408
+ 1.082  	      0  	0.000000  	0.967408
+ 1.093  	      0  	0.000000  	0.967408
+ 1.104  	      0  	0.000000  	0.967408
+ 1.116  	      1  	0.000003  	0.967411
+ 1.128  	      0  	0.000000  	0.967411
+ 1.140  	      3  	0.000009  	0.967421
+ 1.152  	      0  	0.000000  	0.967421
+ 1.164  	      0  	0.000000  	0.967421
+ 1.176  	      0  	0.000000  	0.967421
+ 1.188  	      0  	0.000000  	0.967421
+ 1.200  	      0  	0.000000  	0.967421
+ 1.213  	      0  	0.000000  	0.967421
+ 1.226  	      0  	0.000000  	0.967421
+ 1.239  	      0  	0.000000  	0.967421
+ 1.252  	      0  	0.000000  	0.967421
+ 1.265  	      0  	0.000000  	0.967421
+ 1.278  	      0  	0.000000  	0.967421
+ 1.291  	      0  	0.000000  	0.967421
+ 1.304  	      2  	0.000006  	0.967427
+ 1.318  	      0  	0.000000  	0.967427
+ 1.332  	      0  	0.000000  	0.967427
+ 1.346  	      0  	0.000000  	0.967427
+ 1.360  	      0  	0.000000  	0.967427
+ 1.374  	      0  	0.000000  	0.967427
+ 1.388  	      0  	0.000000  	0.967427
+ 1.402  	      1  	0.000003  	0.967430
+ 1.417  	      0  	0.000000  	0.967430
+ 1.432  	      0  	0.000000  	0.967430
+ 1.447  	      0  	0.000000  	0.967430
+ 1.462  	      8  	0.000025  	0.967455
+ 1.477  	      0  	0.000000  	0.967455
+ 1.492  	     35  	0.000108  	0.967563
+ 1.507  	      0  	0.000000  	0.967563
+ 1.523  	      0  	0.000000  	0.967563
+ 1.539  	      0  	0.000000  	0.967563
+ 1.555  	      0  	0.000000  	0.967563
+ 1.571  	      0  	0.000000  	0.967563
+ 1.587  	    120  	0.000372  	0.967935
+ 1.603  	      0  	0.000000  	0.967935
+ 1.620  	      0  	0.000000  	0.967935
+ 1.637  	      0  	0.000000  	0.967935
+ 1.654  	      0  	0.000000  	0.967935
+ 1.671  	    953  	0.002952  	0.970886
+ 1.688  	      0  	0.000000  	0.970886
+ 1.705  	      0  	0.000000  	0.970886
+ 1.723  	      0  	0.000000  	0.970886
+ 1.741  	      0  	0.000000  	0.970886
+ 1.759  	      0  	0.000000  	0.970886
+ 1.777  	      0  	0.000000  	0.970886
+ 1.795  	      0  	0.000000  	0.970886
+ 1.813  	      0  	0.000000  	0.970886
+ 1.832  	   1913  	0.005925  	0.976811
+ 1.851  	      0  	0.000000  	0.976811
+ 1.870  	      0  	0.000000  	0.976811
+ 1.889  	      0  	0.000000  	0.976811
+ 1.908  	      0  	0.000000  	0.976811
+ 1.928  	      0  	0.000000  	0.976811
+ 1.948  	      1  	0.000003  	0.976814
+ 1.968  	      0  	0.000000  	0.976814
+ 1.988  	    815  	0.002524  	0.979339
+ 2.008  	      0  	0.000000  	0.979339
+ 2.029  	      0  	0.000000  	0.979339
+ 2.050  	      0  	0.000000  	0.979339
+ 2.071  	      0  	0.000000  	0.979339
+ 2.092  	      0  	0.000000  	0.979339
+ 2.113  	      2  	0.000006  	0.979345
+ 2.135  	      0  	0.000000  	0.979345
+ 2.157  	      0  	0.000000  	0.979345
+ 2.179  	      0  	0.000000  	0.979345
+ 2.201  	      0  	0.000000  	0.979345
+ 2.224  	      0  	0.000000  	0.979345
+ 2.247  	      0  	0.000000  	0.979345
+ 2.270  	      1  	0.000003  	0.979348
+ 2.293  	      0  	0.000000  	0.979348
+ 2.316  	      1  	0.000003  	0.979351
+ 2.340  	      0  	0.000000  	0.979351
+ 2.364  	      0  	0.000000  	0.979351
+ 2.388  	      0  	0.000000  	0.979351
+ 2.412  	      0  	0.000000  	0.979351
+ 2.437  	      2  	0.000006  	0.979357
+ 2.462  	      0  	0.000000  	0.979357
+ 2.487  	      1  	0.000003  	0.979360
+ 2.512  	      0  	0.000000  	0.979360
+ 2.538  	      0  	0.000000  	0.979360
+ 2.564  	      0  	0.000000  	0.979360
+ 2.590  	      2  	0.000006  	0.979367
+ 2.616  	      0  	0.000000  	0.979367
+ 2.643  	      1  	0.000003  	0.979370
+ 2.670  	      0  	0.000000  	0.979370
+ 2.697  	      0  	0.000000  	0.979370
+ 2.724  	      0  	0.000000  	0.979370
+ 2.752  	      0  	0.000000  	0.979370
+ 2.780  	      0  	0.000000  	0.979370
+ 2.808  	      0  	0.000000  	0.979370
+ 2.837  	      0  	0.000000  	0.979370
+ 2.866  	      0  	0.000000  	0.979370
+ 2.895  	      0  	0.000000  	0.979370
+ 2.924  	      3  	0.000009  	0.979379
+ 2.954  	      1  	0.000003  	0.979382
+ 2.984  	      0  	0.000000  	0.979382
+ 3.014  	      0  	0.000000  	0.979382
+ 3.045  	      0  	0.000000  	0.979382
+ 3.076  	      1  	0.000003  	0.979385
+ 3.107  	      0  	0.000000  	0.979385
+ 3.139  	      0  	0.000000  	0.979385
+ 3.171  	      0  	0.000000  	0.979385
+ 3.203  	      0  	0.000000  	0.979385
+ 3.236  	      1  	0.000003  	0.979388
+ 3.269  	      0  	0.000000  	0.979388
+ 3.302  	      1  	0.000003  	0.979391
+ 3.336  	      0  	0.000000  	0.979391
+ 3.370  	      0  	0.000000  	0.979391
+ 3.404  	      2  	0.000006  	0.979398
+ 3.439  	    167  	0.000517  	0.979915
+ 3.474  	      0  	0.000000  	0.979915
+ 3.509  	      0  	0.000000  	0.979915
+ 3.545  	      0  	0.000000  	0.979915
+ 3.581  	     32  	0.000099  	0.980014
+ 3.617  	    421  	0.001304  	0.981318
+ 3.654  	      0  	0.000000  	0.981318
+ 3.691  	      0  	0.000000  	0.981318
+ 3.728  	    148  	0.000458  	0.981776
+ 3.766  	    189  	0.000585  	0.982362
+ 3.804  	      0  	0.000000  	0.982362
+ 3.843  	     18  	0.000056  	0.982417
+ 3.882  	    157  	0.000486  	0.982904
+ 3.921  	     30  	0.000093  	0.982996
+ 3.961  	      1  	0.000003  	0.983000
+ 4.001  	     82  	0.000254  	0.983254
+ 4.042  	     65  	0.000201  	0.983455
+ 4.083  	      1  	0.000003  	0.983458
+ 4.124  	      6  	0.000019  	0.983477
+ 4.166  	    107  	0.000331  	0.983808
+ 4.208  	      3  	0.000009  	0.983817
+ 4.251  	     20  	0.000062  	0.983879
+ 4.294  	     41  	0.000127  	0.984006
+ 4.337  	      0  	0.000000  	0.984006
+ 4.381  	      7  	0.000022  	0.984028
+ 4.425  	     37  	0.000115  	0.984142
+ 4.470  	      0  	0.000000  	0.984142
+ 4.515  	     12  	0.000037  	0.984180
+ 4.561  	     21  	0.000065  	0.984245
+ 4.607  	      1  	0.000003  	0.984248
+ 4.654  	      3  	0.000009  	0.984257
+ 4.701  	     28  	0.000087  	0.984344
+ 4.749  	      1  	0.000003  	0.984347
+ 4.797  	     19  	0.000059  	0.984406
+ 4.845  	     17  	0.000053  	0.984458
+ 4.894  	      1  	0.000003  	0.984461
+ 4.943  	     36  	0.000111  	0.984573
+ 4.993  	      3  	0.000009  	0.984582
+ 5.043  	     36  	0.000111  	0.984694
+ 5.094  	     23  	0.000071  	0.984765
+ 5.145  	      9  	0.000028  	0.984793
+ 5.197  	   1302  	0.004033  	0.988825
+ 5.249  	     72  	0.000223  	0.989048
+ 5.302  	      0  	0.000000  	0.989048
+ 5.356  	   1268  	0.003927  	0.992976
+ 5.410  	     20  	0.000062  	0.993038
+ 5.465  	      9  	0.000028  	0.993065
+ 5.520  	     60  	0.000186  	0.993251
+ 5.576  	      1  	0.000003  	0.993254
+ 5.632  	     40  	0.000124  	0.993378
+ 5.689  	      0  	0.000000  	0.993378
+ 5.746  	     18  	0.000056  	0.993434
+ 5.804  	      2  	0.000006  	0.993440
+ 5.863  	      2  	0.000006  	0.993446
+ 5.922  	      3  	0.000009  	0.993456
+ 5.982  	      0  	0.000000  	0.993456
+ 6.042  	      3  	0.000009  	0.993465
+ 6.103  	      0  	0.000000  	0.993465
+ 6.165  	      0  	0.000000  	0.993465
+ 6.227  	      0  	0.000000  	0.993465
+ 6.290  	      0  	0.000000  	0.993465
+ 6.353  	      2  	0.000006  	0.993471
+ 6.417  	      0  	0.000000  	0.993471
+ 6.482  	      0  	0.000000  	0.993471
+ 6.547  	      1  	0.000003  	0.993474
+ 6.613  	      0  	0.000000  	0.993474
+ 6.680  	    903  	0.002797  	0.996271
+ 6.747  	      0  	0.000000  	0.996271
+ 6.815  	      0  	0.000000  	0.996271
+ 6.884  	    964  	0.002986  	0.999257
+ 6.953  	      0  	0.000000  	0.999257
+ 7.023  	      0  	0.000000  	0.999257
+ 7.094  	      0  	0.000000  	0.999257
+ 7.165  	      0  	0.000000  	0.999257
+ 7.237  	      0  	0.000000  	0.999257
+ 7.310  	      0  	0.000000  	0.999257
+ 7.384  	      0  	0.000000  	0.999257
+ 7.458  	      0  	0.000000  	0.999257
+ 7.533  	      0  	0.000000  	0.999257
+ 7.609  	      0  	0.000000  	0.999257
+ 7.686  	      0  	0.000000  	0.999257
+ 7.763  	      0  	0.000000  	0.999257
+ 7.841  	      0  	0.000000  	0.999257
+ 7.920  	      0  	0.000000  	0.999257
+ 8.000  	      0  	0.000000  	0.999257
+ 8.081  	      0  	0.000000  	0.999257
+ 8.162  	      0  	0.000000  	0.999257
+ 8.244  	      0  	0.000000  	0.999257
+ 8.327  	      0  	0.000000  	0.999257
+ 8.411  	      0  	0.000000  	0.999257
+ 8.496  	    106  	0.000328  	0.999585
+ 8.581  	      0  	0.000000  	0.999585
+ 8.667  	    113  	0.000350  	0.999935
+ 8.754  	      0  	0.000000  	0.999935
+ 8.842  	      0  	0.000000  	0.999935
+ 8.931  	      0  	0.000000  	0.999935
+ 9.021  	      0  	0.000000  	0.999935
+ 9.112  	      0  	0.000000  	0.999935
+ 9.204  	      0  	0.000000  	0.999935
+ 9.297  	      0  	0.000000  	0.999935
+ 9.390  	      0  	0.000000  	0.999935
+ 9.484  	      0  	0.000000  	0.999935
+ 9.579  	      2  	0.000006  	0.999941
+ 9.675  	      0  	0.000000  	0.999941
+ 9.772  	      0  	0.000000  	0.999941
+ 9.870  	      2  	0.000006  	0.999947
+ 9.969  	      1  	0.000003  	0.999950
+10.069  	      3  	0.000009  	0.999960
+10.170  	      2  	0.000006  	0.999966
+10.272  	      6  	0.000019  	0.999985
+10.375  	      4  	0.000012  	0.999997
+10.479  	      0  	0.000000  	0.999997
+10.584  	      0  	0.000000  	0.999997
+10.690  	      1  	0.000003  	1.000000
 10.797  	      0  	0.000000  	1.000000
 10.905  	      0  	0.000000  	1.000000
 11.015  	      0  	0.000000  	1.000000
@@ -5909,37 +5909,37 @@ IOdriver Write inter-arrival maximum:	0
 IOdriver Write inter-arrival distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
       0       0       0       0       0       0       0       0       0       0 
-IOdriver Number of idle periods:  255140
-IOdriver Idle period length average: 	0.881621
-IOdriver Idle period length std.dev.:	0.593894
-IOdriver Idle period length maximum:	47.328525
+IOdriver Number of idle periods:  289433
+IOdriver Idle period length average: 	148.492219
+IOdriver Idle period length std.dev.:	453.854969
+IOdriver Idle period length maximum:	27682.211525
 IOdriver Idle period length distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
- 254415     535     102      29      32      13      10       4       0       0 
-IOdriver Request size average: 	4.000000
-IOdriver Request size std.dev.:	0.000000
-IOdriver Request size maximum:	4
+    681   16122   12808   16294    2356   14158   26864   20575   33858  145717 
+IOdriver Request size average: 	8.757841
+IOdriver Request size std.dev.:	14.956276
+IOdriver Request size maximum:	132
 IOdriver Request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-IOdriver Read request size average: 	0.000000
-IOdriver Read request size std.dev.:	0.000000
-IOdriver Read request size maximum:	0
+      0       0       0  130662       0  139616   47725      23      15    4834 
+IOdriver Read request size average: 	9.826938
+IOdriver Read request size std.dev.:	4.770955
+IOdriver Read request size maximum:	68
 IOdriver Read request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0       0       0       0       0       0       0       0 
-IOdriver Write request size average: 	4.000000
-IOdriver Write request size std.dev.:	0.000000
-IOdriver Write request size maximum:	4
+      0       0       0    2040       0   14755   13679      10       5     159 
+IOdriver Write request size average: 	8.645717
+IOdriver Write request size std.dev.:	15.640671
+IOdriver Write request size maximum:	132
 IOdriver Write request size distribution
    =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
-      0       0       0  255140       0       0       0       0       0       0 
-IOdriver Instantaneous queue length average: 	1.000000
-IOdriver Instantaneous queue length std.dev.:	0.000000
-IOdriver Instantaneous queue length maximum:	1
+      0       0       0  128622       0  124861   34046      13      10    4675 
+IOdriver Instantaneous queue length average: 	1.016911
+IOdriver Instantaneous queue length std.dev.:	0.197386
+IOdriver Instantaneous queue length maximum:	7
 IOdriver Instantaneous queue length distribution
    =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
- 255140       0       0       0       0       0       0       0       0       0 
+ 319532    2187     584     471     101       0       0       0       0       0 
 IOdriver Sub-optimal mapping penalty average: 	0.000000
 IOdriver Sub-optimal mapping penalty std.dev.:	0.000000
 IOdriver Sub-optimal mapping penalty maximum:	0
@@ -5947,12 +5947,12 @@ IOdriver Sub-optimal mapping penalty distribution
    = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    <  4      4+
       0       0       0       0       0       0       0       0       0       0 
 IOdriver Base queue statistics
-IOdriver base Response time average: 	0.161475
-IOdriver base Response time std.dev.:	0.000000
-IOdriver base Response time maximum:	0.161475
+IOdriver base Response time average: 	0.429880
+IOdriver base Response time std.dev.:	0.802131
+IOdriver base Response time maximum:	13.925750
 IOdriver base Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 310653    4459    2064    5446     252       0       0       0       0       0 
 IOdriver base Critical Reads:      	     0  	0.000000
 IOdriver base Critical Read Response time average: 	0.000000
 IOdriver base Critical Read Response time std.dev.:	0.000000
@@ -5960,13 +5960,13 @@ IOdriver base Critical Read Response time maximum:	0
 IOdriver base Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-IOdriver base Non-Critical Reads:  	     0  	0.000000
-IOdriver base Non-Critical Read Response time average: 	0.000000
-IOdriver base Non-Critical Read Response time std.dev.:	0.000000
-IOdriver base Non-Critical Read Response time maximum:	0
+IOdriver base Non-Critical Reads:  	 30648  	0.094922
+IOdriver base Non-Critical Read Response time average: 	0.236192
+IOdriver base Non-Critical Read Response time std.dev.:	0.127112
+IOdriver base Non-Critical Read Response time maximum:	3.818275
 IOdriver base Non-Critical Read Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
-      0       0       0       0       0       0       0       0       0       0 
+  30476     166       6       0       0       0       0       0       0       0 
 IOdriver base Critical Writes:     	     0  	0.000000
 IOdriver base Critical Write Response time average: 	0.000000
 IOdriver base Critical Write Response time std.dev.:	0.000000
@@ -5974,28 +5974,28 @@ IOdriver base Critical Write Response time maximum:	0
 IOdriver base Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
       0       0       0       0       0       0       0       0       0       0 
-IOdriver base Non-Critical Writes: 	255139  	0.999996
-IOdriver base Non-Critical Write Response time average: 	0.161475
-IOdriver base Non-Critical Write Response time std.dev.:	0.000000
-IOdriver base Non-Critical Write Response time maximum:	0.161475
+IOdriver base Non-Critical Writes: 	292226  	0.905075
+IOdriver base Non-Critical Write Response time average: 	0.450193
+IOdriver base Non-Critical Write Response time std.dev.:	0.839555
+IOdriver base Non-Critical Write Response time maximum:	13.925750
 IOdriver base Non-Critical Write Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
-IOdriver base Average # requests:      0.154803
-IOdriver base Maximum # requests:      1
+ 280177    4293    2058    5446     252       0       0       0       0       0 
+IOdriver base Average # requests:      0.003220
+IOdriver base Maximum # requests:      8
 IOdriver base End # requests:          1
-IOdriver base Average queue length:    0.000000
-IOdriver base Maximum queue length:    1
+IOdriver base Average queue length:    0.000302
+IOdriver base Maximum queue length:    7
 IOdriver base End queued requests:     0
-IOdriver base Queue time average: 	0.000000
-IOdriver base Queue time std.dev.:	0.000000
-IOdriver base Queue time maximum:	0
+IOdriver base Queue time average: 	0.040329
+IOdriver base Queue time std.dev.:	0.190173
+IOdriver base Queue time maximum:	8.597075
 IOdriver base Queue time distribution
    <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
- 255140       0       0       0       0       0       0       0       0       0 
-IOdriver base Physical access time average: 	0.161475
-IOdriver base Physical access time std.dev.:	0.000000
-IOdriver base Physical access time maximum:	0.161475
+ 322824      51       0       0       0       0       0       0       0       0 
+IOdriver base Physical access time average: 	0.389551
+IOdriver base Physical access time std.dev.:	0.780554
+IOdriver base Physical access time maximum:	10.610075
 IOdriver base Physical access time distribution
  0.000  	      0  	0.000000  	0.000000
  0.001  	      0  	0.000000  	0.000000
@@ -6090,441 +6090,441 @@ IOdriver base Physical access time distribution
  0.090  	      0  	0.000000  	0.000000
  0.091  	      0  	0.000000  	0.000000
  0.092  	      0  	0.000000  	0.000000
- 0.093  	      0  	0.000000  	0.000000
- 0.094  	      0  	0.000000  	0.000000
- 0.095  	      0  	0.000000  	0.000000
- 0.096  	      0  	0.000000  	0.000000
- 0.097  	      0  	0.000000  	0.000000
- 0.098  	      0  	0.000000  	0.000000
- 0.099  	      0  	0.000000  	0.000000
- 0.100  	      0  	0.000000  	0.000000
- 0.102  	      0  	0.000000  	0.000000
- 0.104  	      0  	0.000000  	0.000000
- 0.106  	      0  	0.000000  	0.000000
- 0.108  	      0  	0.000000  	0.000000
- 0.110  	      0  	0.000000  	0.000000
- 0.112  	      0  	0.000000  	0.000000
- 0.114  	      0  	0.000000  	0.000000
- 0.116  	      0  	0.000000  	0.000000
- 0.118  	      0  	0.000000  	0.000000
- 0.120  	      0  	0.000000  	0.000000
- 0.122  	      0  	0.000000  	0.000000
- 0.124  	      0  	0.000000  	0.000000
- 0.126  	      0  	0.000000  	0.000000
- 0.128  	      0  	0.000000  	0.000000
- 0.130  	      0  	0.000000  	0.000000
- 0.132  	      0  	0.000000  	0.000000
- 0.134  	      0  	0.000000  	0.000000
- 0.136  	      0  	0.000000  	0.000000
- 0.138  	      0  	0.000000  	0.000000
- 0.140  	      0  	0.000000  	0.000000
- 0.142  	      0  	0.000000  	0.000000
- 0.144  	      0  	0.000000  	0.000000
- 0.146  	      0  	0.000000  	0.000000
- 0.148  	      0  	0.000000  	0.000000
- 0.150  	      0  	0.000000  	0.000000
- 0.152  	      0  	0.000000  	0.000000
- 0.154  	      0  	0.000000  	0.000000
- 0.156  	      0  	0.000000  	0.000000
- 0.158  	      0  	0.000000  	0.000000
- 0.160  	      0  	0.000000  	0.000000
- 0.162  	 255139  	1.000000  	1.000000
- 0.164  	      0  	0.000000  	1.000000
- 0.166  	      0  	0.000000  	1.000000
- 0.168  	      0  	0.000000  	1.000000
- 0.170  	      0  	0.000000  	1.000000
- 0.172  	      0  	0.000000  	1.000000
- 0.174  	      0  	0.000000  	1.000000
- 0.176  	      0  	0.000000  	1.000000
- 0.178  	      0  	0.000000  	1.000000
- 0.180  	      0  	0.000000  	1.000000
- 0.182  	      0  	0.000000  	1.000000
- 0.184  	      0  	0.000000  	1.000000
- 0.186  	      0  	0.000000  	1.000000
- 0.188  	      0  	0.000000  	1.000000
- 0.190  	      0  	0.000000  	1.000000
- 0.192  	      0  	0.000000  	1.000000
- 0.194  	      0  	0.000000  	1.000000
- 0.196  	      0  	0.000000  	1.000000
- 0.198  	      0  	0.000000  	1.000000
- 0.200  	      0  	0.000000  	1.000000
- 0.203  	      0  	0.000000  	1.000000
- 0.206  	      0  	0.000000  	1.000000
- 0.209  	      0  	0.000000  	1.000000
- 0.212  	      0  	0.000000  	1.000000
- 0.215  	      0  	0.000000  	1.000000
- 0.218  	      0  	0.000000  	1.000000
- 0.221  	      0  	0.000000  	1.000000
- 0.224  	      0  	0.000000  	1.000000
- 0.227  	      0  	0.000000  	1.000000
- 0.230  	      0  	0.000000  	1.000000
- 0.233  	      0  	0.000000  	1.000000
- 0.236  	      0  	0.000000  	1.000000
- 0.239  	      0  	0.000000  	1.000000
- 0.242  	      0  	0.000000  	1.000000
- 0.245  	      0  	0.000000  	1.000000
- 0.248  	      0  	0.000000  	1.000000
- 0.251  	      0  	0.000000  	1.000000
- 0.254  	      0  	0.000000  	1.000000
- 0.257  	      0  	0.000000  	1.000000
- 0.260  	      0  	0.000000  	1.000000
- 0.263  	      0  	0.000000  	1.000000
- 0.266  	      0  	0.000000  	1.000000
- 0.269  	      0  	0.000000  	1.000000
- 0.272  	      0  	0.000000  	1.000000
- 0.275  	      0  	0.000000  	1.000000
- 0.278  	      0  	0.000000  	1.000000
- 0.281  	      0  	0.000000  	1.000000
- 0.284  	      0  	0.000000  	1.000000
- 0.287  	      0  	0.000000  	1.000000
- 0.290  	      0  	0.000000  	1.000000
- 0.293  	      0  	0.000000  	1.000000
- 0.296  	      0  	0.000000  	1.000000
- 0.299  	      0  	0.000000  	1.000000
- 0.302  	      0  	0.000000  	1.000000
- 0.306  	      0  	0.000000  	1.000000
- 0.310  	      0  	0.000000  	1.000000
- 0.314  	      0  	0.000000  	1.000000
- 0.318  	      0  	0.000000  	1.000000
- 0.322  	      0  	0.000000  	1.000000
- 0.326  	      0  	0.000000  	1.000000
- 0.330  	      0  	0.000000  	1.000000
- 0.334  	      0  	0.000000  	1.000000
- 0.338  	      0  	0.000000  	1.000000
- 0.342  	      0  	0.000000  	1.000000
- 0.346  	      0  	0.000000  	1.000000
- 0.350  	      0  	0.000000  	1.000000
- 0.354  	      0  	0.000000  	1.000000
- 0.358  	      0  	0.000000  	1.000000
- 0.362  	      0  	0.000000  	1.000000
- 0.366  	      0  	0.000000  	1.000000
- 0.370  	      0  	0.000000  	1.000000
- 0.374  	      0  	0.000000  	1.000000
- 0.378  	      0  	0.000000  	1.000000
- 0.382  	      0  	0.000000  	1.000000
- 0.386  	      0  	0.000000  	1.000000
- 0.390  	      0  	0.000000  	1.000000
- 0.394  	      0  	0.000000  	1.000000
- 0.398  	      0  	0.000000  	1.000000
- 0.402  	      0  	0.000000  	1.000000
- 0.407  	      0  	0.000000  	1.000000
- 0.412  	      0  	0.000000  	1.000000
- 0.417  	      0  	0.000000  	1.000000
- 0.422  	      0  	0.000000  	1.000000
- 0.427  	      0  	0.000000  	1.000000
- 0.432  	      0  	0.000000  	1.000000
- 0.437  	      0  	0.000000  	1.000000
- 0.442  	      0  	0.000000  	1.000000
- 0.447  	      0  	0.000000  	1.000000
- 0.452  	      0  	0.000000  	1.000000
- 0.457  	      0  	0.000000  	1.000000
- 0.462  	      0  	0.000000  	1.000000
- 0.467  	      0  	0.000000  	1.000000
- 0.472  	      0  	0.000000  	1.000000
- 0.477  	      0  	0.000000  	1.000000
- 0.482  	      0  	0.000000  	1.000000
- 0.487  	      0  	0.000000  	1.000000
- 0.492  	      0  	0.000000  	1.000000
- 0.497  	      0  	0.000000  	1.000000
- 0.502  	      0  	0.000000  	1.000000
- 0.508  	      0  	0.000000  	1.000000
- 0.514  	      0  	0.000000  	1.000000
- 0.520  	      0  	0.000000  	1.000000
- 0.526  	      0  	0.000000  	1.000000
- 0.532  	      0  	0.000000  	1.000000
- 0.538  	      0  	0.000000  	1.000000
- 0.544  	      0  	0.000000  	1.000000
- 0.550  	      0  	0.000000  	1.000000
- 0.556  	      0  	0.000000  	1.000000
- 0.562  	      0  	0.000000  	1.000000
- 0.568  	      0  	0.000000  	1.000000
- 0.574  	      0  	0.000000  	1.000000
- 0.580  	      0  	0.000000  	1.000000
- 0.586  	      0  	0.000000  	1.000000
- 0.592  	      0  	0.000000  	1.000000
- 0.598  	      0  	0.000000  	1.000000
- 0.604  	      0  	0.000000  	1.000000
- 0.611  	      0  	0.000000  	1.000000
- 0.618  	      0  	0.000000  	1.000000
- 0.625  	      0  	0.000000  	1.000000
- 0.632  	      0  	0.000000  	1.000000
- 0.639  	      0  	0.000000  	1.000000
- 0.646  	      0  	0.000000  	1.000000
- 0.653  	      0  	0.000000  	1.000000
- 0.660  	      0  	0.000000  	1.000000
- 0.667  	      0  	0.000000  	1.000000
- 0.674  	      0  	0.000000  	1.000000
- 0.681  	      0  	0.000000  	1.000000
- 0.688  	      0  	0.000000  	1.000000
- 0.695  	      0  	0.000000  	1.000000
- 0.702  	      0  	0.000000  	1.000000
- 0.710  	      0  	0.000000  	1.000000
- 0.718  	      0  	0.000000  	1.000000
- 0.726  	      0  	0.000000  	1.000000
- 0.734  	      0  	0.000000  	1.000000
- 0.742  	      0  	0.000000  	1.000000
- 0.750  	      0  	0.000000  	1.000000
- 0.758  	      0  	0.000000  	1.000000
- 0.766  	      0  	0.000000  	1.000000
- 0.774  	      0  	0.000000  	1.000000
- 0.782  	      0  	0.000000  	1.000000
- 0.790  	      0  	0.000000  	1.000000
- 0.798  	      0  	0.000000  	1.000000
- 0.806  	      0  	0.000000  	1.000000
- 0.815  	      0  	0.000000  	1.000000
- 0.824  	      0  	0.000000  	1.000000
- 0.833  	      0  	0.000000  	1.000000
- 0.842  	      0  	0.000000  	1.000000
- 0.851  	      0  	0.000000  	1.000000
- 0.860  	      0  	0.000000  	1.000000
- 0.869  	      0  	0.000000  	1.000000
- 0.878  	      0  	0.000000  	1.000000
- 0.887  	      0  	0.000000  	1.000000
- 0.896  	      0  	0.000000  	1.000000
- 0.905  	      0  	0.000000  	1.000000
- 0.915  	      0  	0.000000  	1.000000
- 0.925  	      0  	0.000000  	1.000000
- 0.935  	      0  	0.000000  	1.000000
- 0.945  	      0  	0.000000  	1.000000
- 0.955  	      0  	0.000000  	1.000000
- 0.965  	      0  	0.000000  	1.000000
- 0.975  	      0  	0.000000  	1.000000
- 0.985  	      0  	0.000000  	1.000000
- 0.995  	      0  	0.000000  	1.000000
- 1.005  	      0  	0.000000  	1.000000
- 1.016  	      0  	0.000000  	1.000000
- 1.027  	      0  	0.000000  	1.000000
- 1.038  	      0  	0.000000  	1.000000
- 1.049  	      0  	0.000000  	1.000000
- 1.060  	      0  	0.000000  	1.000000
- 1.071  	      0  	0.000000  	1.000000
- 1.082  	      0  	0.000000  	1.000000
- 1.093  	      0  	0.000000  	1.000000
- 1.104  	      0  	0.000000  	1.000000
- 1.116  	      0  	0.000000  	1.000000
- 1.128  	      0  	0.000000  	1.000000
- 1.140  	      0  	0.000000  	1.000000
- 1.152  	      0  	0.000000  	1.000000
- 1.164  	      0  	0.000000  	1.000000
- 1.176  	      0  	0.000000  	1.000000
- 1.188  	      0  	0.000000  	1.000000
- 1.200  	      0  	0.000000  	1.000000
- 1.213  	      0  	0.000000  	1.000000
- 1.226  	      0  	0.000000  	1.000000
- 1.239  	      0  	0.000000  	1.000000
- 1.252  	      0  	0.000000  	1.000000
- 1.265  	      0  	0.000000  	1.000000
- 1.278  	      0  	0.000000  	1.000000
- 1.291  	      0  	0.000000  	1.000000
- 1.304  	      0  	0.000000  	1.000000
- 1.318  	      0  	0.000000  	1.000000
- 1.332  	      0  	0.000000  	1.000000
- 1.346  	      0  	0.000000  	1.000000
- 1.360  	      0  	0.000000  	1.000000
- 1.374  	      0  	0.000000  	1.000000
- 1.388  	      0  	0.000000  	1.000000
- 1.402  	      0  	0.000000  	1.000000
- 1.417  	      0  	0.000000  	1.000000
- 1.432  	      0  	0.000000  	1.000000
- 1.447  	      0  	0.000000  	1.000000
- 1.462  	      0  	0.000000  	1.000000
- 1.477  	      0  	0.000000  	1.000000
- 1.492  	      0  	0.000000  	1.000000
- 1.507  	      0  	0.000000  	1.000000
- 1.523  	      0  	0.000000  	1.000000
- 1.539  	      0  	0.000000  	1.000000
- 1.555  	      0  	0.000000  	1.000000
- 1.571  	      0  	0.000000  	1.000000
- 1.587  	      0  	0.000000  	1.000000
- 1.603  	      0  	0.000000  	1.000000
- 1.620  	      0  	0.000000  	1.000000
- 1.637  	      0  	0.000000  	1.000000
- 1.654  	      0  	0.000000  	1.000000
- 1.671  	      0  	0.000000  	1.000000
- 1.688  	      0  	0.000000  	1.000000
- 1.705  	      0  	0.000000  	1.000000
- 1.723  	      0  	0.000000  	1.000000
- 1.741  	      0  	0.000000  	1.000000
- 1.759  	      0  	0.000000  	1.000000
- 1.777  	      0  	0.000000  	1.000000
- 1.795  	      0  	0.000000  	1.000000
- 1.813  	      0  	0.000000  	1.000000
- 1.832  	      0  	0.000000  	1.000000
- 1.851  	      0  	0.000000  	1.000000
- 1.870  	      0  	0.000000  	1.000000
- 1.889  	      0  	0.000000  	1.000000
- 1.908  	      0  	0.000000  	1.000000
- 1.928  	      0  	0.000000  	1.000000
- 1.948  	      0  	0.000000  	1.000000
- 1.968  	      0  	0.000000  	1.000000
- 1.988  	      0  	0.000000  	1.000000
- 2.008  	      0  	0.000000  	1.000000
- 2.029  	      0  	0.000000  	1.000000
- 2.050  	      0  	0.000000  	1.000000
- 2.071  	      0  	0.000000  	1.000000
- 2.092  	      0  	0.000000  	1.000000
- 2.113  	      0  	0.000000  	1.000000
- 2.135  	      0  	0.000000  	1.000000
- 2.157  	      0  	0.000000  	1.000000
- 2.179  	      0  	0.000000  	1.000000
- 2.201  	      0  	0.000000  	1.000000
- 2.224  	      0  	0.000000  	1.000000
- 2.247  	      0  	0.000000  	1.000000
- 2.270  	      0  	0.000000  	1.000000
- 2.293  	      0  	0.000000  	1.000000
- 2.316  	      0  	0.000000  	1.000000
- 2.340  	      0  	0.000000  	1.000000
- 2.364  	      0  	0.000000  	1.000000
- 2.388  	      0  	0.000000  	1.000000
- 2.412  	      0  	0.000000  	1.000000
- 2.437  	      0  	0.000000  	1.000000
- 2.462  	      0  	0.000000  	1.000000
- 2.487  	      0  	0.000000  	1.000000
- 2.512  	      0  	0.000000  	1.000000
- 2.538  	      0  	0.000000  	1.000000
- 2.564  	      0  	0.000000  	1.000000
- 2.590  	      0  	0.000000  	1.000000
- 2.616  	      0  	0.000000  	1.000000
- 2.643  	      0  	0.000000  	1.000000
- 2.670  	      0  	0.000000  	1.000000
- 2.697  	      0  	0.000000  	1.000000
- 2.724  	      0  	0.000000  	1.000000
- 2.752  	      0  	0.000000  	1.000000
- 2.780  	      0  	0.000000  	1.000000
- 2.808  	      0  	0.000000  	1.000000
- 2.837  	      0  	0.000000  	1.000000
- 2.866  	      0  	0.000000  	1.000000
- 2.895  	      0  	0.000000  	1.000000
- 2.924  	      0  	0.000000  	1.000000
- 2.954  	      0  	0.000000  	1.000000
- 2.984  	      0  	0.000000  	1.000000
- 3.014  	      0  	0.000000  	1.000000
- 3.045  	      0  	0.000000  	1.000000
- 3.076  	      0  	0.000000  	1.000000
- 3.107  	      0  	0.000000  	1.000000
- 3.139  	      0  	0.000000  	1.000000
- 3.171  	      0  	0.000000  	1.000000
- 3.203  	      0  	0.000000  	1.000000
- 3.236  	      0  	0.000000  	1.000000
- 3.269  	      0  	0.000000  	1.000000
- 3.302  	      0  	0.000000  	1.000000
- 3.336  	      0  	0.000000  	1.000000
- 3.370  	      0  	0.000000  	1.000000
- 3.404  	      0  	0.000000  	1.000000
- 3.439  	      0  	0.000000  	1.000000
- 3.474  	      0  	0.000000  	1.000000
- 3.509  	      0  	0.000000  	1.000000
- 3.545  	      0  	0.000000  	1.000000
- 3.581  	      0  	0.000000  	1.000000
- 3.617  	      0  	0.000000  	1.000000
- 3.654  	      0  	0.000000  	1.000000
- 3.691  	      0  	0.000000  	1.000000
- 3.728  	      0  	0.000000  	1.000000
- 3.766  	      0  	0.000000  	1.000000
- 3.804  	      0  	0.000000  	1.000000
- 3.843  	      0  	0.000000  	1.000000
- 3.882  	      0  	0.000000  	1.000000
- 3.921  	      0  	0.000000  	1.000000
- 3.961  	      0  	0.000000  	1.000000
- 4.001  	      0  	0.000000  	1.000000
- 4.042  	      0  	0.000000  	1.000000
- 4.083  	      0  	0.000000  	1.000000
- 4.124  	      0  	0.000000  	1.000000
- 4.166  	      0  	0.000000  	1.000000
- 4.208  	      0  	0.000000  	1.000000
- 4.251  	      0  	0.000000  	1.000000
- 4.294  	      0  	0.000000  	1.000000
- 4.337  	      0  	0.000000  	1.000000
- 4.381  	      0  	0.000000  	1.000000
- 4.425  	      0  	0.000000  	1.000000
- 4.470  	      0  	0.000000  	1.000000
- 4.515  	      0  	0.000000  	1.000000
- 4.561  	      0  	0.000000  	1.000000
- 4.607  	      0  	0.000000  	1.000000
- 4.654  	      0  	0.000000  	1.000000
- 4.701  	      0  	0.000000  	1.000000
- 4.749  	      0  	0.000000  	1.000000
- 4.797  	      0  	0.000000  	1.000000
- 4.845  	      0  	0.000000  	1.000000
- 4.894  	      0  	0.000000  	1.000000
- 4.943  	      0  	0.000000  	1.000000
- 4.993  	      0  	0.000000  	1.000000
- 5.043  	      0  	0.000000  	1.000000
- 5.094  	      0  	0.000000  	1.000000
- 5.145  	      0  	0.000000  	1.000000
- 5.197  	      0  	0.000000  	1.000000
- 5.249  	      0  	0.000000  	1.000000
- 5.302  	      0  	0.000000  	1.000000
- 5.356  	      0  	0.000000  	1.000000
- 5.410  	      0  	0.000000  	1.000000
- 5.465  	      0  	0.000000  	1.000000
- 5.520  	      0  	0.000000  	1.000000
- 5.576  	      0  	0.000000  	1.000000
- 5.632  	      0  	0.000000  	1.000000
- 5.689  	      0  	0.000000  	1.000000
- 5.746  	      0  	0.000000  	1.000000
- 5.804  	      0  	0.000000  	1.000000
- 5.863  	      0  	0.000000  	1.000000
- 5.922  	      0  	0.000000  	1.000000
- 5.982  	      0  	0.000000  	1.000000
- 6.042  	      0  	0.000000  	1.000000
- 6.103  	      0  	0.000000  	1.000000
- 6.165  	      0  	0.000000  	1.000000
- 6.227  	      0  	0.000000  	1.000000
- 6.290  	      0  	0.000000  	1.000000
- 6.353  	      0  	0.000000  	1.000000
- 6.417  	      0  	0.000000  	1.000000
- 6.482  	      0  	0.000000  	1.000000
- 6.547  	      0  	0.000000  	1.000000
- 6.613  	      0  	0.000000  	1.000000
- 6.680  	      0  	0.000000  	1.000000
- 6.747  	      0  	0.000000  	1.000000
- 6.815  	      0  	0.000000  	1.000000
- 6.884  	      0  	0.000000  	1.000000
- 6.953  	      0  	0.000000  	1.000000
- 7.023  	      0  	0.000000  	1.000000
- 7.094  	      0  	0.000000  	1.000000
- 7.165  	      0  	0.000000  	1.000000
- 7.237  	      0  	0.000000  	1.000000
- 7.310  	      0  	0.000000  	1.000000
- 7.384  	      0  	0.000000  	1.000000
- 7.458  	      0  	0.000000  	1.000000
- 7.533  	      0  	0.000000  	1.000000
- 7.609  	      0  	0.000000  	1.000000
- 7.686  	      0  	0.000000  	1.000000
- 7.763  	      0  	0.000000  	1.000000
- 7.841  	      0  	0.000000  	1.000000
- 7.920  	      0  	0.000000  	1.000000
- 8.000  	      0  	0.000000  	1.000000
- 8.081  	      0  	0.000000  	1.000000
- 8.162  	      0  	0.000000  	1.000000
- 8.244  	      0  	0.000000  	1.000000
- 8.327  	      0  	0.000000  	1.000000
- 8.411  	      0  	0.000000  	1.000000
- 8.496  	      0  	0.000000  	1.000000
- 8.581  	      0  	0.000000  	1.000000
- 8.667  	      0  	0.000000  	1.000000
- 8.754  	      0  	0.000000  	1.000000
- 8.842  	      0  	0.000000  	1.000000
- 8.931  	      0  	0.000000  	1.000000
- 9.021  	      0  	0.000000  	1.000000
- 9.112  	      0  	0.000000  	1.000000
- 9.204  	      0  	0.000000  	1.000000
- 9.297  	      0  	0.000000  	1.000000
- 9.390  	      0  	0.000000  	1.000000
- 9.484  	      0  	0.000000  	1.000000
- 9.579  	      0  	0.000000  	1.000000
- 9.675  	      0  	0.000000  	1.000000
- 9.772  	      0  	0.000000  	1.000000
- 9.870  	      0  	0.000000  	1.000000
- 9.969  	      0  	0.000000  	1.000000
-10.069  	      0  	0.000000  	1.000000
-10.170  	      0  	0.000000  	1.000000
-10.272  	      0  	0.000000  	1.000000
-10.375  	      0  	0.000000  	1.000000
-10.479  	      0  	0.000000  	1.000000
-10.584  	      0  	0.000000  	1.000000
-10.690  	      0  	0.000000  	1.000000
+ 0.093  	   2040  	0.006318  	0.006318
+ 0.094  	      0  	0.000000  	0.006318
+ 0.095  	      0  	0.000000  	0.006318
+ 0.096  	      0  	0.000000  	0.006318
+ 0.097  	      0  	0.000000  	0.006318
+ 0.098  	      0  	0.000000  	0.006318
+ 0.099  	      0  	0.000000  	0.006318
+ 0.100  	      0  	0.000000  	0.006318
+ 0.102  	      0  	0.000000  	0.006318
+ 0.104  	      0  	0.000000  	0.006318
+ 0.106  	      0  	0.000000  	0.006318
+ 0.108  	      0  	0.000000  	0.006318
+ 0.110  	      0  	0.000000  	0.006318
+ 0.112  	      0  	0.000000  	0.006318
+ 0.114  	      0  	0.000000  	0.006318
+ 0.116  	      0  	0.000000  	0.006318
+ 0.118  	      0  	0.000000  	0.006318
+ 0.120  	      0  	0.000000  	0.006318
+ 0.122  	      0  	0.000000  	0.006318
+ 0.124  	      0  	0.000000  	0.006318
+ 0.126  	      0  	0.000000  	0.006318
+ 0.128  	      0  	0.000000  	0.006318
+ 0.130  	      0  	0.000000  	0.006318
+ 0.132  	      0  	0.000000  	0.006318
+ 0.134  	      0  	0.000000  	0.006318
+ 0.136  	      0  	0.000000  	0.006318
+ 0.138  	      0  	0.000000  	0.006318
+ 0.140  	      0  	0.000000  	0.006318
+ 0.142  	      0  	0.000000  	0.006318
+ 0.144  	      0  	0.000000  	0.006318
+ 0.146  	      0  	0.000000  	0.006318
+ 0.148  	      0  	0.000000  	0.006318
+ 0.150  	      0  	0.000000  	0.006318
+ 0.152  	      0  	0.000000  	0.006318
+ 0.154  	      0  	0.000000  	0.006318
+ 0.156  	      0  	0.000000  	0.006318
+ 0.158  	      0  	0.000000  	0.006318
+ 0.160  	      0  	0.000000  	0.006318
+ 0.162  	 127137  	0.393767  	0.400085
+ 0.164  	      0  	0.000000  	0.400085
+ 0.166  	      0  	0.000000  	0.400085
+ 0.168  	      0  	0.000000  	0.400085
+ 0.170  	      0  	0.000000  	0.400085
+ 0.172  	      0  	0.000000  	0.400085
+ 0.174  	      0  	0.000000  	0.400085
+ 0.176  	      0  	0.000000  	0.400085
+ 0.178  	      0  	0.000000  	0.400085
+ 0.180  	      0  	0.000000  	0.400085
+ 0.182  	      0  	0.000000  	0.400085
+ 0.184  	      0  	0.000000  	0.400085
+ 0.186  	  14755  	0.045699  	0.445784
+ 0.188  	      0  	0.000000  	0.445784
+ 0.190  	      0  	0.000000  	0.445784
+ 0.192  	      0  	0.000000  	0.445784
+ 0.194  	      0  	0.000000  	0.445784
+ 0.196  	      0  	0.000000  	0.445784
+ 0.198  	      0  	0.000000  	0.445784
+ 0.200  	      0  	0.000000  	0.445784
+ 0.203  	      0  	0.000000  	0.445784
+ 0.206  	      0  	0.000000  	0.445784
+ 0.209  	      0  	0.000000  	0.445784
+ 0.212  	      0  	0.000000  	0.445784
+ 0.215  	      0  	0.000000  	0.445784
+ 0.218  	      0  	0.000000  	0.445784
+ 0.221  	      0  	0.000000  	0.445784
+ 0.224  	      0  	0.000000  	0.445784
+ 0.227  	      0  	0.000000  	0.445784
+ 0.230  	      0  	0.000000  	0.445784
+ 0.233  	      0  	0.000000  	0.445784
+ 0.236  	      0  	0.000000  	0.445784
+ 0.239  	      0  	0.000000  	0.445784
+ 0.242  	      0  	0.000000  	0.445784
+ 0.245  	      0  	0.000000  	0.445784
+ 0.248  	      0  	0.000000  	0.445784
+ 0.251  	      0  	0.000000  	0.445784
+ 0.254  	      0  	0.000000  	0.445784
+ 0.257  	      0  	0.000000  	0.445784
+ 0.260  	      0  	0.000000  	0.445784
+ 0.263  	      0  	0.000000  	0.445784
+ 0.266  	      0  	0.000000  	0.445784
+ 0.269  	      0  	0.000000  	0.445784
+ 0.272  	      0  	0.000000  	0.445784
+ 0.275  	      0  	0.000000  	0.445784
+ 0.278  	      0  	0.000000  	0.445784
+ 0.281  	  13679  	0.042366  	0.488150
+ 0.284  	      0  	0.000000  	0.488150
+ 0.287  	      0  	0.000000  	0.488150
+ 0.290  	      0  	0.000000  	0.488150
+ 0.293  	      0  	0.000000  	0.488150
+ 0.296  	      0  	0.000000  	0.488150
+ 0.299  	      0  	0.000000  	0.488150
+ 0.302  	      0  	0.000000  	0.488150
+ 0.306  	      0  	0.000000  	0.488150
+ 0.310  	      0  	0.000000  	0.488150
+ 0.314  	      0  	0.000000  	0.488150
+ 0.318  	      0  	0.000000  	0.488150
+ 0.322  	      0  	0.000000  	0.488150
+ 0.326  	 121882  	0.377491  	0.865641
+ 0.330  	      0  	0.000000  	0.865641
+ 0.334  	      0  	0.000000  	0.865641
+ 0.338  	      0  	0.000000  	0.865641
+ 0.342  	      0  	0.000000  	0.865641
+ 0.346  	      0  	0.000000  	0.865641
+ 0.350  	      0  	0.000000  	0.865641
+ 0.354  	      0  	0.000000  	0.865641
+ 0.358  	      0  	0.000000  	0.865641
+ 0.362  	      0  	0.000000  	0.865641
+ 0.366  	      0  	0.000000  	0.865641
+ 0.370  	      0  	0.000000  	0.865641
+ 0.374  	     10  	0.000031  	0.865672
+ 0.378  	      0  	0.000000  	0.865672
+ 0.382  	      0  	0.000000  	0.865672
+ 0.386  	      0  	0.000000  	0.865672
+ 0.390  	      0  	0.000000  	0.865672
+ 0.394  	      0  	0.000000  	0.865672
+ 0.398  	      0  	0.000000  	0.865672
+ 0.402  	      0  	0.000000  	0.865672
+ 0.407  	      0  	0.000000  	0.865672
+ 0.412  	      0  	0.000000  	0.865672
+ 0.417  	      0  	0.000000  	0.865672
+ 0.422  	      0  	0.000000  	0.865672
+ 0.427  	      0  	0.000000  	0.865672
+ 0.432  	      0  	0.000000  	0.865672
+ 0.437  	      0  	0.000000  	0.865672
+ 0.442  	      0  	0.000000  	0.865672
+ 0.447  	      0  	0.000000  	0.865672
+ 0.452  	      0  	0.000000  	0.865672
+ 0.457  	      0  	0.000000  	0.865672
+ 0.462  	      0  	0.000000  	0.865672
+ 0.467  	      5  	0.000015  	0.865688
+ 0.472  	      0  	0.000000  	0.865688
+ 0.477  	      0  	0.000000  	0.865688
+ 0.482  	      0  	0.000000  	0.865688
+ 0.487  	  32819  	0.101646  	0.967334
+ 0.492  	      0  	0.000000  	0.967334
+ 0.497  	      0  	0.000000  	0.967334
+ 0.502  	      0  	0.000000  	0.967334
+ 0.508  	      0  	0.000000  	0.967334
+ 0.514  	      0  	0.000000  	0.967334
+ 0.520  	      0  	0.000000  	0.967334
+ 0.526  	      0  	0.000000  	0.967334
+ 0.532  	      0  	0.000000  	0.967334
+ 0.538  	      0  	0.000000  	0.967334
+ 0.544  	      0  	0.000000  	0.967334
+ 0.550  	      0  	0.000000  	0.967334
+ 0.556  	      0  	0.000000  	0.967334
+ 0.562  	      0  	0.000000  	0.967334
+ 0.568  	      0  	0.000000  	0.967334
+ 0.574  	      0  	0.000000  	0.967334
+ 0.580  	      0  	0.000000  	0.967334
+ 0.586  	      0  	0.000000  	0.967334
+ 0.592  	      0  	0.000000  	0.967334
+ 0.598  	      0  	0.000000  	0.967334
+ 0.604  	      0  	0.000000  	0.967334
+ 0.611  	      0  	0.000000  	0.967334
+ 0.618  	      0  	0.000000  	0.967334
+ 0.625  	      0  	0.000000  	0.967334
+ 0.632  	      0  	0.000000  	0.967334
+ 0.639  	      0  	0.000000  	0.967334
+ 0.646  	     13  	0.000040  	0.967374
+ 0.653  	      1  	0.000003  	0.967377
+ 0.660  	      0  	0.000000  	0.967377
+ 0.667  	      0  	0.000000  	0.967377
+ 0.674  	      0  	0.000000  	0.967377
+ 0.681  	      0  	0.000000  	0.967377
+ 0.688  	      0  	0.000000  	0.967377
+ 0.695  	      0  	0.000000  	0.967377
+ 0.702  	      0  	0.000000  	0.967377
+ 0.710  	      0  	0.000000  	0.967377
+ 0.718  	      0  	0.000000  	0.967377
+ 0.726  	      0  	0.000000  	0.967377
+ 0.734  	      0  	0.000000  	0.967377
+ 0.742  	      1  	0.000003  	0.967380
+ 0.750  	      0  	0.000000  	0.967380
+ 0.758  	      0  	0.000000  	0.967380
+ 0.766  	      0  	0.000000  	0.967380
+ 0.774  	      0  	0.000000  	0.967380
+ 0.782  	      0  	0.000000  	0.967380
+ 0.790  	      0  	0.000000  	0.967380
+ 0.798  	      0  	0.000000  	0.967380
+ 0.806  	      0  	0.000000  	0.967380
+ 0.815  	      8  	0.000025  	0.967405
+ 0.824  	      0  	0.000000  	0.967405
+ 0.833  	      0  	0.000000  	0.967405
+ 0.842  	      0  	0.000000  	0.967405
+ 0.851  	      0  	0.000000  	0.967405
+ 0.860  	      0  	0.000000  	0.967405
+ 0.869  	      0  	0.000000  	0.967405
+ 0.878  	      0  	0.000000  	0.967405
+ 0.887  	      0  	0.000000  	0.967405
+ 0.896  	      0  	0.000000  	0.967405
+ 0.905  	      0  	0.000000  	0.967405
+ 0.915  	      0  	0.000000  	0.967405
+ 0.925  	      0  	0.000000  	0.967405
+ 0.935  	      0  	0.000000  	0.967405
+ 0.945  	      0  	0.000000  	0.967405
+ 0.955  	      0  	0.000000  	0.967405
+ 0.965  	      0  	0.000000  	0.967405
+ 0.975  	      1  	0.000003  	0.967408
+ 0.985  	      0  	0.000000  	0.967408
+ 0.995  	      0  	0.000000  	0.967408
+ 1.005  	      0  	0.000000  	0.967408
+ 1.016  	      0  	0.000000  	0.967408
+ 1.027  	      0  	0.000000  	0.967408
+ 1.038  	      0  	0.000000  	0.967408
+ 1.049  	      0  	0.000000  	0.967408
+ 1.060  	      0  	0.000000  	0.967408
+ 1.071  	      0  	0.000000  	0.967408
+ 1.082  	      0  	0.000000  	0.967408
+ 1.093  	      0  	0.000000  	0.967408
+ 1.104  	      0  	0.000000  	0.967408
+ 1.116  	      1  	0.000003  	0.967411
+ 1.128  	      0  	0.000000  	0.967411
+ 1.140  	      3  	0.000009  	0.967421
+ 1.152  	      0  	0.000000  	0.967421
+ 1.164  	      0  	0.000000  	0.967421
+ 1.176  	      0  	0.000000  	0.967421
+ 1.188  	      0  	0.000000  	0.967421
+ 1.200  	      0  	0.000000  	0.967421
+ 1.213  	      0  	0.000000  	0.967421
+ 1.226  	      0  	0.000000  	0.967421
+ 1.239  	      0  	0.000000  	0.967421
+ 1.252  	      0  	0.000000  	0.967421
+ 1.265  	      0  	0.000000  	0.967421
+ 1.278  	      0  	0.000000  	0.967421
+ 1.291  	      0  	0.000000  	0.967421
+ 1.304  	      2  	0.000006  	0.967427
+ 1.318  	      0  	0.000000  	0.967427
+ 1.332  	      0  	0.000000  	0.967427
+ 1.346  	      0  	0.000000  	0.967427
+ 1.360  	      0  	0.000000  	0.967427
+ 1.374  	      0  	0.000000  	0.967427
+ 1.388  	      0  	0.000000  	0.967427
+ 1.402  	      1  	0.000003  	0.967430
+ 1.417  	      0  	0.000000  	0.967430
+ 1.432  	      0  	0.000000  	0.967430
+ 1.447  	      0  	0.000000  	0.967430
+ 1.462  	      8  	0.000025  	0.967455
+ 1.477  	      0  	0.000000  	0.967455
+ 1.492  	     35  	0.000108  	0.967563
+ 1.507  	      0  	0.000000  	0.967563
+ 1.523  	      0  	0.000000  	0.967563
+ 1.539  	      0  	0.000000  	0.967563
+ 1.555  	      0  	0.000000  	0.967563
+ 1.571  	      0  	0.000000  	0.967563
+ 1.587  	    120  	0.000372  	0.967935
+ 1.603  	      0  	0.000000  	0.967935
+ 1.620  	      0  	0.000000  	0.967935
+ 1.637  	      0  	0.000000  	0.967935
+ 1.654  	      0  	0.000000  	0.967935
+ 1.671  	    953  	0.002952  	0.970886
+ 1.688  	      0  	0.000000  	0.970886
+ 1.705  	      0  	0.000000  	0.970886
+ 1.723  	      0  	0.000000  	0.970886
+ 1.741  	      0  	0.000000  	0.970886
+ 1.759  	      0  	0.000000  	0.970886
+ 1.777  	      0  	0.000000  	0.970886
+ 1.795  	      0  	0.000000  	0.970886
+ 1.813  	      0  	0.000000  	0.970886
+ 1.832  	   1913  	0.005925  	0.976811
+ 1.851  	      0  	0.000000  	0.976811
+ 1.870  	      0  	0.000000  	0.976811
+ 1.889  	      0  	0.000000  	0.976811
+ 1.908  	      0  	0.000000  	0.976811
+ 1.928  	      0  	0.000000  	0.976811
+ 1.948  	      1  	0.000003  	0.976814
+ 1.968  	      0  	0.000000  	0.976814
+ 1.988  	    815  	0.002524  	0.979339
+ 2.008  	      0  	0.000000  	0.979339
+ 2.029  	      0  	0.000000  	0.979339
+ 2.050  	      0  	0.000000  	0.979339
+ 2.071  	      0  	0.000000  	0.979339
+ 2.092  	      0  	0.000000  	0.979339
+ 2.113  	      2  	0.000006  	0.979345
+ 2.135  	      0  	0.000000  	0.979345
+ 2.157  	      0  	0.000000  	0.979345
+ 2.179  	      0  	0.000000  	0.979345
+ 2.201  	      0  	0.000000  	0.979345
+ 2.224  	      0  	0.000000  	0.979345
+ 2.247  	      0  	0.000000  	0.979345
+ 2.270  	      1  	0.000003  	0.979348
+ 2.293  	      0  	0.000000  	0.979348
+ 2.316  	      1  	0.000003  	0.979351
+ 2.340  	      0  	0.000000  	0.979351
+ 2.364  	      0  	0.000000  	0.979351
+ 2.388  	      0  	0.000000  	0.979351
+ 2.412  	      0  	0.000000  	0.979351
+ 2.437  	      2  	0.000006  	0.979357
+ 2.462  	      0  	0.000000  	0.979357
+ 2.487  	      1  	0.000003  	0.979360
+ 2.512  	      0  	0.000000  	0.979360
+ 2.538  	      0  	0.000000  	0.979360
+ 2.564  	      0  	0.000000  	0.979360
+ 2.590  	      2  	0.000006  	0.979367
+ 2.616  	      0  	0.000000  	0.979367
+ 2.643  	      1  	0.000003  	0.979370
+ 2.670  	      0  	0.000000  	0.979370
+ 2.697  	      0  	0.000000  	0.979370
+ 2.724  	      0  	0.000000  	0.979370
+ 2.752  	      0  	0.000000  	0.979370
+ 2.780  	      0  	0.000000  	0.979370
+ 2.808  	      0  	0.000000  	0.979370
+ 2.837  	      0  	0.000000  	0.979370
+ 2.866  	      0  	0.000000  	0.979370
+ 2.895  	      0  	0.000000  	0.979370
+ 2.924  	      3  	0.000009  	0.979379
+ 2.954  	      1  	0.000003  	0.979382
+ 2.984  	      0  	0.000000  	0.979382
+ 3.014  	      0  	0.000000  	0.979382
+ 3.045  	      0  	0.000000  	0.979382
+ 3.076  	      1  	0.000003  	0.979385
+ 3.107  	      0  	0.000000  	0.979385
+ 3.139  	      0  	0.000000  	0.979385
+ 3.171  	      0  	0.000000  	0.979385
+ 3.203  	      0  	0.000000  	0.979385
+ 3.236  	      1  	0.000003  	0.979388
+ 3.269  	      0  	0.000000  	0.979388
+ 3.302  	      1  	0.000003  	0.979391
+ 3.336  	      0  	0.000000  	0.979391
+ 3.370  	      0  	0.000000  	0.979391
+ 3.404  	      2  	0.000006  	0.979398
+ 3.439  	    167  	0.000517  	0.979915
+ 3.474  	      0  	0.000000  	0.979915
+ 3.509  	      0  	0.000000  	0.979915
+ 3.545  	      0  	0.000000  	0.979915
+ 3.581  	     32  	0.000099  	0.980014
+ 3.617  	    421  	0.001304  	0.981318
+ 3.654  	      0  	0.000000  	0.981318
+ 3.691  	      0  	0.000000  	0.981318
+ 3.728  	    148  	0.000458  	0.981776
+ 3.766  	    189  	0.000585  	0.982362
+ 3.804  	      0  	0.000000  	0.982362
+ 3.843  	     18  	0.000056  	0.982417
+ 3.882  	    157  	0.000486  	0.982904
+ 3.921  	     30  	0.000093  	0.982996
+ 3.961  	      1  	0.000003  	0.983000
+ 4.001  	     82  	0.000254  	0.983254
+ 4.042  	     65  	0.000201  	0.983455
+ 4.083  	      1  	0.000003  	0.983458
+ 4.124  	      6  	0.000019  	0.983477
+ 4.166  	    107  	0.000331  	0.983808
+ 4.208  	      3  	0.000009  	0.983817
+ 4.251  	     20  	0.000062  	0.983879
+ 4.294  	     41  	0.000127  	0.984006
+ 4.337  	      0  	0.000000  	0.984006
+ 4.381  	      7  	0.000022  	0.984028
+ 4.425  	     37  	0.000115  	0.984142
+ 4.470  	      0  	0.000000  	0.984142
+ 4.515  	     12  	0.000037  	0.984180
+ 4.561  	     21  	0.000065  	0.984245
+ 4.607  	      1  	0.000003  	0.984248
+ 4.654  	      3  	0.000009  	0.984257
+ 4.701  	     28  	0.000087  	0.984344
+ 4.749  	      1  	0.000003  	0.984347
+ 4.797  	     19  	0.000059  	0.984406
+ 4.845  	     17  	0.000053  	0.984458
+ 4.894  	      1  	0.000003  	0.984461
+ 4.943  	     36  	0.000111  	0.984573
+ 4.993  	      3  	0.000009  	0.984582
+ 5.043  	     36  	0.000111  	0.984694
+ 5.094  	     23  	0.000071  	0.984765
+ 5.145  	      9  	0.000028  	0.984793
+ 5.197  	   1302  	0.004033  	0.988825
+ 5.249  	     72  	0.000223  	0.989048
+ 5.302  	      0  	0.000000  	0.989048
+ 5.356  	   1268  	0.003927  	0.992976
+ 5.410  	     20  	0.000062  	0.993038
+ 5.465  	      9  	0.000028  	0.993065
+ 5.520  	     60  	0.000186  	0.993251
+ 5.576  	      1  	0.000003  	0.993254
+ 5.632  	     40  	0.000124  	0.993378
+ 5.689  	      0  	0.000000  	0.993378
+ 5.746  	     18  	0.000056  	0.993434
+ 5.804  	      2  	0.000006  	0.993440
+ 5.863  	      2  	0.000006  	0.993446
+ 5.922  	      3  	0.000009  	0.993456
+ 5.982  	      0  	0.000000  	0.993456
+ 6.042  	      3  	0.000009  	0.993465
+ 6.103  	      0  	0.000000  	0.993465
+ 6.165  	      0  	0.000000  	0.993465
+ 6.227  	      0  	0.000000  	0.993465
+ 6.290  	      0  	0.000000  	0.993465
+ 6.353  	      2  	0.000006  	0.993471
+ 6.417  	      0  	0.000000  	0.993471
+ 6.482  	      0  	0.000000  	0.993471
+ 6.547  	      1  	0.000003  	0.993474
+ 6.613  	      0  	0.000000  	0.993474
+ 6.680  	    903  	0.002797  	0.996271
+ 6.747  	      0  	0.000000  	0.996271
+ 6.815  	      0  	0.000000  	0.996271
+ 6.884  	    964  	0.002986  	0.999257
+ 6.953  	      0  	0.000000  	0.999257
+ 7.023  	      0  	0.000000  	0.999257
+ 7.094  	      0  	0.000000  	0.999257
+ 7.165  	      0  	0.000000  	0.999257
+ 7.237  	      0  	0.000000  	0.999257
+ 7.310  	      0  	0.000000  	0.999257
+ 7.384  	      0  	0.000000  	0.999257
+ 7.458  	      0  	0.000000  	0.999257
+ 7.533  	      0  	0.000000  	0.999257
+ 7.609  	      0  	0.000000  	0.999257
+ 7.686  	      0  	0.000000  	0.999257
+ 7.763  	      0  	0.000000  	0.999257
+ 7.841  	      0  	0.000000  	0.999257
+ 7.920  	      0  	0.000000  	0.999257
+ 8.000  	      0  	0.000000  	0.999257
+ 8.081  	      0  	0.000000  	0.999257
+ 8.162  	      0  	0.000000  	0.999257
+ 8.244  	      0  	0.000000  	0.999257
+ 8.327  	      0  	0.000000  	0.999257
+ 8.411  	      0  	0.000000  	0.999257
+ 8.496  	    106  	0.000328  	0.999585
+ 8.581  	      0  	0.000000  	0.999585
+ 8.667  	    113  	0.000350  	0.999935
+ 8.754  	      0  	0.000000  	0.999935
+ 8.842  	      0  	0.000000  	0.999935
+ 8.931  	      0  	0.000000  	0.999935
+ 9.021  	      0  	0.000000  	0.999935
+ 9.112  	      0  	0.000000  	0.999935
+ 9.204  	      0  	0.000000  	0.999935
+ 9.297  	      0  	0.000000  	0.999935
+ 9.390  	      0  	0.000000  	0.999935
+ 9.484  	      0  	0.000000  	0.999935
+ 9.579  	      2  	0.000006  	0.999941
+ 9.675  	      0  	0.000000  	0.999941
+ 9.772  	      0  	0.000000  	0.999941
+ 9.870  	      2  	0.000006  	0.999947
+ 9.969  	      1  	0.000003  	0.999950
+10.069  	      3  	0.000009  	0.999960
+10.170  	      2  	0.000006  	0.999966
+10.272  	      6  	0.000019  	0.999985
+10.375  	      4  	0.000012  	0.999997
+10.479  	      0  	0.000000  	0.999997
+10.584  	      0  	0.000000  	0.999997
+10.690  	      1  	0.000003  	1.000000
 10.797  	      0  	0.000000  	1.000000
 10.905  	      0  	0.000000  	1.000000
 11.015  	      0  	0.000000  	1.000000
@@ -7763,30 +7763,30 @@ No simpledisk requests encountered
 simpleflash STATISTICS
 ---------------------
 
-simpleflash Total Requests handled:	255139
-simpleflash Requests per second:   	958.680966
-simpleflash Completely idle time:  	224936.889971   	0.845197
-simpleflash Response time average: 	0.161475
-simpleflash Response time std.dev.:	0.000000
-simpleflash Response time maximum:	0.161475
+simpleflash Total Requests handled:	322874
+simpleflash Requests per second:   	7.490525
+simpleflash Completely idle time:  	42978548.479729   	0.997082
+simpleflash Response time average: 	0.389551
+simpleflash Response time std.dev.:	0.780554
+simpleflash Response time maximum:	10.610075
 simpleflash Response time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 64    < 96    <128    128+
- 255139       0       0       0       0       0       0       0       0       0 
+ 312351    3852    1264    5167     240       0       0       0       0       0 
 simpleflash Overlaps combined:     	0	0.000000
 simpleflash Read overlaps combined:	0	0.000000	0.000000
-simpleflash Number of reads:         0  	0.000000
-simpleflash Number of writes:   255139  	1.000000
-simpleflash Sequential reads:        0  	0.000000  	0.000000
-simpleflash Sequential writes:  141393  	0.554180  	0.554180
-simpleflash Base SPTF/SDF Different:      0 / 255139 	0.000000
+simpleflash Number of reads:     30648  	0.094922
+simpleflash Number of writes:   292226  	0.905078
+simpleflash Sequential reads:      121  	0.003948  	0.000375
+simpleflash Sequential writes:    8464  	0.028964  	0.026215
+simpleflash Base SPTF/SDF Different:      0 / 322874 	0.000000
 simpleflash Timeout SPTF/SDF Different:      0 /      0 	0.000000
 simpleflash Priority SPTF/SDF Different:      0 /      0 	0.000000
-simpleflash runlistlen:              41198.570025
-simpleflash runoutstanding:          41198.570025
-simpleflash simtime:                 266135.459996
+simpleflash runlistlen:              125775.738271
+simpleflash runoutstanding:          125775.738271
+simpleflash simtime:                 43104324.218000
 simpleflash warmuptime:              0.000000
 simpleflash setsize:                 1
-simpleflash Average # requests:      0.154803
+simpleflash Average # requests:      0.002918
 simpleflash Maximum # requests:      1
 simpleflash End # requests:          0
 simpleflash Average queue length:    0.000000
@@ -7797,14 +7797,14 @@ simpleflash Queue time std.dev.:	0.000000
 simpleflash Queue time maximum:	0
 simpleflash Queue time distribution
    <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
- 255139       0       0       0       0       0       0       0       0       0 
-simpleflash Avg # read requests:     0.000000
-simpleflash Max # read requests:     0
-simpleflash Avg # write requests:    0.154803
+ 322874       0       0       0       0       0       0       0       0       0 
+simpleflash Avg # read requests:     0.000162
+simpleflash Max # read requests:     1
+simpleflash Avg # write requests:    0.002756
 simpleflash Max # write requests:    1
-simpleflash Physical access time average: 	0.161475
-simpleflash Physical access time std.dev.:	0.000000
-simpleflash Physical access time maximum:	0.161475
+simpleflash Physical access time average: 	0.389551
+simpleflash Physical access time std.dev.:	0.780554
+simpleflash Physical access time maximum:	10.610075
 simpleflash Physical access time distribution
  0.000  	      0  	0.000000  	0.000000
  0.001  	      0  	0.000000  	0.000000
@@ -7899,441 +7899,441 @@ simpleflash Physical access time distribution
  0.090  	      0  	0.000000  	0.000000
  0.091  	      0  	0.000000  	0.000000
  0.092  	      0  	0.000000  	0.000000
- 0.093  	      0  	0.000000  	0.000000
- 0.094  	      0  	0.000000  	0.000000
- 0.095  	      0  	0.000000  	0.000000
- 0.096  	      0  	0.000000  	0.000000
- 0.097  	      0  	0.000000  	0.000000
- 0.098  	      0  	0.000000  	0.000000
- 0.099  	      0  	0.000000  	0.000000
- 0.100  	      0  	0.000000  	0.000000
- 0.102  	      0  	0.000000  	0.000000
- 0.104  	      0  	0.000000  	0.000000
- 0.106  	      0  	0.000000  	0.000000
- 0.108  	      0  	0.000000  	0.000000
- 0.110  	      0  	0.000000  	0.000000
- 0.112  	      0  	0.000000  	0.000000
- 0.114  	      0  	0.000000  	0.000000
- 0.116  	      0  	0.000000  	0.000000
- 0.118  	      0  	0.000000  	0.000000
- 0.120  	      0  	0.000000  	0.000000
- 0.122  	      0  	0.000000  	0.000000
- 0.124  	      0  	0.000000  	0.000000
- 0.126  	      0  	0.000000  	0.000000
- 0.128  	      0  	0.000000  	0.000000
- 0.130  	      0  	0.000000  	0.000000
- 0.132  	      0  	0.000000  	0.000000
- 0.134  	      0  	0.000000  	0.000000
- 0.136  	      0  	0.000000  	0.000000
- 0.138  	      0  	0.000000  	0.000000
- 0.140  	      0  	0.000000  	0.000000
- 0.142  	      0  	0.000000  	0.000000
- 0.144  	      0  	0.000000  	0.000000
- 0.146  	      0  	0.000000  	0.000000
- 0.148  	      0  	0.000000  	0.000000
- 0.150  	      0  	0.000000  	0.000000
- 0.152  	      0  	0.000000  	0.000000
- 0.154  	      0  	0.000000  	0.000000
- 0.156  	      0  	0.000000  	0.000000
- 0.158  	      0  	0.000000  	0.000000
- 0.160  	      0  	0.000000  	0.000000
- 0.162  	 255139  	1.000000  	1.000000
- 0.164  	      0  	0.000000  	1.000000
- 0.166  	      0  	0.000000  	1.000000
- 0.168  	      0  	0.000000  	1.000000
- 0.170  	      0  	0.000000  	1.000000
- 0.172  	      0  	0.000000  	1.000000
- 0.174  	      0  	0.000000  	1.000000
- 0.176  	      0  	0.000000  	1.000000
- 0.178  	      0  	0.000000  	1.000000
- 0.180  	      0  	0.000000  	1.000000
- 0.182  	      0  	0.000000  	1.000000
- 0.184  	      0  	0.000000  	1.000000
- 0.186  	      0  	0.000000  	1.000000
- 0.188  	      0  	0.000000  	1.000000
- 0.190  	      0  	0.000000  	1.000000
- 0.192  	      0  	0.000000  	1.000000
- 0.194  	      0  	0.000000  	1.000000
- 0.196  	      0  	0.000000  	1.000000
- 0.198  	      0  	0.000000  	1.000000
- 0.200  	      0  	0.000000  	1.000000
- 0.203  	      0  	0.000000  	1.000000
- 0.206  	      0  	0.000000  	1.000000
- 0.209  	      0  	0.000000  	1.000000
- 0.212  	      0  	0.000000  	1.000000
- 0.215  	      0  	0.000000  	1.000000
- 0.218  	      0  	0.000000  	1.000000
- 0.221  	      0  	0.000000  	1.000000
- 0.224  	      0  	0.000000  	1.000000
- 0.227  	      0  	0.000000  	1.000000
- 0.230  	      0  	0.000000  	1.000000
- 0.233  	      0  	0.000000  	1.000000
- 0.236  	      0  	0.000000  	1.000000
- 0.239  	      0  	0.000000  	1.000000
- 0.242  	      0  	0.000000  	1.000000
- 0.245  	      0  	0.000000  	1.000000
- 0.248  	      0  	0.000000  	1.000000
- 0.251  	      0  	0.000000  	1.000000
- 0.254  	      0  	0.000000  	1.000000
- 0.257  	      0  	0.000000  	1.000000
- 0.260  	      0  	0.000000  	1.000000
- 0.263  	      0  	0.000000  	1.000000
- 0.266  	      0  	0.000000  	1.000000
- 0.269  	      0  	0.000000  	1.000000
- 0.272  	      0  	0.000000  	1.000000
- 0.275  	      0  	0.000000  	1.000000
- 0.278  	      0  	0.000000  	1.000000
- 0.281  	      0  	0.000000  	1.000000
- 0.284  	      0  	0.000000  	1.000000
- 0.287  	      0  	0.000000  	1.000000
- 0.290  	      0  	0.000000  	1.000000
- 0.293  	      0  	0.000000  	1.000000
- 0.296  	      0  	0.000000  	1.000000
- 0.299  	      0  	0.000000  	1.000000
- 0.302  	      0  	0.000000  	1.000000
- 0.306  	      0  	0.000000  	1.000000
- 0.310  	      0  	0.000000  	1.000000
- 0.314  	      0  	0.000000  	1.000000
- 0.318  	      0  	0.000000  	1.000000
- 0.322  	      0  	0.000000  	1.000000
- 0.326  	      0  	0.000000  	1.000000
- 0.330  	      0  	0.000000  	1.000000
- 0.334  	      0  	0.000000  	1.000000
- 0.338  	      0  	0.000000  	1.000000
- 0.342  	      0  	0.000000  	1.000000
- 0.346  	      0  	0.000000  	1.000000
- 0.350  	      0  	0.000000  	1.000000
- 0.354  	      0  	0.000000  	1.000000
- 0.358  	      0  	0.000000  	1.000000
- 0.362  	      0  	0.000000  	1.000000
- 0.366  	      0  	0.000000  	1.000000
- 0.370  	      0  	0.000000  	1.000000
- 0.374  	      0  	0.000000  	1.000000
- 0.378  	      0  	0.000000  	1.000000
- 0.382  	      0  	0.000000  	1.000000
- 0.386  	      0  	0.000000  	1.000000
- 0.390  	      0  	0.000000  	1.000000
- 0.394  	      0  	0.000000  	1.000000
- 0.398  	      0  	0.000000  	1.000000
- 0.402  	      0  	0.000000  	1.000000
- 0.407  	      0  	0.000000  	1.000000
- 0.412  	      0  	0.000000  	1.000000
- 0.417  	      0  	0.000000  	1.000000
- 0.422  	      0  	0.000000  	1.000000
- 0.427  	      0  	0.000000  	1.000000
- 0.432  	      0  	0.000000  	1.000000
- 0.437  	      0  	0.000000  	1.000000
- 0.442  	      0  	0.000000  	1.000000
- 0.447  	      0  	0.000000  	1.000000
- 0.452  	      0  	0.000000  	1.000000
- 0.457  	      0  	0.000000  	1.000000
- 0.462  	      0  	0.000000  	1.000000
- 0.467  	      0  	0.000000  	1.000000
- 0.472  	      0  	0.000000  	1.000000
- 0.477  	      0  	0.000000  	1.000000
- 0.482  	      0  	0.000000  	1.000000
- 0.487  	      0  	0.000000  	1.000000
- 0.492  	      0  	0.000000  	1.000000
- 0.497  	      0  	0.000000  	1.000000
- 0.502  	      0  	0.000000  	1.000000
- 0.508  	      0  	0.000000  	1.000000
- 0.514  	      0  	0.000000  	1.000000
- 0.520  	      0  	0.000000  	1.000000
- 0.526  	      0  	0.000000  	1.000000
- 0.532  	      0  	0.000000  	1.000000
- 0.538  	      0  	0.000000  	1.000000
- 0.544  	      0  	0.000000  	1.000000
- 0.550  	      0  	0.000000  	1.000000
- 0.556  	      0  	0.000000  	1.000000
- 0.562  	      0  	0.000000  	1.000000
- 0.568  	      0  	0.000000  	1.000000
- 0.574  	      0  	0.000000  	1.000000
- 0.580  	      0  	0.000000  	1.000000
- 0.586  	      0  	0.000000  	1.000000
- 0.592  	      0  	0.000000  	1.000000
- 0.598  	      0  	0.000000  	1.000000
- 0.604  	      0  	0.000000  	1.000000
- 0.611  	      0  	0.000000  	1.000000
- 0.618  	      0  	0.000000  	1.000000
- 0.625  	      0  	0.000000  	1.000000
- 0.632  	      0  	0.000000  	1.000000
- 0.639  	      0  	0.000000  	1.000000
- 0.646  	      0  	0.000000  	1.000000
- 0.653  	      0  	0.000000  	1.000000
- 0.660  	      0  	0.000000  	1.000000
- 0.667  	      0  	0.000000  	1.000000
- 0.674  	      0  	0.000000  	1.000000
- 0.681  	      0  	0.000000  	1.000000
- 0.688  	      0  	0.000000  	1.000000
- 0.695  	      0  	0.000000  	1.000000
- 0.702  	      0  	0.000000  	1.000000
- 0.710  	      0  	0.000000  	1.000000
- 0.718  	      0  	0.000000  	1.000000
- 0.726  	      0  	0.000000  	1.000000
- 0.734  	      0  	0.000000  	1.000000
- 0.742  	      0  	0.000000  	1.000000
- 0.750  	      0  	0.000000  	1.000000
- 0.758  	      0  	0.000000  	1.000000
- 0.766  	      0  	0.000000  	1.000000
- 0.774  	      0  	0.000000  	1.000000
- 0.782  	      0  	0.000000  	1.000000
- 0.790  	      0  	0.000000  	1.000000
- 0.798  	      0  	0.000000  	1.000000
- 0.806  	      0  	0.000000  	1.000000
- 0.815  	      0  	0.000000  	1.000000
- 0.824  	      0  	0.000000  	1.000000
- 0.833  	      0  	0.000000  	1.000000
- 0.842  	      0  	0.000000  	1.000000
- 0.851  	      0  	0.000000  	1.000000
- 0.860  	      0  	0.000000  	1.000000
- 0.869  	      0  	0.000000  	1.000000
- 0.878  	      0  	0.000000  	1.000000
- 0.887  	      0  	0.000000  	1.000000
- 0.896  	      0  	0.000000  	1.000000
- 0.905  	      0  	0.000000  	1.000000
- 0.915  	      0  	0.000000  	1.000000
- 0.925  	      0  	0.000000  	1.000000
- 0.935  	      0  	0.000000  	1.000000
- 0.945  	      0  	0.000000  	1.000000
- 0.955  	      0  	0.000000  	1.000000
- 0.965  	      0  	0.000000  	1.000000
- 0.975  	      0  	0.000000  	1.000000
- 0.985  	      0  	0.000000  	1.000000
- 0.995  	      0  	0.000000  	1.000000
- 1.005  	      0  	0.000000  	1.000000
- 1.016  	      0  	0.000000  	1.000000
- 1.027  	      0  	0.000000  	1.000000
- 1.038  	      0  	0.000000  	1.000000
- 1.049  	      0  	0.000000  	1.000000
- 1.060  	      0  	0.000000  	1.000000
- 1.071  	      0  	0.000000  	1.000000
- 1.082  	      0  	0.000000  	1.000000
- 1.093  	      0  	0.000000  	1.000000
- 1.104  	      0  	0.000000  	1.000000
- 1.116  	      0  	0.000000  	1.000000
- 1.128  	      0  	0.000000  	1.000000
- 1.140  	      0  	0.000000  	1.000000
- 1.152  	      0  	0.000000  	1.000000
- 1.164  	      0  	0.000000  	1.000000
- 1.176  	      0  	0.000000  	1.000000
- 1.188  	      0  	0.000000  	1.000000
- 1.200  	      0  	0.000000  	1.000000
- 1.213  	      0  	0.000000  	1.000000
- 1.226  	      0  	0.000000  	1.000000
- 1.239  	      0  	0.000000  	1.000000
- 1.252  	      0  	0.000000  	1.000000
- 1.265  	      0  	0.000000  	1.000000
- 1.278  	      0  	0.000000  	1.000000
- 1.291  	      0  	0.000000  	1.000000
- 1.304  	      0  	0.000000  	1.000000
- 1.318  	      0  	0.000000  	1.000000
- 1.332  	      0  	0.000000  	1.000000
- 1.346  	      0  	0.000000  	1.000000
- 1.360  	      0  	0.000000  	1.000000
- 1.374  	      0  	0.000000  	1.000000
- 1.388  	      0  	0.000000  	1.000000
- 1.402  	      0  	0.000000  	1.000000
- 1.417  	      0  	0.000000  	1.000000
- 1.432  	      0  	0.000000  	1.000000
- 1.447  	      0  	0.000000  	1.000000
- 1.462  	      0  	0.000000  	1.000000
- 1.477  	      0  	0.000000  	1.000000
- 1.492  	      0  	0.000000  	1.000000
- 1.507  	      0  	0.000000  	1.000000
- 1.523  	      0  	0.000000  	1.000000
- 1.539  	      0  	0.000000  	1.000000
- 1.555  	      0  	0.000000  	1.000000
- 1.571  	      0  	0.000000  	1.000000
- 1.587  	      0  	0.000000  	1.000000
- 1.603  	      0  	0.000000  	1.000000
- 1.620  	      0  	0.000000  	1.000000
- 1.637  	      0  	0.000000  	1.000000
- 1.654  	      0  	0.000000  	1.000000
- 1.671  	      0  	0.000000  	1.000000
- 1.688  	      0  	0.000000  	1.000000
- 1.705  	      0  	0.000000  	1.000000
- 1.723  	      0  	0.000000  	1.000000
- 1.741  	      0  	0.000000  	1.000000
- 1.759  	      0  	0.000000  	1.000000
- 1.777  	      0  	0.000000  	1.000000
- 1.795  	      0  	0.000000  	1.000000
- 1.813  	      0  	0.000000  	1.000000
- 1.832  	      0  	0.000000  	1.000000
- 1.851  	      0  	0.000000  	1.000000
- 1.870  	      0  	0.000000  	1.000000
- 1.889  	      0  	0.000000  	1.000000
- 1.908  	      0  	0.000000  	1.000000
- 1.928  	      0  	0.000000  	1.000000
- 1.948  	      0  	0.000000  	1.000000
- 1.968  	      0  	0.000000  	1.000000
- 1.988  	      0  	0.000000  	1.000000
- 2.008  	      0  	0.000000  	1.000000
- 2.029  	      0  	0.000000  	1.000000
- 2.050  	      0  	0.000000  	1.000000
- 2.071  	      0  	0.000000  	1.000000
- 2.092  	      0  	0.000000  	1.000000
- 2.113  	      0  	0.000000  	1.000000
- 2.135  	      0  	0.000000  	1.000000
- 2.157  	      0  	0.000000  	1.000000
- 2.179  	      0  	0.000000  	1.000000
- 2.201  	      0  	0.000000  	1.000000
- 2.224  	      0  	0.000000  	1.000000
- 2.247  	      0  	0.000000  	1.000000
- 2.270  	      0  	0.000000  	1.000000
- 2.293  	      0  	0.000000  	1.000000
- 2.316  	      0  	0.000000  	1.000000
- 2.340  	      0  	0.000000  	1.000000
- 2.364  	      0  	0.000000  	1.000000
- 2.388  	      0  	0.000000  	1.000000
- 2.412  	      0  	0.000000  	1.000000
- 2.437  	      0  	0.000000  	1.000000
- 2.462  	      0  	0.000000  	1.000000
- 2.487  	      0  	0.000000  	1.000000
- 2.512  	      0  	0.000000  	1.000000
- 2.538  	      0  	0.000000  	1.000000
- 2.564  	      0  	0.000000  	1.000000
- 2.590  	      0  	0.000000  	1.000000
- 2.616  	      0  	0.000000  	1.000000
- 2.643  	      0  	0.000000  	1.000000
- 2.670  	      0  	0.000000  	1.000000
- 2.697  	      0  	0.000000  	1.000000
- 2.724  	      0  	0.000000  	1.000000
- 2.752  	      0  	0.000000  	1.000000
- 2.780  	      0  	0.000000  	1.000000
- 2.808  	      0  	0.000000  	1.000000
- 2.837  	      0  	0.000000  	1.000000
- 2.866  	      0  	0.000000  	1.000000
- 2.895  	      0  	0.000000  	1.000000
- 2.924  	      0  	0.000000  	1.000000
- 2.954  	      0  	0.000000  	1.000000
- 2.984  	      0  	0.000000  	1.000000
- 3.014  	      0  	0.000000  	1.000000
- 3.045  	      0  	0.000000  	1.000000
- 3.076  	      0  	0.000000  	1.000000
- 3.107  	      0  	0.000000  	1.000000
- 3.139  	      0  	0.000000  	1.000000
- 3.171  	      0  	0.000000  	1.000000
- 3.203  	      0  	0.000000  	1.000000
- 3.236  	      0  	0.000000  	1.000000
- 3.269  	      0  	0.000000  	1.000000
- 3.302  	      0  	0.000000  	1.000000
- 3.336  	      0  	0.000000  	1.000000
- 3.370  	      0  	0.000000  	1.000000
- 3.404  	      0  	0.000000  	1.000000
- 3.439  	      0  	0.000000  	1.000000
- 3.474  	      0  	0.000000  	1.000000
- 3.509  	      0  	0.000000  	1.000000
- 3.545  	      0  	0.000000  	1.000000
- 3.581  	      0  	0.000000  	1.000000
- 3.617  	      0  	0.000000  	1.000000
- 3.654  	      0  	0.000000  	1.000000
- 3.691  	      0  	0.000000  	1.000000
- 3.728  	      0  	0.000000  	1.000000
- 3.766  	      0  	0.000000  	1.000000
- 3.804  	      0  	0.000000  	1.000000
- 3.843  	      0  	0.000000  	1.000000
- 3.882  	      0  	0.000000  	1.000000
- 3.921  	      0  	0.000000  	1.000000
- 3.961  	      0  	0.000000  	1.000000
- 4.001  	      0  	0.000000  	1.000000
- 4.042  	      0  	0.000000  	1.000000
- 4.083  	      0  	0.000000  	1.000000
- 4.124  	      0  	0.000000  	1.000000
- 4.166  	      0  	0.000000  	1.000000
- 4.208  	      0  	0.000000  	1.000000
- 4.251  	      0  	0.000000  	1.000000
- 4.294  	      0  	0.000000  	1.000000
- 4.337  	      0  	0.000000  	1.000000
- 4.381  	      0  	0.000000  	1.000000
- 4.425  	      0  	0.000000  	1.000000
- 4.470  	      0  	0.000000  	1.000000
- 4.515  	      0  	0.000000  	1.000000
- 4.561  	      0  	0.000000  	1.000000
- 4.607  	      0  	0.000000  	1.000000
- 4.654  	      0  	0.000000  	1.000000
- 4.701  	      0  	0.000000  	1.000000
- 4.749  	      0  	0.000000  	1.000000
- 4.797  	      0  	0.000000  	1.000000
- 4.845  	      0  	0.000000  	1.000000
- 4.894  	      0  	0.000000  	1.000000
- 4.943  	      0  	0.000000  	1.000000
- 4.993  	      0  	0.000000  	1.000000
- 5.043  	      0  	0.000000  	1.000000
- 5.094  	      0  	0.000000  	1.000000
- 5.145  	      0  	0.000000  	1.000000
- 5.197  	      0  	0.000000  	1.000000
- 5.249  	      0  	0.000000  	1.000000
- 5.302  	      0  	0.000000  	1.000000
- 5.356  	      0  	0.000000  	1.000000
- 5.410  	      0  	0.000000  	1.000000
- 5.465  	      0  	0.000000  	1.000000
- 5.520  	      0  	0.000000  	1.000000
- 5.576  	      0  	0.000000  	1.000000
- 5.632  	      0  	0.000000  	1.000000
- 5.689  	      0  	0.000000  	1.000000
- 5.746  	      0  	0.000000  	1.000000
- 5.804  	      0  	0.000000  	1.000000
- 5.863  	      0  	0.000000  	1.000000
- 5.922  	      0  	0.000000  	1.000000
- 5.982  	      0  	0.000000  	1.000000
- 6.042  	      0  	0.000000  	1.000000
- 6.103  	      0  	0.000000  	1.000000
- 6.165  	      0  	0.000000  	1.000000
- 6.227  	      0  	0.000000  	1.000000
- 6.290  	      0  	0.000000  	1.000000
- 6.353  	      0  	0.000000  	1.000000
- 6.417  	      0  	0.000000  	1.000000
- 6.482  	      0  	0.000000  	1.000000
- 6.547  	      0  	0.000000  	1.000000
- 6.613  	      0  	0.000000  	1.000000
- 6.680  	      0  	0.000000  	1.000000
- 6.747  	      0  	0.000000  	1.000000
- 6.815  	      0  	0.000000  	1.000000
- 6.884  	      0  	0.000000  	1.000000
- 6.953  	      0  	0.000000  	1.000000
- 7.023  	      0  	0.000000  	1.000000
- 7.094  	      0  	0.000000  	1.000000
- 7.165  	      0  	0.000000  	1.000000
- 7.237  	      0  	0.000000  	1.000000
- 7.310  	      0  	0.000000  	1.000000
- 7.384  	      0  	0.000000  	1.000000
- 7.458  	      0  	0.000000  	1.000000
- 7.533  	      0  	0.000000  	1.000000
- 7.609  	      0  	0.000000  	1.000000
- 7.686  	      0  	0.000000  	1.000000
- 7.763  	      0  	0.000000  	1.000000
- 7.841  	      0  	0.000000  	1.000000
- 7.920  	      0  	0.000000  	1.000000
- 8.000  	      0  	0.000000  	1.000000
- 8.081  	      0  	0.000000  	1.000000
- 8.162  	      0  	0.000000  	1.000000
- 8.244  	      0  	0.000000  	1.000000
- 8.327  	      0  	0.000000  	1.000000
- 8.411  	      0  	0.000000  	1.000000
- 8.496  	      0  	0.000000  	1.000000
- 8.581  	      0  	0.000000  	1.000000
- 8.667  	      0  	0.000000  	1.000000
- 8.754  	      0  	0.000000  	1.000000
- 8.842  	      0  	0.000000  	1.000000
- 8.931  	      0  	0.000000  	1.000000
- 9.021  	      0  	0.000000  	1.000000
- 9.112  	      0  	0.000000  	1.000000
- 9.204  	      0  	0.000000  	1.000000
- 9.297  	      0  	0.000000  	1.000000
- 9.390  	      0  	0.000000  	1.000000
- 9.484  	      0  	0.000000  	1.000000
- 9.579  	      0  	0.000000  	1.000000
- 9.675  	      0  	0.000000  	1.000000
- 9.772  	      0  	0.000000  	1.000000
- 9.870  	      0  	0.000000  	1.000000
- 9.969  	      0  	0.000000  	1.000000
-10.069  	      0  	0.000000  	1.000000
-10.170  	      0  	0.000000  	1.000000
-10.272  	      0  	0.000000  	1.000000
-10.375  	      0  	0.000000  	1.000000
-10.479  	      0  	0.000000  	1.000000
-10.584  	      0  	0.000000  	1.000000
-10.690  	      0  	0.000000  	1.000000
+ 0.093  	   2040  	0.006318  	0.006318
+ 0.094  	      0  	0.000000  	0.006318
+ 0.095  	      0  	0.000000  	0.006318
+ 0.096  	      0  	0.000000  	0.006318
+ 0.097  	      0  	0.000000  	0.006318
+ 0.098  	      0  	0.000000  	0.006318
+ 0.099  	      0  	0.000000  	0.006318
+ 0.100  	      0  	0.000000  	0.006318
+ 0.102  	      0  	0.000000  	0.006318
+ 0.104  	      0  	0.000000  	0.006318
+ 0.106  	      0  	0.000000  	0.006318
+ 0.108  	      0  	0.000000  	0.006318
+ 0.110  	      0  	0.000000  	0.006318
+ 0.112  	      0  	0.000000  	0.006318
+ 0.114  	      0  	0.000000  	0.006318
+ 0.116  	      0  	0.000000  	0.006318
+ 0.118  	      0  	0.000000  	0.006318
+ 0.120  	      0  	0.000000  	0.006318
+ 0.122  	      0  	0.000000  	0.006318
+ 0.124  	      0  	0.000000  	0.006318
+ 0.126  	      0  	0.000000  	0.006318
+ 0.128  	      0  	0.000000  	0.006318
+ 0.130  	      0  	0.000000  	0.006318
+ 0.132  	      0  	0.000000  	0.006318
+ 0.134  	      0  	0.000000  	0.006318
+ 0.136  	      0  	0.000000  	0.006318
+ 0.138  	      0  	0.000000  	0.006318
+ 0.140  	      0  	0.000000  	0.006318
+ 0.142  	      0  	0.000000  	0.006318
+ 0.144  	      0  	0.000000  	0.006318
+ 0.146  	      0  	0.000000  	0.006318
+ 0.148  	      0  	0.000000  	0.006318
+ 0.150  	      0  	0.000000  	0.006318
+ 0.152  	      0  	0.000000  	0.006318
+ 0.154  	      0  	0.000000  	0.006318
+ 0.156  	      0  	0.000000  	0.006318
+ 0.158  	      0  	0.000000  	0.006318
+ 0.160  	      0  	0.000000  	0.006318
+ 0.162  	 127137  	0.393767  	0.400085
+ 0.164  	      0  	0.000000  	0.400085
+ 0.166  	      0  	0.000000  	0.400085
+ 0.168  	      0  	0.000000  	0.400085
+ 0.170  	      0  	0.000000  	0.400085
+ 0.172  	      0  	0.000000  	0.400085
+ 0.174  	      0  	0.000000  	0.400085
+ 0.176  	      0  	0.000000  	0.400085
+ 0.178  	      0  	0.000000  	0.400085
+ 0.180  	      0  	0.000000  	0.400085
+ 0.182  	      0  	0.000000  	0.400085
+ 0.184  	      0  	0.000000  	0.400085
+ 0.186  	  14755  	0.045699  	0.445784
+ 0.188  	      0  	0.000000  	0.445784
+ 0.190  	      0  	0.000000  	0.445784
+ 0.192  	      0  	0.000000  	0.445784
+ 0.194  	      0  	0.000000  	0.445784
+ 0.196  	      0  	0.000000  	0.445784
+ 0.198  	      0  	0.000000  	0.445784
+ 0.200  	      0  	0.000000  	0.445784
+ 0.203  	      0  	0.000000  	0.445784
+ 0.206  	      0  	0.000000  	0.445784
+ 0.209  	      0  	0.000000  	0.445784
+ 0.212  	      0  	0.000000  	0.445784
+ 0.215  	      0  	0.000000  	0.445784
+ 0.218  	      0  	0.000000  	0.445784
+ 0.221  	      0  	0.000000  	0.445784
+ 0.224  	      0  	0.000000  	0.445784
+ 0.227  	      0  	0.000000  	0.445784
+ 0.230  	      0  	0.000000  	0.445784
+ 0.233  	      0  	0.000000  	0.445784
+ 0.236  	      0  	0.000000  	0.445784
+ 0.239  	      0  	0.000000  	0.445784
+ 0.242  	      0  	0.000000  	0.445784
+ 0.245  	      0  	0.000000  	0.445784
+ 0.248  	      0  	0.000000  	0.445784
+ 0.251  	      0  	0.000000  	0.445784
+ 0.254  	      0  	0.000000  	0.445784
+ 0.257  	      0  	0.000000  	0.445784
+ 0.260  	      0  	0.000000  	0.445784
+ 0.263  	      0  	0.000000  	0.445784
+ 0.266  	      0  	0.000000  	0.445784
+ 0.269  	      0  	0.000000  	0.445784
+ 0.272  	      0  	0.000000  	0.445784
+ 0.275  	      0  	0.000000  	0.445784
+ 0.278  	      0  	0.000000  	0.445784
+ 0.281  	  13679  	0.042366  	0.488150
+ 0.284  	      0  	0.000000  	0.488150
+ 0.287  	      0  	0.000000  	0.488150
+ 0.290  	      0  	0.000000  	0.488150
+ 0.293  	      0  	0.000000  	0.488150
+ 0.296  	      0  	0.000000  	0.488150
+ 0.299  	      0  	0.000000  	0.488150
+ 0.302  	      0  	0.000000  	0.488150
+ 0.306  	      0  	0.000000  	0.488150
+ 0.310  	      0  	0.000000  	0.488150
+ 0.314  	      0  	0.000000  	0.488150
+ 0.318  	      0  	0.000000  	0.488150
+ 0.322  	      0  	0.000000  	0.488150
+ 0.326  	 121882  	0.377491  	0.865641
+ 0.330  	      0  	0.000000  	0.865641
+ 0.334  	      0  	0.000000  	0.865641
+ 0.338  	      0  	0.000000  	0.865641
+ 0.342  	      0  	0.000000  	0.865641
+ 0.346  	      0  	0.000000  	0.865641
+ 0.350  	      0  	0.000000  	0.865641
+ 0.354  	      0  	0.000000  	0.865641
+ 0.358  	      0  	0.000000  	0.865641
+ 0.362  	      0  	0.000000  	0.865641
+ 0.366  	      0  	0.000000  	0.865641
+ 0.370  	      0  	0.000000  	0.865641
+ 0.374  	     10  	0.000031  	0.865672
+ 0.378  	      0  	0.000000  	0.865672
+ 0.382  	      0  	0.000000  	0.865672
+ 0.386  	      0  	0.000000  	0.865672
+ 0.390  	      0  	0.000000  	0.865672
+ 0.394  	      0  	0.000000  	0.865672
+ 0.398  	      0  	0.000000  	0.865672
+ 0.402  	      0  	0.000000  	0.865672
+ 0.407  	      0  	0.000000  	0.865672
+ 0.412  	      0  	0.000000  	0.865672
+ 0.417  	      0  	0.000000  	0.865672
+ 0.422  	      0  	0.000000  	0.865672
+ 0.427  	      0  	0.000000  	0.865672
+ 0.432  	      0  	0.000000  	0.865672
+ 0.437  	      0  	0.000000  	0.865672
+ 0.442  	      0  	0.000000  	0.865672
+ 0.447  	      0  	0.000000  	0.865672
+ 0.452  	      0  	0.000000  	0.865672
+ 0.457  	      0  	0.000000  	0.865672
+ 0.462  	      0  	0.000000  	0.865672
+ 0.467  	      5  	0.000015  	0.865688
+ 0.472  	      0  	0.000000  	0.865688
+ 0.477  	      0  	0.000000  	0.865688
+ 0.482  	      0  	0.000000  	0.865688
+ 0.487  	  32819  	0.101646  	0.967334
+ 0.492  	      0  	0.000000  	0.967334
+ 0.497  	      0  	0.000000  	0.967334
+ 0.502  	      0  	0.000000  	0.967334
+ 0.508  	      0  	0.000000  	0.967334
+ 0.514  	      0  	0.000000  	0.967334
+ 0.520  	      0  	0.000000  	0.967334
+ 0.526  	      0  	0.000000  	0.967334
+ 0.532  	      0  	0.000000  	0.967334
+ 0.538  	      0  	0.000000  	0.967334
+ 0.544  	      0  	0.000000  	0.967334
+ 0.550  	      0  	0.000000  	0.967334
+ 0.556  	      0  	0.000000  	0.967334
+ 0.562  	      0  	0.000000  	0.967334
+ 0.568  	      0  	0.000000  	0.967334
+ 0.574  	      0  	0.000000  	0.967334
+ 0.580  	      0  	0.000000  	0.967334
+ 0.586  	      0  	0.000000  	0.967334
+ 0.592  	      0  	0.000000  	0.967334
+ 0.598  	      0  	0.000000  	0.967334
+ 0.604  	      0  	0.000000  	0.967334
+ 0.611  	      0  	0.000000  	0.967334
+ 0.618  	      0  	0.000000  	0.967334
+ 0.625  	      0  	0.000000  	0.967334
+ 0.632  	      0  	0.000000  	0.967334
+ 0.639  	      0  	0.000000  	0.967334
+ 0.646  	     13  	0.000040  	0.967374
+ 0.653  	      1  	0.000003  	0.967377
+ 0.660  	      0  	0.000000  	0.967377
+ 0.667  	      0  	0.000000  	0.967377
+ 0.674  	      0  	0.000000  	0.967377
+ 0.681  	      0  	0.000000  	0.967377
+ 0.688  	      0  	0.000000  	0.967377
+ 0.695  	      0  	0.000000  	0.967377
+ 0.702  	      0  	0.000000  	0.967377
+ 0.710  	      0  	0.000000  	0.967377
+ 0.718  	      0  	0.000000  	0.967377
+ 0.726  	      0  	0.000000  	0.967377
+ 0.734  	      0  	0.000000  	0.967377
+ 0.742  	      1  	0.000003  	0.967380
+ 0.750  	      0  	0.000000  	0.967380
+ 0.758  	      0  	0.000000  	0.967380
+ 0.766  	      0  	0.000000  	0.967380
+ 0.774  	      0  	0.000000  	0.967380
+ 0.782  	      0  	0.000000  	0.967380
+ 0.790  	      0  	0.000000  	0.967380
+ 0.798  	      0  	0.000000  	0.967380
+ 0.806  	      0  	0.000000  	0.967380
+ 0.815  	      8  	0.000025  	0.967405
+ 0.824  	      0  	0.000000  	0.967405
+ 0.833  	      0  	0.000000  	0.967405
+ 0.842  	      0  	0.000000  	0.967405
+ 0.851  	      0  	0.000000  	0.967405
+ 0.860  	      0  	0.000000  	0.967405
+ 0.869  	      0  	0.000000  	0.967405
+ 0.878  	      0  	0.000000  	0.967405
+ 0.887  	      0  	0.000000  	0.967405
+ 0.896  	      0  	0.000000  	0.967405
+ 0.905  	      0  	0.000000  	0.967405
+ 0.915  	      0  	0.000000  	0.967405
+ 0.925  	      0  	0.000000  	0.967405
+ 0.935  	      0  	0.000000  	0.967405
+ 0.945  	      0  	0.000000  	0.967405
+ 0.955  	      0  	0.000000  	0.967405
+ 0.965  	      0  	0.000000  	0.967405
+ 0.975  	      1  	0.000003  	0.967408
+ 0.985  	      0  	0.000000  	0.967408
+ 0.995  	      0  	0.000000  	0.967408
+ 1.005  	      0  	0.000000  	0.967408
+ 1.016  	      0  	0.000000  	0.967408
+ 1.027  	      0  	0.000000  	0.967408
+ 1.038  	      0  	0.000000  	0.967408
+ 1.049  	      0  	0.000000  	0.967408
+ 1.060  	      0  	0.000000  	0.967408
+ 1.071  	      0  	0.000000  	0.967408
+ 1.082  	      0  	0.000000  	0.967408
+ 1.093  	      0  	0.000000  	0.967408
+ 1.104  	      0  	0.000000  	0.967408
+ 1.116  	      1  	0.000003  	0.967411
+ 1.128  	      0  	0.000000  	0.967411
+ 1.140  	      3  	0.000009  	0.967421
+ 1.152  	      0  	0.000000  	0.967421
+ 1.164  	      0  	0.000000  	0.967421
+ 1.176  	      0  	0.000000  	0.967421
+ 1.188  	      0  	0.000000  	0.967421
+ 1.200  	      0  	0.000000  	0.967421
+ 1.213  	      0  	0.000000  	0.967421
+ 1.226  	      0  	0.000000  	0.967421
+ 1.239  	      0  	0.000000  	0.967421
+ 1.252  	      0  	0.000000  	0.967421
+ 1.265  	      0  	0.000000  	0.967421
+ 1.278  	      0  	0.000000  	0.967421
+ 1.291  	      0  	0.000000  	0.967421
+ 1.304  	      2  	0.000006  	0.967427
+ 1.318  	      0  	0.000000  	0.967427
+ 1.332  	      0  	0.000000  	0.967427
+ 1.346  	      0  	0.000000  	0.967427
+ 1.360  	      0  	0.000000  	0.967427
+ 1.374  	      0  	0.000000  	0.967427
+ 1.388  	      0  	0.000000  	0.967427
+ 1.402  	      1  	0.000003  	0.967430
+ 1.417  	      0  	0.000000  	0.967430
+ 1.432  	      0  	0.000000  	0.967430
+ 1.447  	      0  	0.000000  	0.967430
+ 1.462  	      8  	0.000025  	0.967455
+ 1.477  	      0  	0.000000  	0.967455
+ 1.492  	     35  	0.000108  	0.967563
+ 1.507  	      0  	0.000000  	0.967563
+ 1.523  	      0  	0.000000  	0.967563
+ 1.539  	      0  	0.000000  	0.967563
+ 1.555  	      0  	0.000000  	0.967563
+ 1.571  	      0  	0.000000  	0.967563
+ 1.587  	    120  	0.000372  	0.967935
+ 1.603  	      0  	0.000000  	0.967935
+ 1.620  	      0  	0.000000  	0.967935
+ 1.637  	      0  	0.000000  	0.967935
+ 1.654  	      0  	0.000000  	0.967935
+ 1.671  	    953  	0.002952  	0.970886
+ 1.688  	      0  	0.000000  	0.970886
+ 1.705  	      0  	0.000000  	0.970886
+ 1.723  	      0  	0.000000  	0.970886
+ 1.741  	      0  	0.000000  	0.970886
+ 1.759  	      0  	0.000000  	0.970886
+ 1.777  	      0  	0.000000  	0.970886
+ 1.795  	      0  	0.000000  	0.970886
+ 1.813  	      0  	0.000000  	0.970886
+ 1.832  	   1913  	0.005925  	0.976811
+ 1.851  	      0  	0.000000  	0.976811
+ 1.870  	      0  	0.000000  	0.976811
+ 1.889  	      0  	0.000000  	0.976811
+ 1.908  	      0  	0.000000  	0.976811
+ 1.928  	      0  	0.000000  	0.976811
+ 1.948  	      1  	0.000003  	0.976814
+ 1.968  	      0  	0.000000  	0.976814
+ 1.988  	    815  	0.002524  	0.979339
+ 2.008  	      0  	0.000000  	0.979339
+ 2.029  	      0  	0.000000  	0.979339
+ 2.050  	      0  	0.000000  	0.979339
+ 2.071  	      0  	0.000000  	0.979339
+ 2.092  	      0  	0.000000  	0.979339
+ 2.113  	      2  	0.000006  	0.979345
+ 2.135  	      0  	0.000000  	0.979345
+ 2.157  	      0  	0.000000  	0.979345
+ 2.179  	      0  	0.000000  	0.979345
+ 2.201  	      0  	0.000000  	0.979345
+ 2.224  	      0  	0.000000  	0.979345
+ 2.247  	      0  	0.000000  	0.979345
+ 2.270  	      1  	0.000003  	0.979348
+ 2.293  	      0  	0.000000  	0.979348
+ 2.316  	      1  	0.000003  	0.979351
+ 2.340  	      0  	0.000000  	0.979351
+ 2.364  	      0  	0.000000  	0.979351
+ 2.388  	      0  	0.000000  	0.979351
+ 2.412  	      0  	0.000000  	0.979351
+ 2.437  	      2  	0.000006  	0.979357
+ 2.462  	      0  	0.000000  	0.979357
+ 2.487  	      1  	0.000003  	0.979360
+ 2.512  	      0  	0.000000  	0.979360
+ 2.538  	      0  	0.000000  	0.979360
+ 2.564  	      0  	0.000000  	0.979360
+ 2.590  	      2  	0.000006  	0.979367
+ 2.616  	      0  	0.000000  	0.979367
+ 2.643  	      1  	0.000003  	0.979370
+ 2.670  	      0  	0.000000  	0.979370
+ 2.697  	      0  	0.000000  	0.979370
+ 2.724  	      0  	0.000000  	0.979370
+ 2.752  	      0  	0.000000  	0.979370
+ 2.780  	      0  	0.000000  	0.979370
+ 2.808  	      0  	0.000000  	0.979370
+ 2.837  	      0  	0.000000  	0.979370
+ 2.866  	      0  	0.000000  	0.979370
+ 2.895  	      0  	0.000000  	0.979370
+ 2.924  	      3  	0.000009  	0.979379
+ 2.954  	      1  	0.000003  	0.979382
+ 2.984  	      0  	0.000000  	0.979382
+ 3.014  	      0  	0.000000  	0.979382
+ 3.045  	      0  	0.000000  	0.979382
+ 3.076  	      1  	0.000003  	0.979385
+ 3.107  	      0  	0.000000  	0.979385
+ 3.139  	      0  	0.000000  	0.979385
+ 3.171  	      0  	0.000000  	0.979385
+ 3.203  	      0  	0.000000  	0.979385
+ 3.236  	      1  	0.000003  	0.979388
+ 3.269  	      0  	0.000000  	0.979388
+ 3.302  	      1  	0.000003  	0.979391
+ 3.336  	      0  	0.000000  	0.979391
+ 3.370  	      0  	0.000000  	0.979391
+ 3.404  	      2  	0.000006  	0.979398
+ 3.439  	    167  	0.000517  	0.979915
+ 3.474  	      0  	0.000000  	0.979915
+ 3.509  	      0  	0.000000  	0.979915
+ 3.545  	      0  	0.000000  	0.979915
+ 3.581  	     32  	0.000099  	0.980014
+ 3.617  	    421  	0.001304  	0.981318
+ 3.654  	      0  	0.000000  	0.981318
+ 3.691  	      0  	0.000000  	0.981318
+ 3.728  	    148  	0.000458  	0.981776
+ 3.766  	    189  	0.000585  	0.982362
+ 3.804  	      0  	0.000000  	0.982362
+ 3.843  	     18  	0.000056  	0.982417
+ 3.882  	    157  	0.000486  	0.982904
+ 3.921  	     30  	0.000093  	0.982996
+ 3.961  	      1  	0.000003  	0.983000
+ 4.001  	     82  	0.000254  	0.983254
+ 4.042  	     65  	0.000201  	0.983455
+ 4.083  	      1  	0.000003  	0.983458
+ 4.124  	      6  	0.000019  	0.983477
+ 4.166  	    107  	0.000331  	0.983808
+ 4.208  	      3  	0.000009  	0.983817
+ 4.251  	     20  	0.000062  	0.983879
+ 4.294  	     41  	0.000127  	0.984006
+ 4.337  	      0  	0.000000  	0.984006
+ 4.381  	      7  	0.000022  	0.984028
+ 4.425  	     37  	0.000115  	0.984142
+ 4.470  	      0  	0.000000  	0.984142
+ 4.515  	     12  	0.000037  	0.984180
+ 4.561  	     21  	0.000065  	0.984245
+ 4.607  	      1  	0.000003  	0.984248
+ 4.654  	      3  	0.000009  	0.984257
+ 4.701  	     28  	0.000087  	0.984344
+ 4.749  	      1  	0.000003  	0.984347
+ 4.797  	     19  	0.000059  	0.984406
+ 4.845  	     17  	0.000053  	0.984458
+ 4.894  	      1  	0.000003  	0.984461
+ 4.943  	     36  	0.000111  	0.984573
+ 4.993  	      3  	0.000009  	0.984582
+ 5.043  	     36  	0.000111  	0.984694
+ 5.094  	     23  	0.000071  	0.984765
+ 5.145  	      9  	0.000028  	0.984793
+ 5.197  	   1302  	0.004033  	0.988825
+ 5.249  	     72  	0.000223  	0.989048
+ 5.302  	      0  	0.000000  	0.989048
+ 5.356  	   1268  	0.003927  	0.992976
+ 5.410  	     20  	0.000062  	0.993038
+ 5.465  	      9  	0.000028  	0.993065
+ 5.520  	     60  	0.000186  	0.993251
+ 5.576  	      1  	0.000003  	0.993254
+ 5.632  	     40  	0.000124  	0.993378
+ 5.689  	      0  	0.000000  	0.993378
+ 5.746  	     18  	0.000056  	0.993434
+ 5.804  	      2  	0.000006  	0.993440
+ 5.863  	      2  	0.000006  	0.993446
+ 5.922  	      3  	0.000009  	0.993456
+ 5.982  	      0  	0.000000  	0.993456
+ 6.042  	      3  	0.000009  	0.993465
+ 6.103  	      0  	0.000000  	0.993465
+ 6.165  	      0  	0.000000  	0.993465
+ 6.227  	      0  	0.000000  	0.993465
+ 6.290  	      0  	0.000000  	0.993465
+ 6.353  	      2  	0.000006  	0.993471
+ 6.417  	      0  	0.000000  	0.993471
+ 6.482  	      0  	0.000000  	0.993471
+ 6.547  	      1  	0.000003  	0.993474
+ 6.613  	      0  	0.000000  	0.993474
+ 6.680  	    903  	0.002797  	0.996271
+ 6.747  	      0  	0.000000  	0.996271
+ 6.815  	      0  	0.000000  	0.996271
+ 6.884  	    964  	0.002986  	0.999257
+ 6.953  	      0  	0.000000  	0.999257
+ 7.023  	      0  	0.000000  	0.999257
+ 7.094  	      0  	0.000000  	0.999257
+ 7.165  	      0  	0.000000  	0.999257
+ 7.237  	      0  	0.000000  	0.999257
+ 7.310  	      0  	0.000000  	0.999257
+ 7.384  	      0  	0.000000  	0.999257
+ 7.458  	      0  	0.000000  	0.999257
+ 7.533  	      0  	0.000000  	0.999257
+ 7.609  	      0  	0.000000  	0.999257
+ 7.686  	      0  	0.000000  	0.999257
+ 7.763  	      0  	0.000000  	0.999257
+ 7.841  	      0  	0.000000  	0.999257
+ 7.920  	      0  	0.000000  	0.999257
+ 8.000  	      0  	0.000000  	0.999257
+ 8.081  	      0  	0.000000  	0.999257
+ 8.162  	      0  	0.000000  	0.999257
+ 8.244  	      0  	0.000000  	0.999257
+ 8.327  	      0  	0.000000  	0.999257
+ 8.411  	      0  	0.000000  	0.999257
+ 8.496  	    106  	0.000328  	0.999585
+ 8.581  	      0  	0.000000  	0.999585
+ 8.667  	    113  	0.000350  	0.999935
+ 8.754  	      0  	0.000000  	0.999935
+ 8.842  	      0  	0.000000  	0.999935
+ 8.931  	      0  	0.000000  	0.999935
+ 9.021  	      0  	0.000000  	0.999935
+ 9.112  	      0  	0.000000  	0.999935
+ 9.204  	      0  	0.000000  	0.999935
+ 9.297  	      0  	0.000000  	0.999935
+ 9.390  	      0  	0.000000  	0.999935
+ 9.484  	      0  	0.000000  	0.999935
+ 9.579  	      2  	0.000006  	0.999941
+ 9.675  	      0  	0.000000  	0.999941
+ 9.772  	      0  	0.000000  	0.999941
+ 9.870  	      2  	0.000006  	0.999947
+ 9.969  	      1  	0.000003  	0.999950
+10.069  	      3  	0.000009  	0.999960
+10.170  	      2  	0.000006  	0.999966
+10.272  	      6  	0.000019  	0.999985
+10.375  	      4  	0.000012  	0.999997
+10.479  	      0  	0.000000  	0.999997
+10.584  	      0  	0.000000  	0.999997
+10.690  	      1  	0.000003  	1.000000
 10.797  	      0  	0.000000  	1.000000
 10.905  	      0  	0.000000  	1.000000
 11.015  	      0  	0.000000  	1.000000
@@ -9561,21 +9561,21 @@ simpleflash Instantaneous queue length std.dev.:	0.000000
 simpleflash Instantaneous queue length maximum:	1
 simpleflash Instantaneous queue length distribution
    =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
- 255139       0       0       0       0       0       0       0       0       0 
+ 322874       0       0       0       0       0       0       0       0       0 
 simpleflash Sub-optimal mapping penalty average: 	0.000000
 simpleflash Sub-optimal mapping penalty std.dev.:	0.000000
 simpleflash Sub-optimal mapping penalty maximum:	0
 simpleflash Sub-optimal mapping penalty distribution
    = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    <  4      4+
       0       0       0       0       0       0       0       0       0       0 
-simpleflash Access time average: 	0.101475
-simpleflash Access time std.dev.:	0.000000
-simpleflash Access time maximum:	0.101475
+simpleflash Access time average: 	0.258183
+simpleflash Access time std.dev.:	0.592115
+simpleflash Access time maximum:	8.630075
 simpleflash Access time distribution
    <  1    <  2    <  4    <  8    < 16    < 32    < 40    < 50    < 60     60+
- 255139       0       0       0       0       0       0       0       0       0 
+ 312521    3693    3858    2786      16       0       0       0       0       0 
 simpleflash Total bus wait time: 0.000000
-simpleflash Number of bus waits: 255139
+simpleflash Number of bus waits: 322874
 
 
 
@@ -9590,24 +9590,24 @@ BUS STATISTICS
 --------------
 
 Bus #1
-Bus #1 Total utilization time: 	15308.34   	0.05752
-Bus #1 (bus1) Bus idle period length average: 	0.491549
-Bus #1 (bus1) Bus idle period length std.dev.:	0.573160
-Bus #1 (bus1) Bus idle period length maximum:	47.328525
+Bus #1 Total utilization time: 	42415.26   	0.00098
+Bus #1 (bus1) Bus idle period length average: 	70.327318
+Bus #1 (bus1) Bus idle period length std.dev.:	320.693632
+Bus #1 (bus1) Bus idle period length maximum:	27682.211525
 Bus #1 (bus1) Bus idle period length distribution
    <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
- 509554     535     102      29      32      13      10       4       0       0 
-Bus #1 Number of arbitrations: 	510278
+ 323027   16650   12808   16294    2356   14158   26864   20575   33858  145717 
+Bus #1 Number of arbitrations: 	645748
 Bus #1 (bus1) Arbitration wait time average: 	0.000000
 Bus #1 (bus1) Arbitration wait time std.dev.:	0.000000
 Bus #1 (bus1) Arbitration wait time maximum:	0
 Bus #1 (bus1) Arbitration wait time distribution
    =  0    <  1    <  2    <  5    < 10    < 15    < 25    < 40    < 60     60+
- 510278       0       0       0       0       0       0       0       0       0 
+ 645748       0       0       0       0       0       0       0       0       0 
 
 
 FLASH STATISTICS
 ------------------------------------------------------------
- Page read (#):        0    Page write (#):   255139    Block erase (#):        0
- GC page read (#):        0    GC page write (#):        0
+ Page read (#):    75294    Page write (#):   631627    Block erase (#):    10066
+ GC page read (#):    12691    GC page write (#):    12691
 ------------------------------------------------------------
